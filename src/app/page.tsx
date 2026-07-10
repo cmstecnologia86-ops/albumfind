@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import {
   BookOpen,
   CheckCircle2,
@@ -117,10 +119,10 @@ export default function Home() {
           </div>
         </div>
 
-        <button className="primary-action" type="button">
+        <Link className="primary-action" href="/album">
           <BookOpen size={18} strokeWidth={2.2} />
           Abrir álbum
-        </button>
+        </Link>
       </header>
 
       <section className="hero">
@@ -293,10 +295,13 @@ export default function Home() {
                           ))}
                         </div>
 
-                        <button className="team-action" type="button">
+                        <Link
+                          className="team-action"
+                          href={`/album?team=${team.code}`}
+                        >
                           Ver selección
                           <span aria-hidden="true">→</span>
-                        </button>
+                        </Link>
                       </article>
                     );
                   })}
@@ -309,3 +314,4 @@ export default function Home() {
     </main>
   );
 }
+
