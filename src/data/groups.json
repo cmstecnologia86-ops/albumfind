@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 1,
+  "groupCount": 12,
+  "teamCount": 48,
+  "groups": [
+    {
+      "id": "A",
+      "teams": [
+        {
+          "name": "México",
+          "code": "MEX"
+        },
+        {
+          "name": "República de Corea",
+          "code": "KOR"
+        },
+        {
+          "name": "Sudáfrica",
+          "code": "RSA"
+        },
+        {
+          "name": "Chequia",
+          "code": "CZE"
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "teams": [
+        {
+          "name": "Canadá",
+          "code": "CAN"
+        },
+        {
+          "name": "Bosnia y Herzegovina",
+          "code": "BIH"
+        },
+        {
+          "name": "Qatar",
+          "code": "QAT"
+        },
+        {
+          "name": "Suiza",
+          "code": "SUI"
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "teams": [
+        {
+          "name": "Brasil",
+          "code": "BRA"
+        },
+        {
+          "name": "Marruecos",
+          "code": "MAR"
+        },
+        {
+          "name": "Haití",
+          "code": "HAI"
+        },
+        {
+          "name": "Escocia",
+          "code": "SCO"
+        }
+      ]
+    },
+    {
+      "id": "D",
+      "teams": [
+        {
+          "name": "Estados Unidos",
+          "code": "USA"
+        },
+        {
+          "name": "Paraguay",
+          "code": "PAR"
+        },
+        {
+          "name": "Australia",
+          "code": "AUS"
+        },
+        {
+          "name": "Turquía",
+          "code": "TUR"
+        }
+      ]
+    },
+    {
+      "id": "E",
+      "teams": [
+        {
+          "name": "Alemania",
+          "code": "GER"
+        },
+        {
+          "name": "Curazao",
+          "code": "CUW"
+        },
+        {
+          "name": "Costa de Marfil",
+          "code": "CIV"
+        },
+        {
+          "name": "Ecuador",
+          "code": "ECU"
+        }
+      ]
+    },
+    {
+      "id": "F",
+      "teams": [
+        {
+          "name": "Países Bajos",
+          "code": "NED"
+        },
+        {
+          "name": "Japón",
+          "code": "JPN"
+        },
+        {
+          "name": "Suecia",
+          "code": "SWE"
+        },
+        {
+          "name": "Túnez",
+          "code": "TUN"
+        }
+      ]
+    },
+    {
+      "id": "G",
+      "teams": [
+        {
+          "name": "Bélgica",
+          "code": "BEL"
+        },
+        {
+          "name": "Egipto",
+          "code": "EGY"
+        },
+        {
+          "name": "Irán",
+          "code": "IRN"
+        },
+        {
+          "name": "Nueva Zelanda",
+          "code": "NZL"
+        }
+      ]
+    },
+    {
+      "id": "H",
+      "teams": [
+        {
+          "name": "España",
+          "code": "ESP"
+        },
+        {
+          "name": "Cabo Verde",
+          "code": "CPV"
+        },
+        {
+          "name": "Arabia Saudita",
+          "code": "KSA"
+        },
+        {
+          "name": "Uruguay",
+          "code": "URU"
+        }
+      ]
+    },
+    {
+      "id": "I",
+      "teams": [
+        {
+          "name": "Francia",
+          "code": "FRA"
+        },
+        {
+          "name": "Senegal",
+          "code": "SEN"
+        },
+        {
+          "name": "Irak",
+          "code": "IRO"
+        },
+        {
+          "name": "Noruega",
+          "code": "NOR"
+        }
+      ]
+    },
+    {
+      "id": "J",
+      "teams": [
+        {
+          "name": "Argentina",
+          "code": "ARG"
+        },
+        {
+          "name": "Argelia",
+          "code": "ALG"
+        },
+        {
+          "name": "Austria",
+          "code": "AUT"
+        },
+        {
+          "name": "Jordania",
+          "code": "JOR"
+        }
+      ]
+    },
+    {
+      "id": "K",
+      "teams": [
+        {
+          "name": "Portugal",
+          "code": "POR"
+        },
+        {
+          "name": "República Democrática del Congo",
+          "code": "COD"
+        },
+        {
+          "name": "Uzbekistán",
+          "code": "UZB"
+        },
+        {
+          "name": "Colombia",
+          "code": "COL"
+        }
+      ]
+    },
+    {
+      "id": "L",
+      "teams": [
+        {
+          "name": "Inglaterra",
+          "code": "ENG"
+        },
+        {
+          "name": "Croacia",
+          "code": "CRO"
+        },
+        {
+          "name": "Ghana",
+          "code": "GHA"
+        },
+        {
+          "name": "Panamá",
+          "code": "PAN"
+        }
+      ]
+    }
+  ]
+}
