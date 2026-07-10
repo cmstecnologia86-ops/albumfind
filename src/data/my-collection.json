@@ -1,0 +1,7360 @@
+{
+  "schemaVersion": 1,
+  "albumId": "world-cup-2026",
+  "source": "manual-review-of-album-photographs",
+  "status": "initial-photo-inventory",
+  "totals": {
+    "teams": 48,
+    "stickers": 960.0,
+    "owned": 440.0,
+    "missing": 520.0,
+    "duplicates": 0,
+    "completionPercentage": 45.83
+  },
+  "teams": [
+    {
+      "code": "MEX",
+      "name": "México",
+      "group": "A",
+      "ownedCount": 8,
+      "missingCount": 12,
+      "ownedNumbers": [
+        1,
+        4,
+        6,
+        8,
+        12,
+        14,
+        17,
+        20
+      ],
+      "missingNumbers": [
+        2,
+        3,
+        5,
+        7,
+        9,
+        10,
+        11,
+        13,
+        15,
+        16,
+        18,
+        19
+      ],
+      "stickers": [
+        {
+          "code": "MEX-01",
+          "number": 1,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "MEX-02",
+          "number": 2,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "MEX-03",
+          "number": 3,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "MEX-04",
+          "number": 4,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "MEX-05",
+          "number": 5,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "MEX-06",
+          "number": 6,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "MEX-07",
+          "number": 7,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "MEX-08",
+          "number": 8,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "MEX-09",
+          "number": 9,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "MEX-10",
+          "number": 10,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "MEX-11",
+          "number": 11,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "MEX-12",
+          "number": 12,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "MEX-13",
+          "number": 13,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "MEX-14",
+          "number": 14,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "MEX-15",
+          "number": 15,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "MEX-16",
+          "number": 16,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "MEX-17",
+          "number": 17,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "MEX-18",
+          "number": 18,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "MEX-19",
+          "number": 19,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "MEX-20",
+          "number": 20,
+          "status": "owned",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "KOR",
+      "name": "República de Corea",
+      "group": "A",
+      "ownedCount": 8,
+      "missingCount": 12,
+      "ownedNumbers": [
+        1,
+        3,
+        5,
+        9,
+        10,
+        14,
+        15,
+        18
+      ],
+      "missingNumbers": [
+        2,
+        4,
+        6,
+        7,
+        8,
+        11,
+        12,
+        13,
+        16,
+        17,
+        19,
+        20
+      ],
+      "stickers": [
+        {
+          "code": "KOR-01",
+          "number": 1,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "KOR-02",
+          "number": 2,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "KOR-03",
+          "number": 3,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "KOR-04",
+          "number": 4,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "KOR-05",
+          "number": 5,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "KOR-06",
+          "number": 6,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "KOR-07",
+          "number": 7,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "KOR-08",
+          "number": 8,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "KOR-09",
+          "number": 9,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "KOR-10",
+          "number": 10,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "KOR-11",
+          "number": 11,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "KOR-12",
+          "number": 12,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "KOR-13",
+          "number": 13,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "KOR-14",
+          "number": 14,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "KOR-15",
+          "number": 15,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "KOR-16",
+          "number": 16,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "KOR-17",
+          "number": 17,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "KOR-18",
+          "number": 18,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "KOR-19",
+          "number": 19,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "KOR-20",
+          "number": 20,
+          "status": "missing",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "RSA",
+      "name": "Sudáfrica",
+      "group": "A",
+      "ownedCount": 11,
+      "missingCount": 9,
+      "ownedNumbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        10,
+        13,
+        15,
+        19,
+        20
+      ],
+      "missingNumbers": [
+        7,
+        8,
+        9,
+        11,
+        12,
+        14,
+        16,
+        17,
+        18
+      ],
+      "stickers": [
+        {
+          "code": "RSA-01",
+          "number": 1,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "RSA-02",
+          "number": 2,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "RSA-03",
+          "number": 3,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "RSA-04",
+          "number": 4,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "RSA-05",
+          "number": 5,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "RSA-06",
+          "number": 6,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "RSA-07",
+          "number": 7,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "RSA-08",
+          "number": 8,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "RSA-09",
+          "number": 9,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "RSA-10",
+          "number": 10,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "RSA-11",
+          "number": 11,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "RSA-12",
+          "number": 12,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "RSA-13",
+          "number": 13,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "RSA-14",
+          "number": 14,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "RSA-15",
+          "number": 15,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "RSA-16",
+          "number": 16,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "RSA-17",
+          "number": 17,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "RSA-18",
+          "number": 18,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "RSA-19",
+          "number": 19,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "RSA-20",
+          "number": 20,
+          "status": "owned",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "CZE",
+      "name": "Chequia",
+      "group": "A",
+      "ownedCount": 11,
+      "missingCount": 9,
+      "ownedNumbers": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        11,
+        14,
+        16,
+        17
+      ],
+      "missingNumbers": [
+        1,
+        8,
+        10,
+        12,
+        13,
+        15,
+        18,
+        19,
+        20
+      ],
+      "stickers": [
+        {
+          "code": "CZE-01",
+          "number": 1,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CZE-02",
+          "number": 2,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CZE-03",
+          "number": 3,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CZE-04",
+          "number": 4,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CZE-05",
+          "number": 5,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CZE-06",
+          "number": 6,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CZE-07",
+          "number": 7,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CZE-08",
+          "number": 8,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CZE-09",
+          "number": 9,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CZE-10",
+          "number": 10,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CZE-11",
+          "number": 11,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CZE-12",
+          "number": 12,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CZE-13",
+          "number": 13,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CZE-14",
+          "number": 14,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CZE-15",
+          "number": 15,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CZE-16",
+          "number": 16,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CZE-17",
+          "number": 17,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CZE-18",
+          "number": 18,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CZE-19",
+          "number": 19,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CZE-20",
+          "number": 20,
+          "status": "missing",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "CAN",
+      "name": "Canadá",
+      "group": "B",
+      "ownedCount": 17,
+      "missingCount": 3,
+      "ownedNumbers": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "missingNumbers": [
+        4,
+        9,
+        14
+      ],
+      "stickers": [
+        {
+          "code": "CAN-01",
+          "number": 1,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CAN-02",
+          "number": 2,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CAN-03",
+          "number": 3,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CAN-04",
+          "number": 4,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CAN-05",
+          "number": 5,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CAN-06",
+          "number": 6,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CAN-07",
+          "number": 7,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CAN-08",
+          "number": 8,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CAN-09",
+          "number": 9,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CAN-10",
+          "number": 10,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CAN-11",
+          "number": 11,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CAN-12",
+          "number": 12,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CAN-13",
+          "number": 13,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CAN-14",
+          "number": 14,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CAN-15",
+          "number": 15,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CAN-16",
+          "number": 16,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CAN-17",
+          "number": 17,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CAN-18",
+          "number": 18,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CAN-19",
+          "number": 19,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CAN-20",
+          "number": 20,
+          "status": "owned",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "BIH",
+      "name": "Bosnia y Herzegovina",
+      "group": "B",
+      "ownedCount": 11,
+      "missingCount": 9,
+      "ownedNumbers": [
+        3,
+        4,
+        8,
+        9,
+        10,
+        11,
+        12,
+        15,
+        16,
+        17,
+        20
+      ],
+      "missingNumbers": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        13,
+        14,
+        18,
+        19
+      ],
+      "stickers": [
+        {
+          "code": "BIH-01",
+          "number": 1,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "BIH-02",
+          "number": 2,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "BIH-03",
+          "number": 3,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "BIH-04",
+          "number": 4,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "BIH-05",
+          "number": 5,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "BIH-06",
+          "number": 6,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "BIH-07",
+          "number": 7,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "BIH-08",
+          "number": 8,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "BIH-09",
+          "number": 9,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "BIH-10",
+          "number": 10,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "BIH-11",
+          "number": 11,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "BIH-12",
+          "number": 12,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "BIH-13",
+          "number": 13,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "BIH-14",
+          "number": 14,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "BIH-15",
+          "number": 15,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "BIH-16",
+          "number": 16,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "BIH-17",
+          "number": 17,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "BIH-18",
+          "number": 18,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "BIH-19",
+          "number": 19,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "BIH-20",
+          "number": 20,
+          "status": "owned",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "QAT",
+      "name": "Qatar",
+      "group": "B",
+      "ownedCount": 7,
+      "missingCount": 13,
+      "ownedNumbers": [
+        3,
+        6,
+        8,
+        9,
+        12,
+        13,
+        17
+      ],
+      "missingNumbers": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        10,
+        11,
+        14,
+        15,
+        16,
+        18,
+        19,
+        20
+      ],
+      "stickers": [
+        {
+          "code": "QAT-01",
+          "number": 1,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "QAT-02",
+          "number": 2,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "QAT-03",
+          "number": 3,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "QAT-04",
+          "number": 4,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "QAT-05",
+          "number": 5,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "QAT-06",
+          "number": 6,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "QAT-07",
+          "number": 7,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "QAT-08",
+          "number": 8,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "QAT-09",
+          "number": 9,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "QAT-10",
+          "number": 10,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "QAT-11",
+          "number": 11,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "QAT-12",
+          "number": 12,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "QAT-13",
+          "number": 13,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "QAT-14",
+          "number": 14,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "QAT-15",
+          "number": 15,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "QAT-16",
+          "number": 16,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "QAT-17",
+          "number": 17,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "QAT-18",
+          "number": 18,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "QAT-19",
+          "number": 19,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "QAT-20",
+          "number": 20,
+          "status": "missing",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "SUI",
+      "name": "Suiza",
+      "group": "B",
+      "ownedCount": 15,
+      "missingCount": 5,
+      "ownedNumbers": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        20
+      ],
+      "missingNumbers": [
+        1,
+        2,
+        4,
+        9,
+        19
+      ],
+      "stickers": [
+        {
+          "code": "SUI-01",
+          "number": 1,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "SUI-02",
+          "number": 2,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "SUI-03",
+          "number": 3,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "SUI-04",
+          "number": 4,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "SUI-05",
+          "number": 5,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "SUI-06",
+          "number": 6,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "SUI-07",
+          "number": 7,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "SUI-08",
+          "number": 8,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "SUI-09",
+          "number": 9,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "SUI-10",
+          "number": 10,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "SUI-11",
+          "number": 11,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "SUI-12",
+          "number": 12,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "SUI-13",
+          "number": 13,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "SUI-14",
+          "number": 14,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "SUI-15",
+          "number": 15,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "SUI-16",
+          "number": 16,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "SUI-17",
+          "number": 17,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "SUI-18",
+          "number": 18,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "SUI-19",
+          "number": 19,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "SUI-20",
+          "number": 20,
+          "status": "owned",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "BRA",
+      "name": "Brasil",
+      "group": "C",
+      "ownedCount": 8,
+      "missingCount": 12,
+      "ownedNumbers": [
+        1,
+        3,
+        4,
+        8,
+        9,
+        12,
+        17,
+        19
+      ],
+      "missingNumbers": [
+        2,
+        5,
+        6,
+        7,
+        10,
+        11,
+        13,
+        14,
+        15,
+        16,
+        18,
+        20
+      ],
+      "stickers": [
+        {
+          "code": "BRA-01",
+          "number": 1,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "BRA-02",
+          "number": 2,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "BRA-03",
+          "number": 3,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "BRA-04",
+          "number": 4,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "BRA-05",
+          "number": 5,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "BRA-06",
+          "number": 6,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "BRA-07",
+          "number": 7,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "BRA-08",
+          "number": 8,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "BRA-09",
+          "number": 9,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "BRA-10",
+          "number": 10,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "BRA-11",
+          "number": 11,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "BRA-12",
+          "number": 12,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "BRA-13",
+          "number": 13,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "BRA-14",
+          "number": 14,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "BRA-15",
+          "number": 15,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "BRA-16",
+          "number": 16,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "BRA-17",
+          "number": 17,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "BRA-18",
+          "number": 18,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "BRA-19",
+          "number": 19,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "BRA-20",
+          "number": 20,
+          "status": "missing",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "MAR",
+      "name": "Marruecos",
+      "group": "C",
+      "ownedCount": 1,
+      "missingCount": 19,
+      "ownedNumbers": [
+        2
+      ],
+      "missingNumbers": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stickers": [
+        {
+          "code": "MAR-01",
+          "number": 1,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "MAR-02",
+          "number": 2,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "MAR-03",
+          "number": 3,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "MAR-04",
+          "number": 4,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "MAR-05",
+          "number": 5,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "MAR-06",
+          "number": 6,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "MAR-07",
+          "number": 7,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "MAR-08",
+          "number": 8,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "MAR-09",
+          "number": 9,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "MAR-10",
+          "number": 10,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "MAR-11",
+          "number": 11,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "MAR-12",
+          "number": 12,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "MAR-13",
+          "number": 13,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "MAR-14",
+          "number": 14,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "MAR-15",
+          "number": 15,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "MAR-16",
+          "number": 16,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "MAR-17",
+          "number": 17,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "MAR-18",
+          "number": 18,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "MAR-19",
+          "number": 19,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "MAR-20",
+          "number": 20,
+          "status": "missing",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "HAI",
+      "name": "Haití",
+      "group": "C",
+      "ownedCount": 7,
+      "missingCount": 13,
+      "ownedNumbers": [
+        6,
+        9,
+        10,
+        13,
+        15,
+        18,
+        19
+      ],
+      "missingNumbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        11,
+        12,
+        14,
+        16,
+        17,
+        20
+      ],
+      "stickers": [
+        {
+          "code": "HAI-01",
+          "number": 1,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "HAI-02",
+          "number": 2,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "HAI-03",
+          "number": 3,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "HAI-04",
+          "number": 4,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "HAI-05",
+          "number": 5,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "HAI-06",
+          "number": 6,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "HAI-07",
+          "number": 7,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "HAI-08",
+          "number": 8,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "HAI-09",
+          "number": 9,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "HAI-10",
+          "number": 10,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "HAI-11",
+          "number": 11,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "HAI-12",
+          "number": 12,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "HAI-13",
+          "number": 13,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "HAI-14",
+          "number": 14,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "HAI-15",
+          "number": 15,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "HAI-16",
+          "number": 16,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "HAI-17",
+          "number": 17,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "HAI-18",
+          "number": 18,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "HAI-19",
+          "number": 19,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "HAI-20",
+          "number": 20,
+          "status": "missing",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "SCO",
+      "name": "Escocia",
+      "group": "C",
+      "ownedCount": 6,
+      "missingCount": 14,
+      "ownedNumbers": [
+        2,
+        5,
+        6,
+        10,
+        17,
+        19
+      ],
+      "missingNumbers": [
+        1,
+        3,
+        4,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        18,
+        20
+      ],
+      "stickers": [
+        {
+          "code": "SCO-01",
+          "number": 1,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "SCO-02",
+          "number": 2,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "SCO-03",
+          "number": 3,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "SCO-04",
+          "number": 4,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "SCO-05",
+          "number": 5,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "SCO-06",
+          "number": 6,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "SCO-07",
+          "number": 7,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "SCO-08",
+          "number": 8,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "SCO-09",
+          "number": 9,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "SCO-10",
+          "number": 10,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "SCO-11",
+          "number": 11,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "SCO-12",
+          "number": 12,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "SCO-13",
+          "number": 13,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "SCO-14",
+          "number": 14,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "SCO-15",
+          "number": 15,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "SCO-16",
+          "number": 16,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "SCO-17",
+          "number": 17,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "SCO-18",
+          "number": 18,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "SCO-19",
+          "number": 19,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "SCO-20",
+          "number": 20,
+          "status": "missing",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "USA",
+      "name": "Estados Unidos",
+      "group": "D",
+      "ownedCount": 14,
+      "missingCount": 6,
+      "ownedNumbers": [
+        3,
+        4,
+        5,
+        7,
+        9,
+        11,
+        12,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "missingNumbers": [
+        1,
+        2,
+        6,
+        8,
+        10,
+        13
+      ],
+      "stickers": [
+        {
+          "code": "USA-01",
+          "number": 1,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "USA-02",
+          "number": 2,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "USA-03",
+          "number": 3,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "USA-04",
+          "number": 4,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "USA-05",
+          "number": 5,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "USA-06",
+          "number": 6,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "USA-07",
+          "number": 7,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "USA-08",
+          "number": 8,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "USA-09",
+          "number": 9,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "USA-10",
+          "number": 10,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "USA-11",
+          "number": 11,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "USA-12",
+          "number": 12,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "USA-13",
+          "number": 13,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "USA-14",
+          "number": 14,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "USA-15",
+          "number": 15,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "USA-16",
+          "number": 16,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "USA-17",
+          "number": 17,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "USA-18",
+          "number": 18,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "USA-19",
+          "number": 19,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "USA-20",
+          "number": 20,
+          "status": "owned",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "PAR",
+      "name": "Paraguay",
+      "group": "D",
+      "ownedCount": 5,
+      "missingCount": 15,
+      "ownedNumbers": [
+        4,
+        8,
+        12,
+        13,
+        19
+      ],
+      "missingNumbers": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        14,
+        15,
+        16,
+        17,
+        18,
+        20
+      ],
+      "stickers": [
+        {
+          "code": "PAR-01",
+          "number": 1,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "PAR-02",
+          "number": 2,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "PAR-03",
+          "number": 3,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "PAR-04",
+          "number": 4,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "PAR-05",
+          "number": 5,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "PAR-06",
+          "number": 6,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "PAR-07",
+          "number": 7,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "PAR-08",
+          "number": 8,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "PAR-09",
+          "number": 9,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "PAR-10",
+          "number": 10,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "PAR-11",
+          "number": 11,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "PAR-12",
+          "number": 12,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "PAR-13",
+          "number": 13,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "PAR-14",
+          "number": 14,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "PAR-15",
+          "number": 15,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "PAR-16",
+          "number": 16,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "PAR-17",
+          "number": 17,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "PAR-18",
+          "number": 18,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "PAR-19",
+          "number": 19,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "PAR-20",
+          "number": 20,
+          "status": "missing",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "AUS",
+      "name": "Australia",
+      "group": "D",
+      "ownedCount": 12,
+      "missingCount": 8,
+      "ownedNumbers": [
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        12,
+        14,
+        15,
+        16,
+        19
+      ],
+      "missingNumbers": [
+        1,
+        2,
+        7,
+        11,
+        13,
+        17,
+        18,
+        20
+      ],
+      "stickers": [
+        {
+          "code": "AUS-01",
+          "number": 1,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "AUS-02",
+          "number": 2,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "AUS-03",
+          "number": 3,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "AUS-04",
+          "number": 4,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "AUS-05",
+          "number": 5,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "AUS-06",
+          "number": 6,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "AUS-07",
+          "number": 7,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "AUS-08",
+          "number": 8,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "AUS-09",
+          "number": 9,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "AUS-10",
+          "number": 10,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "AUS-11",
+          "number": 11,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "AUS-12",
+          "number": 12,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "AUS-13",
+          "number": 13,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "AUS-14",
+          "number": 14,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "AUS-15",
+          "number": 15,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "AUS-16",
+          "number": 16,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "AUS-17",
+          "number": 17,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "AUS-18",
+          "number": 18,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "AUS-19",
+          "number": 19,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "AUS-20",
+          "number": 20,
+          "status": "missing",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "TUR",
+      "name": "Turquía",
+      "group": "D",
+      "ownedCount": 11,
+      "missingCount": 9,
+      "ownedNumbers": [
+        3,
+        4,
+        7,
+        8,
+        10,
+        11,
+        12,
+        15,
+        16,
+        17,
+        18
+      ],
+      "missingNumbers": [
+        1,
+        2,
+        5,
+        6,
+        9,
+        13,
+        14,
+        19,
+        20
+      ],
+      "stickers": [
+        {
+          "code": "TUR-01",
+          "number": 1,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "TUR-02",
+          "number": 2,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "TUR-03",
+          "number": 3,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "TUR-04",
+          "number": 4,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "TUR-05",
+          "number": 5,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "TUR-06",
+          "number": 6,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "TUR-07",
+          "number": 7,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "TUR-08",
+          "number": 8,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "TUR-09",
+          "number": 9,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "TUR-10",
+          "number": 10,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "TUR-11",
+          "number": 11,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "TUR-12",
+          "number": 12,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "TUR-13",
+          "number": 13,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "TUR-14",
+          "number": 14,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "TUR-15",
+          "number": 15,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "TUR-16",
+          "number": 16,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "TUR-17",
+          "number": 17,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "TUR-18",
+          "number": 18,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "TUR-19",
+          "number": 19,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "TUR-20",
+          "number": 20,
+          "status": "missing",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "GER",
+      "name": "Alemania",
+      "group": "E",
+      "ownedCount": 9,
+      "missingCount": 11,
+      "ownedNumbers": [
+        1,
+        2,
+        6,
+        10,
+        15,
+        16,
+        17,
+        18,
+        20
+      ],
+      "missingNumbers": [
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        19
+      ],
+      "stickers": [
+        {
+          "code": "GER-01",
+          "number": 1,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "GER-02",
+          "number": 2,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "GER-03",
+          "number": 3,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "GER-04",
+          "number": 4,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "GER-05",
+          "number": 5,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "GER-06",
+          "number": 6,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "GER-07",
+          "number": 7,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "GER-08",
+          "number": 8,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "GER-09",
+          "number": 9,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "GER-10",
+          "number": 10,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "GER-11",
+          "number": 11,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "GER-12",
+          "number": 12,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "GER-13",
+          "number": 13,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "GER-14",
+          "number": 14,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "GER-15",
+          "number": 15,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "GER-16",
+          "number": 16,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "GER-17",
+          "number": 17,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "GER-18",
+          "number": 18,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "GER-19",
+          "number": 19,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "GER-20",
+          "number": 20,
+          "status": "owned",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "CUW",
+      "name": "Curazao",
+      "group": "E",
+      "ownedCount": 7,
+      "missingCount": 13,
+      "ownedNumbers": [
+        4,
+        5,
+        8,
+        12,
+        15,
+        18,
+        19
+      ],
+      "missingNumbers": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        9,
+        10,
+        11,
+        13,
+        14,
+        16,
+        17,
+        20
+      ],
+      "stickers": [
+        {
+          "code": "CUW-01",
+          "number": 1,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CUW-02",
+          "number": 2,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CUW-03",
+          "number": 3,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CUW-04",
+          "number": 4,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CUW-05",
+          "number": 5,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CUW-06",
+          "number": 6,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CUW-07",
+          "number": 7,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CUW-08",
+          "number": 8,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CUW-09",
+          "number": 9,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CUW-10",
+          "number": 10,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CUW-11",
+          "number": 11,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CUW-12",
+          "number": 12,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CUW-13",
+          "number": 13,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CUW-14",
+          "number": 14,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CUW-15",
+          "number": 15,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CUW-16",
+          "number": 16,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CUW-17",
+          "number": 17,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CUW-18",
+          "number": 18,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CUW-19",
+          "number": 19,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CUW-20",
+          "number": 20,
+          "status": "missing",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "CIV",
+      "name": "Costa de Marfil",
+      "group": "E",
+      "ownedCount": 14,
+      "missingCount": 6,
+      "ownedNumbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        14,
+        15,
+        17,
+        19
+      ],
+      "missingNumbers": [
+        8,
+        12,
+        13,
+        16,
+        18,
+        20
+      ],
+      "stickers": [
+        {
+          "code": "CIV-01",
+          "number": 1,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CIV-02",
+          "number": 2,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CIV-03",
+          "number": 3,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CIV-04",
+          "number": 4,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CIV-05",
+          "number": 5,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CIV-06",
+          "number": 6,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CIV-07",
+          "number": 7,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CIV-08",
+          "number": 8,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CIV-09",
+          "number": 9,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CIV-10",
+          "number": 10,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CIV-11",
+          "number": 11,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CIV-12",
+          "number": 12,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CIV-13",
+          "number": 13,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CIV-14",
+          "number": 14,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CIV-15",
+          "number": 15,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CIV-16",
+          "number": 16,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CIV-17",
+          "number": 17,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CIV-18",
+          "number": 18,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CIV-19",
+          "number": 19,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CIV-20",
+          "number": 20,
+          "status": "missing",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "ECU",
+      "name": "Ecuador",
+      "group": "E",
+      "ownedCount": 8,
+      "missingCount": 12,
+      "ownedNumbers": [
+        4,
+        7,
+        8,
+        11,
+        14,
+        15,
+        17,
+        18
+      ],
+      "missingNumbers": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        10,
+        12,
+        13,
+        16,
+        19,
+        20
+      ],
+      "stickers": [
+        {
+          "code": "ECU-01",
+          "number": 1,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ECU-02",
+          "number": 2,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ECU-03",
+          "number": 3,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ECU-04",
+          "number": 4,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ECU-05",
+          "number": 5,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ECU-06",
+          "number": 6,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ECU-07",
+          "number": 7,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ECU-08",
+          "number": 8,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ECU-09",
+          "number": 9,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ECU-10",
+          "number": 10,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ECU-11",
+          "number": 11,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ECU-12",
+          "number": 12,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ECU-13",
+          "number": 13,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ECU-14",
+          "number": 14,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ECU-15",
+          "number": 15,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ECU-16",
+          "number": 16,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ECU-17",
+          "number": 17,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ECU-18",
+          "number": 18,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ECU-19",
+          "number": 19,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ECU-20",
+          "number": 20,
+          "status": "missing",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "NED",
+      "name": "Países Bajos",
+      "group": "F",
+      "ownedCount": 8,
+      "missingCount": 12,
+      "ownedNumbers": [
+        5,
+        6,
+        10,
+        11,
+        15,
+        16,
+        17,
+        19
+      ],
+      "missingNumbers": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        8,
+        9,
+        12,
+        13,
+        14,
+        18,
+        20
+      ],
+      "stickers": [
+        {
+          "code": "NED-01",
+          "number": 1,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "NED-02",
+          "number": 2,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "NED-03",
+          "number": 3,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "NED-04",
+          "number": 4,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "NED-05",
+          "number": 5,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "NED-06",
+          "number": 6,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "NED-07",
+          "number": 7,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "NED-08",
+          "number": 8,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "NED-09",
+          "number": 9,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "NED-10",
+          "number": 10,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "NED-11",
+          "number": 11,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "NED-12",
+          "number": 12,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "NED-13",
+          "number": 13,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "NED-14",
+          "number": 14,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "NED-15",
+          "number": 15,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "NED-16",
+          "number": 16,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "NED-17",
+          "number": 17,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "NED-18",
+          "number": 18,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "NED-19",
+          "number": 19,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "NED-20",
+          "number": 20,
+          "status": "missing",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "JPN",
+      "name": "Japón",
+      "group": "F",
+      "ownedCount": 10,
+      "missingCount": 10,
+      "ownedNumbers": [
+        2,
+        7,
+        8,
+        9,
+        10,
+        11,
+        15,
+        16,
+        19,
+        20
+      ],
+      "missingNumbers": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        12,
+        13,
+        14,
+        17,
+        18
+      ],
+      "stickers": [
+        {
+          "code": "JPN-01",
+          "number": 1,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "JPN-02",
+          "number": 2,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "JPN-03",
+          "number": 3,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "JPN-04",
+          "number": 4,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "JPN-05",
+          "number": 5,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "JPN-06",
+          "number": 6,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "JPN-07",
+          "number": 7,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "JPN-08",
+          "number": 8,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "JPN-09",
+          "number": 9,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "JPN-10",
+          "number": 10,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "JPN-11",
+          "number": 11,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "JPN-12",
+          "number": 12,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "JPN-13",
+          "number": 13,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "JPN-14",
+          "number": 14,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "JPN-15",
+          "number": 15,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "JPN-16",
+          "number": 16,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "JPN-17",
+          "number": 17,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "JPN-18",
+          "number": 18,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "JPN-19",
+          "number": 19,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "JPN-20",
+          "number": 20,
+          "status": "owned",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "SWE",
+      "name": "Suecia",
+      "group": "F",
+      "ownedCount": 9,
+      "missingCount": 11,
+      "ownedNumbers": [
+        2,
+        4,
+        6,
+        7,
+        11,
+        16,
+        17,
+        18,
+        19
+      ],
+      "missingNumbers": [
+        1,
+        3,
+        5,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15,
+        20
+      ],
+      "stickers": [
+        {
+          "code": "SWE-01",
+          "number": 1,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "SWE-02",
+          "number": 2,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "SWE-03",
+          "number": 3,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "SWE-04",
+          "number": 4,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "SWE-05",
+          "number": 5,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "SWE-06",
+          "number": 6,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "SWE-07",
+          "number": 7,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "SWE-08",
+          "number": 8,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "SWE-09",
+          "number": 9,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "SWE-10",
+          "number": 10,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "SWE-11",
+          "number": 11,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "SWE-12",
+          "number": 12,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "SWE-13",
+          "number": 13,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "SWE-14",
+          "number": 14,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "SWE-15",
+          "number": 15,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "SWE-16",
+          "number": 16,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "SWE-17",
+          "number": 17,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "SWE-18",
+          "number": 18,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "SWE-19",
+          "number": 19,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "SWE-20",
+          "number": 20,
+          "status": "missing",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "TUN",
+      "name": "Túnez",
+      "group": "F",
+      "ownedCount": 11,
+      "missingCount": 9,
+      "ownedNumbers": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        9,
+        10,
+        12,
+        15,
+        17,
+        19
+      ],
+      "missingNumbers": [
+        3,
+        7,
+        8,
+        11,
+        13,
+        14,
+        16,
+        18,
+        20
+      ],
+      "stickers": [
+        {
+          "code": "TUN-01",
+          "number": 1,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "TUN-02",
+          "number": 2,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "TUN-03",
+          "number": 3,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "TUN-04",
+          "number": 4,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "TUN-05",
+          "number": 5,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "TUN-06",
+          "number": 6,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "TUN-07",
+          "number": 7,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "TUN-08",
+          "number": 8,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "TUN-09",
+          "number": 9,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "TUN-10",
+          "number": 10,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "TUN-11",
+          "number": 11,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "TUN-12",
+          "number": 12,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "TUN-13",
+          "number": 13,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "TUN-14",
+          "number": 14,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "TUN-15",
+          "number": 15,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "TUN-16",
+          "number": 16,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "TUN-17",
+          "number": 17,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "TUN-18",
+          "number": 18,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "TUN-19",
+          "number": 19,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "TUN-20",
+          "number": 20,
+          "status": "missing",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "BEL",
+      "name": "Bélgica",
+      "group": "G",
+      "ownedCount": 9,
+      "missingCount": 11,
+      "ownedNumbers": [
+        4,
+        5,
+        6,
+        9,
+        10,
+        13,
+        14,
+        15,
+        19
+      ],
+      "missingNumbers": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        11,
+        12,
+        16,
+        17,
+        18,
+        20
+      ],
+      "stickers": [
+        {
+          "code": "BEL-01",
+          "number": 1,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "BEL-02",
+          "number": 2,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "BEL-03",
+          "number": 3,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "BEL-04",
+          "number": 4,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "BEL-05",
+          "number": 5,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "BEL-06",
+          "number": 6,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "BEL-07",
+          "number": 7,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "BEL-08",
+          "number": 8,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "BEL-09",
+          "number": 9,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "BEL-10",
+          "number": 10,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "BEL-11",
+          "number": 11,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "BEL-12",
+          "number": 12,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "BEL-13",
+          "number": 13,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "BEL-14",
+          "number": 14,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "BEL-15",
+          "number": 15,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "BEL-16",
+          "number": 16,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "BEL-17",
+          "number": 17,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "BEL-18",
+          "number": 18,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "BEL-19",
+          "number": 19,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "BEL-20",
+          "number": 20,
+          "status": "missing",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "EGY",
+      "name": "Egipto",
+      "group": "G",
+      "ownedCount": 6,
+      "missingCount": 14,
+      "ownedNumbers": [
+        1,
+        3,
+        6,
+        7,
+        11,
+        20
+      ],
+      "missingNumbers": [
+        2,
+        4,
+        5,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "stickers": [
+        {
+          "code": "EGY-01",
+          "number": 1,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "EGY-02",
+          "number": 2,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "EGY-03",
+          "number": 3,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "EGY-04",
+          "number": 4,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "EGY-05",
+          "number": 5,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "EGY-06",
+          "number": 6,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "EGY-07",
+          "number": 7,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "EGY-08",
+          "number": 8,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "EGY-09",
+          "number": 9,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "EGY-10",
+          "number": 10,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "EGY-11",
+          "number": 11,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "EGY-12",
+          "number": 12,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "EGY-13",
+          "number": 13,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "EGY-14",
+          "number": 14,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "EGY-15",
+          "number": 15,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "EGY-16",
+          "number": 16,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "EGY-17",
+          "number": 17,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "EGY-18",
+          "number": 18,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "EGY-19",
+          "number": 19,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "EGY-20",
+          "number": 20,
+          "status": "owned",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "IRN",
+      "name": "Irán",
+      "group": "G",
+      "ownedCount": 12,
+      "missingCount": 8,
+      "ownedNumbers": [
+        1,
+        2,
+        3,
+        5,
+        7,
+        8,
+        12,
+        13,
+        15,
+        16,
+        17,
+        19
+      ],
+      "missingNumbers": [
+        4,
+        6,
+        9,
+        10,
+        11,
+        14,
+        18,
+        20
+      ],
+      "stickers": [
+        {
+          "code": "IRN-01",
+          "number": 1,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "IRN-02",
+          "number": 2,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "IRN-03",
+          "number": 3,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "IRN-04",
+          "number": 4,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "IRN-05",
+          "number": 5,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "IRN-06",
+          "number": 6,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "IRN-07",
+          "number": 7,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "IRN-08",
+          "number": 8,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "IRN-09",
+          "number": 9,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "IRN-10",
+          "number": 10,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "IRN-11",
+          "number": 11,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "IRN-12",
+          "number": 12,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "IRN-13",
+          "number": 13,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "IRN-14",
+          "number": 14,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "IRN-15",
+          "number": 15,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "IRN-16",
+          "number": 16,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "IRN-17",
+          "number": 17,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "IRN-18",
+          "number": 18,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "IRN-19",
+          "number": 19,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "IRN-20",
+          "number": 20,
+          "status": "missing",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "NZL",
+      "name": "Nueva Zelanda",
+      "group": "G",
+      "ownedCount": 6,
+      "missingCount": 14,
+      "ownedNumbers": [
+        1,
+        4,
+        8,
+        12,
+        14,
+        20
+      ],
+      "missingNumbers": [
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        13,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "stickers": [
+        {
+          "code": "NZL-01",
+          "number": 1,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "NZL-02",
+          "number": 2,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "NZL-03",
+          "number": 3,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "NZL-04",
+          "number": 4,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "NZL-05",
+          "number": 5,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "NZL-06",
+          "number": 6,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "NZL-07",
+          "number": 7,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "NZL-08",
+          "number": 8,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "NZL-09",
+          "number": 9,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "NZL-10",
+          "number": 10,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "NZL-11",
+          "number": 11,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "NZL-12",
+          "number": 12,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "NZL-13",
+          "number": 13,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "NZL-14",
+          "number": 14,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "NZL-15",
+          "number": 15,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "NZL-16",
+          "number": 16,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "NZL-17",
+          "number": 17,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "NZL-18",
+          "number": 18,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "NZL-19",
+          "number": 19,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "NZL-20",
+          "number": 20,
+          "status": "owned",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "ESP",
+      "name": "España",
+      "group": "H",
+      "ownedCount": 14,
+      "missingCount": 6,
+      "ownedNumbers": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        16,
+        17,
+        19,
+        20
+      ],
+      "missingNumbers": [
+        1,
+        3,
+        10,
+        14,
+        15,
+        18
+      ],
+      "stickers": [
+        {
+          "code": "ESP-01",
+          "number": 1,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ESP-02",
+          "number": 2,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ESP-03",
+          "number": 3,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ESP-04",
+          "number": 4,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ESP-05",
+          "number": 5,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ESP-06",
+          "number": 6,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ESP-07",
+          "number": 7,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ESP-08",
+          "number": 8,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ESP-09",
+          "number": 9,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ESP-10",
+          "number": 10,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ESP-11",
+          "number": 11,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ESP-12",
+          "number": 12,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ESP-13",
+          "number": 13,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ESP-14",
+          "number": 14,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ESP-15",
+          "number": 15,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ESP-16",
+          "number": 16,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ESP-17",
+          "number": 17,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ESP-18",
+          "number": 18,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ESP-19",
+          "number": 19,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ESP-20",
+          "number": 20,
+          "status": "owned",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "CPV",
+      "name": "Cabo Verde",
+      "group": "H",
+      "ownedCount": 16,
+      "missingCount": 4,
+      "ownedNumbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        12,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "missingNumbers": [
+        7,
+        11,
+        13,
+        20
+      ],
+      "stickers": [
+        {
+          "code": "CPV-01",
+          "number": 1,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CPV-02",
+          "number": 2,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CPV-03",
+          "number": 3,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CPV-04",
+          "number": 4,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CPV-05",
+          "number": 5,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CPV-06",
+          "number": 6,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CPV-07",
+          "number": 7,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CPV-08",
+          "number": 8,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CPV-09",
+          "number": 9,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CPV-10",
+          "number": 10,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CPV-11",
+          "number": 11,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CPV-12",
+          "number": 12,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CPV-13",
+          "number": 13,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CPV-14",
+          "number": 14,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CPV-15",
+          "number": 15,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CPV-16",
+          "number": 16,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CPV-17",
+          "number": 17,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CPV-18",
+          "number": 18,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CPV-19",
+          "number": 19,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CPV-20",
+          "number": 20,
+          "status": "missing",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "KSA",
+      "name": "Arabia Saudita",
+      "group": "H",
+      "ownedCount": 6,
+      "missingCount": 14,
+      "ownedNumbers": [
+        1,
+        4,
+        5,
+        8,
+        12,
+        13
+      ],
+      "missingNumbers": [
+        2,
+        3,
+        6,
+        7,
+        9,
+        10,
+        11,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stickers": [
+        {
+          "code": "KSA-01",
+          "number": 1,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "KSA-02",
+          "number": 2,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "KSA-03",
+          "number": 3,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "KSA-04",
+          "number": 4,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "KSA-05",
+          "number": 5,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "KSA-06",
+          "number": 6,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "KSA-07",
+          "number": 7,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "KSA-08",
+          "number": 8,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "KSA-09",
+          "number": 9,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "KSA-10",
+          "number": 10,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "KSA-11",
+          "number": 11,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "KSA-12",
+          "number": 12,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "KSA-13",
+          "number": 13,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "KSA-14",
+          "number": 14,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "KSA-15",
+          "number": 15,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "KSA-16",
+          "number": 16,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "KSA-17",
+          "number": 17,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "KSA-18",
+          "number": 18,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "KSA-19",
+          "number": 19,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "KSA-20",
+          "number": 20,
+          "status": "missing",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "URU",
+      "name": "Uruguay",
+      "group": "H",
+      "ownedCount": 10,
+      "missingCount": 10,
+      "ownedNumbers": [
+        4,
+        8,
+        10,
+        12,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "missingNumbers": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        11,
+        13,
+        20
+      ],
+      "stickers": [
+        {
+          "code": "URU-01",
+          "number": 1,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "URU-02",
+          "number": 2,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "URU-03",
+          "number": 3,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "URU-04",
+          "number": 4,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "URU-05",
+          "number": 5,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "URU-06",
+          "number": 6,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "URU-07",
+          "number": 7,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "URU-08",
+          "number": 8,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "URU-09",
+          "number": 9,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "URU-10",
+          "number": 10,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "URU-11",
+          "number": 11,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "URU-12",
+          "number": 12,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "URU-13",
+          "number": 13,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "URU-14",
+          "number": 14,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "URU-15",
+          "number": 15,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "URU-16",
+          "number": 16,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "URU-17",
+          "number": 17,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "URU-18",
+          "number": 18,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "URU-19",
+          "number": 19,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "URU-20",
+          "number": 20,
+          "status": "missing",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "FRA",
+      "name": "Francia",
+      "group": "I",
+      "ownedCount": 7,
+      "missingCount": 13,
+      "ownedNumbers": [
+        3,
+        5,
+        6,
+        8,
+        10,
+        12,
+        13
+      ],
+      "missingNumbers": [
+        1,
+        2,
+        4,
+        7,
+        9,
+        11,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stickers": [
+        {
+          "code": "FRA-01",
+          "number": 1,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "FRA-02",
+          "number": 2,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "FRA-03",
+          "number": 3,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "FRA-04",
+          "number": 4,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "FRA-05",
+          "number": 5,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "FRA-06",
+          "number": 6,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "FRA-07",
+          "number": 7,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "FRA-08",
+          "number": 8,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "FRA-09",
+          "number": 9,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "FRA-10",
+          "number": 10,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "FRA-11",
+          "number": 11,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "FRA-12",
+          "number": 12,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "FRA-13",
+          "number": 13,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "FRA-14",
+          "number": 14,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "FRA-15",
+          "number": 15,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "FRA-16",
+          "number": 16,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "FRA-17",
+          "number": 17,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "FRA-18",
+          "number": 18,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "FRA-19",
+          "number": 19,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "FRA-20",
+          "number": 20,
+          "status": "missing",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "SEN",
+      "name": "Senegal",
+      "group": "I",
+      "ownedCount": 7,
+      "missingCount": 13,
+      "ownedNumbers": [
+        2,
+        5,
+        13,
+        15,
+        17,
+        18,
+        20
+      ],
+      "missingNumbers": [
+        1,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        16,
+        19
+      ],
+      "stickers": [
+        {
+          "code": "SEN-01",
+          "number": 1,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "SEN-02",
+          "number": 2,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "SEN-03",
+          "number": 3,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "SEN-04",
+          "number": 4,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "SEN-05",
+          "number": 5,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "SEN-06",
+          "number": 6,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "SEN-07",
+          "number": 7,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "SEN-08",
+          "number": 8,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "SEN-09",
+          "number": 9,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "SEN-10",
+          "number": 10,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "SEN-11",
+          "number": 11,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "SEN-12",
+          "number": 12,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "SEN-13",
+          "number": 13,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "SEN-14",
+          "number": 14,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "SEN-15",
+          "number": 15,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "SEN-16",
+          "number": 16,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "SEN-17",
+          "number": 17,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "SEN-18",
+          "number": 18,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "SEN-19",
+          "number": 19,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "SEN-20",
+          "number": 20,
+          "status": "owned",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "IRO",
+      "name": "Irak",
+      "group": "I",
+      "ownedCount": 9,
+      "missingCount": 11,
+      "ownedNumbers": [
+        1,
+        2,
+        4,
+        9,
+        14,
+        15,
+        18,
+        19,
+        20
+      ],
+      "missingNumbers": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        16,
+        17
+      ],
+      "stickers": [
+        {
+          "code": "IRO-01",
+          "number": 1,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "IRO-02",
+          "number": 2,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "IRO-03",
+          "number": 3,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "IRO-04",
+          "number": 4,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "IRO-05",
+          "number": 5,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "IRO-06",
+          "number": 6,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "IRO-07",
+          "number": 7,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "IRO-08",
+          "number": 8,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "IRO-09",
+          "number": 9,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "IRO-10",
+          "number": 10,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "IRO-11",
+          "number": 11,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "IRO-12",
+          "number": 12,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "IRO-13",
+          "number": 13,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "IRO-14",
+          "number": 14,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "IRO-15",
+          "number": 15,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "IRO-16",
+          "number": 16,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "IRO-17",
+          "number": 17,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "IRO-18",
+          "number": 18,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "IRO-19",
+          "number": 19,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "IRO-20",
+          "number": 20,
+          "status": "owned",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "NOR",
+      "name": "Noruega",
+      "group": "I",
+      "ownedCount": 9,
+      "missingCount": 11,
+      "ownedNumbers": [
+        1,
+        4,
+        7,
+        11,
+        12,
+        16,
+        17,
+        18,
+        19
+      ],
+      "missingNumbers": [
+        2,
+        3,
+        5,
+        6,
+        8,
+        9,
+        10,
+        13,
+        14,
+        15,
+        20
+      ],
+      "stickers": [
+        {
+          "code": "NOR-01",
+          "number": 1,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "NOR-02",
+          "number": 2,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "NOR-03",
+          "number": 3,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "NOR-04",
+          "number": 4,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "NOR-05",
+          "number": 5,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "NOR-06",
+          "number": 6,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "NOR-07",
+          "number": 7,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "NOR-08",
+          "number": 8,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "NOR-09",
+          "number": 9,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "NOR-10",
+          "number": 10,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "NOR-11",
+          "number": 11,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "NOR-12",
+          "number": 12,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "NOR-13",
+          "number": 13,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "NOR-14",
+          "number": 14,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "NOR-15",
+          "number": 15,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "NOR-16",
+          "number": 16,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "NOR-17",
+          "number": 17,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "NOR-18",
+          "number": 18,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "NOR-19",
+          "number": 19,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "NOR-20",
+          "number": 20,
+          "status": "missing",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "ARG",
+      "name": "Argentina",
+      "group": "J",
+      "ownedCount": 12,
+      "missingCount": 8,
+      "ownedNumbers": [
+        1,
+        3,
+        5,
+        6,
+        7,
+        10,
+        11,
+        12,
+        15,
+        16,
+        19,
+        20
+      ],
+      "missingNumbers": [
+        2,
+        4,
+        8,
+        9,
+        13,
+        14,
+        17,
+        18
+      ],
+      "stickers": [
+        {
+          "code": "ARG-01",
+          "number": 1,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ARG-02",
+          "number": 2,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ARG-03",
+          "number": 3,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ARG-04",
+          "number": 4,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ARG-05",
+          "number": 5,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ARG-06",
+          "number": 6,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ARG-07",
+          "number": 7,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ARG-08",
+          "number": 8,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ARG-09",
+          "number": 9,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ARG-10",
+          "number": 10,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ARG-11",
+          "number": 11,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ARG-12",
+          "number": 12,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ARG-13",
+          "number": 13,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ARG-14",
+          "number": 14,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ARG-15",
+          "number": 15,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ARG-16",
+          "number": 16,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ARG-17",
+          "number": 17,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ARG-18",
+          "number": 18,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ARG-19",
+          "number": 19,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ARG-20",
+          "number": 20,
+          "status": "owned",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "ALG",
+      "name": "Argelia",
+      "group": "J",
+      "ownedCount": 10,
+      "missingCount": 10,
+      "ownedNumbers": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        10,
+        11,
+        16,
+        20
+      ],
+      "missingNumbers": [
+        5,
+        8,
+        9,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19
+      ],
+      "stickers": [
+        {
+          "code": "ALG-01",
+          "number": 1,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ALG-02",
+          "number": 2,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ALG-03",
+          "number": 3,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ALG-04",
+          "number": 4,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ALG-05",
+          "number": 5,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ALG-06",
+          "number": 6,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ALG-07",
+          "number": 7,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ALG-08",
+          "number": 8,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ALG-09",
+          "number": 9,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ALG-10",
+          "number": 10,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ALG-11",
+          "number": 11,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ALG-12",
+          "number": 12,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ALG-13",
+          "number": 13,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ALG-14",
+          "number": 14,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ALG-15",
+          "number": 15,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ALG-16",
+          "number": 16,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ALG-17",
+          "number": 17,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ALG-18",
+          "number": 18,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ALG-19",
+          "number": 19,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ALG-20",
+          "number": 20,
+          "status": "owned",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "AUT",
+      "name": "Austria",
+      "group": "J",
+      "ownedCount": 15,
+      "missingCount": 5,
+      "ownedNumbers": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "missingNumbers": [
+        5,
+        12,
+        13,
+        15,
+        20
+      ],
+      "stickers": [
+        {
+          "code": "AUT-01",
+          "number": 1,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "AUT-02",
+          "number": 2,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "AUT-03",
+          "number": 3,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "AUT-04",
+          "number": 4,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "AUT-05",
+          "number": 5,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "AUT-06",
+          "number": 6,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "AUT-07",
+          "number": 7,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "AUT-08",
+          "number": 8,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "AUT-09",
+          "number": 9,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "AUT-10",
+          "number": 10,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "AUT-11",
+          "number": 11,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "AUT-12",
+          "number": 12,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "AUT-13",
+          "number": 13,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "AUT-14",
+          "number": 14,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "AUT-15",
+          "number": 15,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "AUT-16",
+          "number": 16,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "AUT-17",
+          "number": 17,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "AUT-18",
+          "number": 18,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "AUT-19",
+          "number": 19,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "AUT-20",
+          "number": 20,
+          "status": "missing",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "JOR",
+      "name": "Jordania",
+      "group": "J",
+      "ownedCount": 7,
+      "missingCount": 13,
+      "ownedNumbers": [
+        3,
+        7,
+        8,
+        9,
+        10,
+        11,
+        17
+      ],
+      "missingNumbers": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15,
+        16,
+        18,
+        19,
+        20
+      ],
+      "stickers": [
+        {
+          "code": "JOR-01",
+          "number": 1,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "JOR-02",
+          "number": 2,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "JOR-03",
+          "number": 3,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "JOR-04",
+          "number": 4,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "JOR-05",
+          "number": 5,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "JOR-06",
+          "number": 6,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "JOR-07",
+          "number": 7,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "JOR-08",
+          "number": 8,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "JOR-09",
+          "number": 9,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "JOR-10",
+          "number": 10,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "JOR-11",
+          "number": 11,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "JOR-12",
+          "number": 12,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "JOR-13",
+          "number": 13,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "JOR-14",
+          "number": 14,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "JOR-15",
+          "number": 15,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "JOR-16",
+          "number": 16,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "JOR-17",
+          "number": 17,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "JOR-18",
+          "number": 18,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "JOR-19",
+          "number": 19,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "JOR-20",
+          "number": 20,
+          "status": "missing",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "POR",
+      "name": "Portugal",
+      "group": "K",
+      "ownedCount": 3,
+      "missingCount": 17,
+      "ownedNumbers": [
+        2,
+        4,
+        8
+      ],
+      "missingNumbers": [
+        1,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stickers": [
+        {
+          "code": "POR-01",
+          "number": 1,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "POR-02",
+          "number": 2,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "POR-03",
+          "number": 3,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "POR-04",
+          "number": 4,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "POR-05",
+          "number": 5,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "POR-06",
+          "number": 6,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "POR-07",
+          "number": 7,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "POR-08",
+          "number": 8,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "POR-09",
+          "number": 9,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "POR-10",
+          "number": 10,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "POR-11",
+          "number": 11,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "POR-12",
+          "number": 12,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "POR-13",
+          "number": 13,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "POR-14",
+          "number": 14,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "POR-15",
+          "number": 15,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "POR-16",
+          "number": 16,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "POR-17",
+          "number": 17,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "POR-18",
+          "number": 18,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "POR-19",
+          "number": 19,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "POR-20",
+          "number": 20,
+          "status": "missing",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "COD",
+      "name": "República Democrática del Congo",
+      "group": "K",
+      "ownedCount": 10,
+      "missingCount": 10,
+      "ownedNumbers": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        10,
+        15,
+        18,
+        19,
+        20
+      ],
+      "missingNumbers": [
+        3,
+        6,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        16,
+        17
+      ],
+      "stickers": [
+        {
+          "code": "COD-01",
+          "number": 1,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "COD-02",
+          "number": 2,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "COD-03",
+          "number": 3,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "COD-04",
+          "number": 4,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "COD-05",
+          "number": 5,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "COD-06",
+          "number": 6,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "COD-07",
+          "number": 7,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "COD-08",
+          "number": 8,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "COD-09",
+          "number": 9,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "COD-10",
+          "number": 10,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "COD-11",
+          "number": 11,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "COD-12",
+          "number": 12,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "COD-13",
+          "number": 13,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "COD-14",
+          "number": 14,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "COD-15",
+          "number": 15,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "COD-16",
+          "number": 16,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "COD-17",
+          "number": 17,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "COD-18",
+          "number": 18,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "COD-19",
+          "number": 19,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "COD-20",
+          "number": 20,
+          "status": "owned",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "UZB",
+      "name": "Uzbekistán",
+      "group": "K",
+      "ownedCount": 9,
+      "missingCount": 11,
+      "ownedNumbers": [
+        2,
+        3,
+        6,
+        7,
+        10,
+        15,
+        17,
+        19,
+        20
+      ],
+      "missingNumbers": [
+        1,
+        4,
+        5,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        16,
+        18
+      ],
+      "stickers": [
+        {
+          "code": "UZB-01",
+          "number": 1,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "UZB-02",
+          "number": 2,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "UZB-03",
+          "number": 3,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "UZB-04",
+          "number": 4,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "UZB-05",
+          "number": 5,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "UZB-06",
+          "number": 6,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "UZB-07",
+          "number": 7,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "UZB-08",
+          "number": 8,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "UZB-09",
+          "number": 9,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "UZB-10",
+          "number": 10,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "UZB-11",
+          "number": 11,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "UZB-12",
+          "number": 12,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "UZB-13",
+          "number": 13,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "UZB-14",
+          "number": 14,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "UZB-15",
+          "number": 15,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "UZB-16",
+          "number": 16,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "UZB-17",
+          "number": 17,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "UZB-18",
+          "number": 18,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "UZB-19",
+          "number": 19,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "UZB-20",
+          "number": 20,
+          "status": "owned",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "COL",
+      "name": "Colombia",
+      "group": "K",
+      "ownedCount": 8,
+      "missingCount": 12,
+      "ownedNumbers": [
+        2,
+        6,
+        10,
+        11,
+        15,
+        17,
+        19,
+        20
+      ],
+      "missingNumbers": [
+        1,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        12,
+        13,
+        14,
+        16,
+        18
+      ],
+      "stickers": [
+        {
+          "code": "COL-01",
+          "number": 1,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "COL-02",
+          "number": 2,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "COL-03",
+          "number": 3,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "COL-04",
+          "number": 4,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "COL-05",
+          "number": 5,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "COL-06",
+          "number": 6,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "COL-07",
+          "number": 7,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "COL-08",
+          "number": 8,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "COL-09",
+          "number": 9,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "COL-10",
+          "number": 10,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "COL-11",
+          "number": 11,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "COL-12",
+          "number": 12,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "COL-13",
+          "number": 13,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "COL-14",
+          "number": 14,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "COL-15",
+          "number": 15,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "COL-16",
+          "number": 16,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "COL-17",
+          "number": 17,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "COL-18",
+          "number": 18,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "COL-19",
+          "number": 19,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "COL-20",
+          "number": 20,
+          "status": "owned",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "ENG",
+      "name": "Inglaterra",
+      "group": "L",
+      "ownedCount": 10,
+      "missingCount": 10,
+      "ownedNumbers": [
+        1,
+        5,
+        9,
+        10,
+        11,
+        12,
+        15,
+        16,
+        17,
+        20
+      ],
+      "missingNumbers": [
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        13,
+        14,
+        18,
+        19
+      ],
+      "stickers": [
+        {
+          "code": "ENG-01",
+          "number": 1,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ENG-02",
+          "number": 2,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ENG-03",
+          "number": 3,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ENG-04",
+          "number": 4,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ENG-05",
+          "number": 5,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ENG-06",
+          "number": 6,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ENG-07",
+          "number": 7,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ENG-08",
+          "number": 8,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ENG-09",
+          "number": 9,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ENG-10",
+          "number": 10,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ENG-11",
+          "number": 11,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ENG-12",
+          "number": 12,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ENG-13",
+          "number": 13,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ENG-14",
+          "number": 14,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ENG-15",
+          "number": 15,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ENG-16",
+          "number": 16,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ENG-17",
+          "number": 17,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "ENG-18",
+          "number": 18,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ENG-19",
+          "number": 19,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "ENG-20",
+          "number": 20,
+          "status": "owned",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "CRO",
+      "name": "Croacia",
+      "group": "L",
+      "ownedCount": 3,
+      "missingCount": 17,
+      "ownedNumbers": [
+        5,
+        9,
+        16
+      ],
+      "missingNumbers": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        20
+      ],
+      "stickers": [
+        {
+          "code": "CRO-01",
+          "number": 1,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CRO-02",
+          "number": 2,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CRO-03",
+          "number": 3,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CRO-04",
+          "number": 4,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CRO-05",
+          "number": 5,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CRO-06",
+          "number": 6,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CRO-07",
+          "number": 7,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CRO-08",
+          "number": 8,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CRO-09",
+          "number": 9,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CRO-10",
+          "number": 10,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CRO-11",
+          "number": 11,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CRO-12",
+          "number": 12,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CRO-13",
+          "number": 13,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CRO-14",
+          "number": 14,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CRO-15",
+          "number": 15,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CRO-16",
+          "number": 16,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "CRO-17",
+          "number": 17,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CRO-18",
+          "number": 18,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CRO-19",
+          "number": 19,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "CRO-20",
+          "number": 20,
+          "status": "missing",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "GHA",
+      "name": "Ghana",
+      "group": "L",
+      "ownedCount": 7,
+      "missingCount": 13,
+      "ownedNumbers": [
+        1,
+        3,
+        7,
+        11,
+        16,
+        17,
+        19
+      ],
+      "missingNumbers": [
+        2,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15,
+        18,
+        20
+      ],
+      "stickers": [
+        {
+          "code": "GHA-01",
+          "number": 1,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "GHA-02",
+          "number": 2,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "GHA-03",
+          "number": 3,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "GHA-04",
+          "number": 4,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "GHA-05",
+          "number": 5,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "GHA-06",
+          "number": 6,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "GHA-07",
+          "number": 7,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "GHA-08",
+          "number": 8,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "GHA-09",
+          "number": 9,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "GHA-10",
+          "number": 10,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "GHA-11",
+          "number": 11,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "GHA-12",
+          "number": 12,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "GHA-13",
+          "number": 13,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "GHA-14",
+          "number": 14,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "GHA-15",
+          "number": 15,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "GHA-16",
+          "number": 16,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "GHA-17",
+          "number": 17,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "GHA-18",
+          "number": 18,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "GHA-19",
+          "number": 19,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "GHA-20",
+          "number": 20,
+          "status": "missing",
+          "duplicates": 0
+        }
+      ]
+    },
+    {
+      "code": "PAN",
+      "name": "Panamá",
+      "group": "L",
+      "ownedCount": 7,
+      "missingCount": 13,
+      "ownedNumbers": [
+        1,
+        3,
+        7,
+        11,
+        12,
+        13,
+        17
+      ],
+      "missingNumbers": [
+        2,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        14,
+        15,
+        16,
+        18,
+        19,
+        20
+      ],
+      "stickers": [
+        {
+          "code": "PAN-01",
+          "number": 1,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "PAN-02",
+          "number": 2,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "PAN-03",
+          "number": 3,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "PAN-04",
+          "number": 4,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "PAN-05",
+          "number": 5,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "PAN-06",
+          "number": 6,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "PAN-07",
+          "number": 7,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "PAN-08",
+          "number": 8,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "PAN-09",
+          "number": 9,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "PAN-10",
+          "number": 10,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "PAN-11",
+          "number": 11,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "PAN-12",
+          "number": 12,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "PAN-13",
+          "number": 13,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "PAN-14",
+          "number": 14,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "PAN-15",
+          "number": 15,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "PAN-16",
+          "number": 16,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "PAN-17",
+          "number": 17,
+          "status": "owned",
+          "duplicates": 0
+        },
+        {
+          "code": "PAN-18",
+          "number": 18,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "PAN-19",
+          "number": 19,
+          "status": "missing",
+          "duplicates": 0
+        },
+        {
+          "code": "PAN-20",
+          "number": 20,
+          "status": "missing",
+          "duplicates": 0
+        }
+      ]
+    }
+  ]
+}
