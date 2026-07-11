@@ -104,7 +104,7 @@ function StickerPreviewCard({
               alt={`Bandera de ${teamName}`}
               height={34}
               src={flag}
-              style={{ height: "auto" }}
+              style={{ height: 34, width: 50 }}
               width={50}
             />
           </div>
@@ -325,6 +325,7 @@ export default function TeamSpread({
                   alt={`Bandera de ${groupTeam.name}`}
                   height={20}
                   src={`/flags/${groupTeam.code}.png`}
+                  style={{ height: 20, width: 30 }}
                   width={30}
                 />
 
@@ -344,6 +345,7 @@ export default function TeamSpread({
     </section>
   );
 }
+
 
 
 
