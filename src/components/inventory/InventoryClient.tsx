@@ -6,12 +6,19 @@ import {
   Check,
   ClipboardCopy,
   Copy,
+  FileDown,
+  FileSpreadsheet,
+  LoaderCircle,
   Search,
   Sticker,
 } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 
 import InventorySelect from "@/components/inventory/InventorySelect";
+import {
+  exportInventoryCsv,
+  exportInventoryPdf,
+} from "@/lib/inventoryExport";
 import { useAlbumStore } from "@/store/useAlbumStore";
 
 type InventoryMode = "missing" | "duplicates";
@@ -34,6 +41,7 @@ export default function InventoryClient() {
   const [groupFilter, setGroupFilter] = useState("all");
   const [teamFilter, setTeamFilter] = useState("all");
   const [copied, setCopied] = useState(false);
+  const [isExportingPdf, setIsExportingPdf] = useState(false);
 
   useEffect(() => {
     void useAlbumStore.persist.rehydrate();
@@ -153,6 +161,28 @@ export default function InventoryClient() {
     setGroupFilter(nextGroup);
     setTeamFilter("all");
     setCopied(false);
+  }
+
+  function handleExportCsv() {
+    exportInventoryCsv({
+      mode,
+      records,
+      totalUnits,
+    });
+  }
+
+  async function handleExportPdf() {
+    try {
+      setIsExportingPdf(true);
+
+      await exportInventoryPdf({
+        mode,
+        records,
+        totalUnits,
+      });
+    } finally {
+      setIsExportingPdf(false);
+    }
   }
 
   if (!hasHydrated) {
@@ -281,15 +311,50 @@ export default function InventoryClient() {
             value={teamFilter}
           />
 
-          <button
-            className="inventory-copy-button"
-            disabled={records.length === 0}
-            onClick={() => void copyCurrentList()}
-            type="button"
-          >
-            {copied ? <Check size={17} /> : <ClipboardCopy size={17} />}
-            {copied ? "Lista copiada" : "Copiar lista"}
-          </button>
+          <div className="inventory-export-actions">
+            <button
+              className="inventory-copy-button"
+              disabled={records.length === 0}
+              onClick={() => void copyCurrentList()}
+              type="button"
+            >
+              {copied ? (
+                <Check size={17} />
+              ) : (
+                <ClipboardCopy size={17} />
+              )}
+
+              {copied ? "Lista copiada" : "Copiar"}
+            </button>
+
+            <button
+              className="inventory-export-button"
+              disabled={records.length === 0}
+              onClick={handleExportCsv}
+              type="button"
+            >
+              <FileSpreadsheet size={17} />
+              CSV
+            </button>
+
+            <button
+              className="inventory-export-button inventory-export-pdf"
+              disabled={records.length === 0 || isExportingPdf}
+              onClick={() => void handleExportPdf()}
+              type="button"
+            >
+              {isExportingPdf ? (
+                <LoaderCircle
+                  className="inventory-export-spinner"
+                  size={17}
+                />
+              ) : (
+                <FileDown size={17} />
+              )}
+
+              {isExportingPdf ? "Generando…" : "PDF"}
+            </button>
+          </div>
         </div>
 
         <div className="inventory-results-heading">
@@ -358,4 +423,5 @@ export default function InventoryClient() {
     </main>
   );
 }
+
 

@@ -2011,3 +2011,70 @@ button {
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.18);
 }
+
+/* =========================================================
+   INVENTORY EXPORT ACTIONS
+   ========================================================= */
+
+.inventory-export-actions {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 8px;
+}
+
+.inventory-export-button {
+  display: inline-flex;
+  min-height: 46px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 0 14px;
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  border-radius: 13px;
+  background: rgba(255, 255, 255, 0.045);
+  color: #ffffff;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.inventory-export-button:hover:not(:disabled) {
+  border-color: rgba(64, 217, 208, 0.38);
+  background: rgba(64, 217, 208, 0.1);
+  color: var(--cyan);
+}
+
+.inventory-export-pdf:hover:not(:disabled) {
+  border-color: rgba(118, 87, 255, 0.48);
+  background: rgba(118, 87, 255, 0.13);
+  color: #bcaeff;
+}
+
+.inventory-export-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.inventory-export-spinner {
+  animation: inventory-spin 850ms linear infinite;
+}
+
+@keyframes inventory-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 1100px) {
+  .inventory-export-actions {
+    grid-column: 1 / -1;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 620px) {
+  .inventory-export-actions {
+    grid-template-columns: 1fr;
+  }
+}
