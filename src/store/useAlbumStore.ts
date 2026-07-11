@@ -101,20 +101,22 @@ export const useAlbumStore = create<AlbumStore>()(
               return team;
             }
 
-            return {
-              ...team,
-              stickers: team.stickers.map((sticker) => {
-                if (sticker.code !== stickerCode) {
-                  return sticker;
-                }
+            const stickers = team.stickers.map((sticker) => {
+              if (sticker.code !== stickerCode) {
+                return sticker;
+              }
 
-                return {
-                  ...sticker,
-                  status: "owned",
-                  duplicates: sticker.duplicates + 1,
-                };
-              }),
-            };
+              return {
+                ...sticker,
+                status: "owned" as const,
+                duplicates: sticker.duplicates + 1,
+              };
+            });
+
+            return recalculateTeam({
+              ...team,
+              stickers,
+            });
           }),
         }));
       },
@@ -161,3 +163,4 @@ export const useAlbumStore = create<AlbumStore>()(
     },
   ),
 );
+

@@ -1295,3 +1295,55 @@ button {
     flex-wrap: wrap;
   }
 }
+
+/* =========================================================
+   PERSISTENT DASHBOARD
+   ========================================================= */
+
+.stats-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.stat-card-duplicates .stat-icon {
+  background: rgba(64, 217, 208, 0.14);
+  color: var(--cyan);
+}
+
+.team-duplicates {
+  margin-top: 6px !important;
+  color: var(--cyan) !important;
+  font-weight: 750;
+}
+
+.dashboard-loading {
+  display: grid;
+  min-height: calc(100vh - 44px);
+  place-content: center;
+  justify-items: center;
+  gap: 8px;
+  text-align: center;
+}
+
+.dashboard-loading span {
+  color: var(--lime);
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.18em;
+}
+
+.dashboard-loading strong {
+  font-size: clamp(24px, 4vw, 42px);
+  letter-spacing: -0.045em;
+}
+
+@media (max-width: 1180px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+}
