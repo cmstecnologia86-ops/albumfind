@@ -17,6 +17,7 @@ type TeamSpreadProps = {
   groupTeams: GroupTeam[];
   ownedCount: number;
   totalCount: number;
+  ownedNumbers?: number[];
 };
 
 type PreviewStickerKind = "crest" | "player" | "squad";
@@ -55,9 +56,10 @@ const stickerDefinitions: Record<
   20: { name: "Jorge Sánchez" },
 };
 
-const previewOwnedNumbers = new Set([1, 4, 6, 8, 12, 14, 17, 20]);
-
-function buildPreviewStickers(teamCode: string): PreviewSticker[] {
+function buildPreviewStickers(
+  teamCode: string,
+  ownedNumbers: number[],
+): PreviewSticker[] {
   return Array.from({ length: 20 }, (_, index) => {
     const number = index + 1;
     const definition = stickerDefinitions[number];
@@ -66,7 +68,7 @@ function buildPreviewStickers(teamCode: string): PreviewSticker[] {
       number,
       code: `${teamCode}-${String(number).padStart(2, "0")}`,
       name: definition?.name ?? `Jugador ${number}`,
-      owned: previewOwnedNumbers.has(number),
+      owned: ownedNumbers.includes(number),
       kind: definition?.kind ?? "player",
     };
   });
@@ -102,6 +104,7 @@ function StickerPreviewCard({
               alt={`Bandera de ${teamName}`}
               height={34}
               src={flag}
+              style={{ height: "auto" }}
               width={50}
             />
           </div>
@@ -171,9 +174,10 @@ export default function TeamSpread({
   groupTeams,
   ownedCount,
   totalCount,
+  ownedNumbers = [],
 }: TeamSpreadProps) {
   const theme = getTeamTheme(teamCode, teamName);
-  const stickers = buildPreviewStickers(teamCode);
+  const stickers = buildPreviewStickers(teamCode, ownedNumbers);
   const missingCount = totalCount - ownedCount;
 
   const completionPercentage =
@@ -231,6 +235,7 @@ export default function TeamSpread({
               alt={`Bandera de ${teamName}`}
               height={42}
               src={theme.flag}
+              style={{ height: "auto" }}
               width={64}
             />
             <span>{theme.identity.association}</span>
@@ -335,5 +340,8 @@ export default function TeamSpread({
     </section>
   );
 }
+
+
+
 
 

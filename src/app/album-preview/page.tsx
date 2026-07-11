@@ -1,25 +1,6 @@
 import Link from "next/link";
 
-import TeamSpread from "@/components/album/TeamSpread";
-
-const mexicoGroup = [
-  {
-    code: "MEX",
-    name: "México",
-  },
-  {
-    code: "RSA",
-    name: "Sudáfrica",
-  },
-  {
-    code: "KOR",
-    name: "Corea del Sur",
-  },
-  {
-    code: "CZE",
-    name: "Chequia",
-  },
-];
+import AlbumPreviewClient from "@/components/album/AlbumPreviewClient";
 
 export default function AlbumPreviewPage() {
   return (
@@ -29,7 +10,7 @@ export default function AlbumPreviewPage() {
           <span>Laboratorio visual</span>
           <h1>Vista nacional del álbum</h1>
           <p>
-            Primera propuesta de identidad editorial aplicada a México.
+            Plantilla editorial conectada al inventario persistente real.
           </p>
         </div>
 
@@ -38,21 +19,13 @@ export default function AlbumPreviewPage() {
         </Link>
       </div>
 
-      <TeamSpread
-        group="A"
-        groupTeams={mexicoGroup}
-        ownedCount={8}
-        teamCode="MEX"
-        teamName="México"
-        totalCount={20}
-      />
+      <AlbumPreviewClient />
 
       <div className="album-preview-note">
-        <strong>Vista de prueba</strong>
+        <strong>Vista dinámica</strong>
         <p>
-          Esta página todavía no utiliza las láminas reales. Se emplea
-          únicamente para aprobar la estructura, la escala y la identidad
-          visual antes de integrarla al álbum interactivo.
+          Los estados obtenida y faltante provienen de la colección
+          almacenada en el navegador.
         </p>
       </div>
     </main>
