@@ -39,3 +39,14 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Local player source PDFs
+src/players/
+src/players.zip
+
+# Generated extraction workspace
+work/
+
+# Local inspection outputs
+player-pdf-inspection.csv
+players-file-names-diagnostic.csv

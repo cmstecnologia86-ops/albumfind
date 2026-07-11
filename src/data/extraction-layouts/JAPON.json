@@ -1,0 +1,180 @@
+{
+  "teamFolder": "JAPON",
+  "teamCode": "JPN",
+  "renderedPageSize": {
+    "width": 1786,
+    "height": 2526
+  },
+  "items": [
+    {
+      "sourceId": "JPN-SRC-01",
+      "page": 1,
+      "x": 55,
+      "y": 55,
+      "width": 410,
+      "height": 580
+    },
+    {
+      "sourceId": "JPN-SRC-02",
+      "page": 1,
+      "x": 470,
+      "y": 55,
+      "width": 410,
+      "height": 580
+    },
+    {
+      "sourceId": "JPN-SRC-03",
+      "page": 1,
+      "x": 885,
+      "y": 55,
+      "width": 410,
+      "height": 580
+    },
+    {
+      "sourceId": "JPN-SRC-04",
+      "page": 1,
+      "x": 1300,
+      "y": 55,
+      "width": 410,
+      "height": 580
+    },
+    {
+      "sourceId": "JPN-SRC-05",
+      "page": 1,
+      "x": 55,
+      "y": 635,
+      "width": 410,
+      "height": 580
+    },
+    {
+      "sourceId": "JPN-SRC-06",
+      "page": 1,
+      "x": 470,
+      "y": 635,
+      "width": 410,
+      "height": 580
+    },
+    {
+      "sourceId": "JPN-SRC-07",
+      "page": 1,
+      "x": 885,
+      "y": 635,
+      "width": 410,
+      "height": 580
+    },
+    {
+      "sourceId": "JPN-SRC-08",
+      "page": 1,
+      "x": 1300,
+      "y": 635,
+      "width": 410,
+      "height": 580
+    },
+    {
+      "sourceId": "JPN-SRC-09",
+      "page": 1,
+      "x": 55,
+      "y": 1215,
+      "width": 410,
+      "height": 580
+    },
+    {
+      "sourceId": "JPN-SRC-10",
+      "page": 1,
+      "x": 470,
+      "y": 1215,
+      "width": 410,
+      "height": 580
+    },
+    {
+      "sourceId": "JPN-SRC-11",
+      "page": 1,
+      "x": 885,
+      "y": 1215,
+      "width": 410,
+      "height": 580
+    },
+    {
+      "sourceId": "JPN-SRC-12",
+      "page": 1,
+      "x": 1300,
+      "y": 1215,
+      "width": 410,
+      "height": 580
+    },
+    {
+      "sourceId": "JPN-SRC-13",
+      "page": 1,
+      "x": 55,
+      "y": 1795,
+      "width": 410,
+      "height": 580
+    },
+    {
+      "sourceId": "JPN-SRC-14",
+      "page": 1,
+      "x": 470,
+      "y": 1795,
+      "width": 410,
+      "height": 580
+    },
+    {
+      "sourceId": "JPN-SRC-15",
+      "page": 1,
+      "x": 885,
+      "y": 1795,
+      "width": 410,
+      "height": 580
+    },
+    {
+      "sourceId": "JPN-SRC-16",
+      "page": 1,
+      "x": 1300,
+      "y": 1795,
+      "width": 410,
+      "height": 580
+    },
+    {
+      "sourceId": "JPN-SRC-17",
+      "page": 2,
+      "x": 55,
+      "y": 55,
+      "width": 410,
+      "height": 580
+    },
+    {
+      "sourceId": "JPN-SRC-18",
+      "page": 2,
+      "x": 470,
+      "y": 55,
+      "width": 410,
+      "height": 580
+    },
+    {
+      "sourceId": "JPN-SRC-19",
+      "page": 2,
+      "x": 885,
+      "y": 55,
+      "width": 410,
+      "height": 580
+    },
+    {
+      "sourceId": "JPN-SRC-20",
+      "page": 2,
+      "x": 1300,
+      "y": 55,
+      "width": 410,
+      "height": 580
+    },
+    {
+      "sourceId": "JPN-SRC-21",
+      "page": 2,
+      "x": 55,
+      "y": 635,
+      "width": 410,
+      "height": 580,
+      "classification": "squad-duplicate",
+      "include": false
+    }
+  ]
+}
