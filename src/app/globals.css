@@ -1155,3 +1155,143 @@ button {
   font-size: clamp(24px, 4vw, 42px);
   letter-spacing: -0.045em;
 }
+
+/* =========================================================
+   ALBUM EDITABLE STATE
+   ========================================================= */
+
+.album-toolbar-actions {
+  display: flex;
+  justify-self: end;
+  align-items: center;
+  gap: 12px;
+}
+
+.album-toolbar-actions > button {
+  display: inline-flex;
+  min-height: 34px;
+  align-items: center;
+  gap: 7px;
+  padding: 0 11px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.055);
+  color: #bfc3d2;
+  font-size: 11px;
+  font-weight: 750;
+}
+
+.album-toolbar-actions > button:hover {
+  border-color: rgba(255, 255, 255, 0.24);
+  color: #ffffff;
+}
+
+.album-sticker-slot {
+  position: relative;
+  display: block;
+  min-height: 122px;
+  padding: 8px;
+}
+
+.album-sticker-toggle {
+  display: grid;
+  grid-template-columns: 74px minmax(0, 1fr);
+  gap: 10px;
+  width: 100%;
+  align-items: center;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  text-align: left;
+}
+
+.album-sticker-toggle:focus-visible {
+  border-radius: 10px;
+  outline: 3px solid
+    color-mix(in srgb, var(--album-accent) 55%, transparent);
+  outline-offset: 3px;
+}
+
+.album-sticker-art {
+  width: 74px;
+  height: 70px;
+}
+
+.album-sticker-meta small {
+  margin-top: 4px;
+  color: #858795;
+  font-size: 8px;
+  line-height: 1.2;
+}
+
+.duplicate-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 28px;
+  margin-top: 7px;
+  padding-top: 6px;
+  border-top: 1px solid rgba(30, 32, 43, 0.1);
+}
+
+.duplicate-control > span {
+  color: #717482;
+  font-size: 9px;
+  font-weight: 750;
+}
+
+.duplicate-control > div {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.duplicate-control button {
+  display: grid;
+  width: 23px;
+  height: 23px;
+  place-items: center;
+  border: 1px solid rgba(30, 32, 43, 0.14);
+  border-radius: 7px;
+  background: rgba(255, 255, 255, 0.7);
+  color: #292b36;
+}
+
+.duplicate-control button:hover:not(:disabled) {
+  border-color: var(--album-accent);
+  background: var(--album-accent);
+  color: #ffffff;
+}
+
+.duplicate-control button:disabled {
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+
+.duplicate-control strong {
+  min-width: 16px;
+  color: #252733;
+  font-size: 11px;
+  text-align: center;
+}
+
+.album-save-message {
+  margin: 14px auto 0;
+  color: #858a9c;
+  font-size: 11px;
+  text-align: center;
+}
+
+@media (max-width: 680px) {
+  .album-toolbar-actions > button {
+    width: 34px;
+    padding: 0;
+    justify-content: center;
+    font-size: 0;
+  }
+
+  .album-team-summary {
+    flex-wrap: wrap;
+  }
+}

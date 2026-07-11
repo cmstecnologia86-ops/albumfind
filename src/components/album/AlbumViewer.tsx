@@ -1,48 +1,24 @@
 "use client";
 
+import type { CSSProperties, MouseEvent } from "react";
+
 import Link from "next/link";
 import {
   ArrowLeft,
   ChevronLeft,
   ChevronRight,
   Grid3X3,
+  Minus,
+  Plus,
+  RotateCcw,
 } from "lucide-react";
 import { useSearchParams } from "next/navigation";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
-import collectionSource from "@/data/my-collection.json";
-
-type StickerStatus = "owned" | "missing";
-
-type Sticker = {
-  code: string;
-  number: number;
-  status: StickerStatus;
-  duplicates: number;
-};
-
-type Team = {
-  code: string;
-  name: string;
-  group: string;
-  ownedCount: number;
-  missingCount: number;
-  stickers: Sticker[];
-};
-
-type CollectionData = {
-  totals: {
-    teams: number;
-    stickers: number;
-    owned: number;
-    missing: number;
-    duplicates: number;
-    completionPercentage: number;
-  };
-  teams: Team[];
-};
-
-const collection = collectionSource as CollectionData;
+import {
+  type Sticker,
+  useAlbumStore,
+} from "@/store/useAlbumStore";
 
 const groupColors: Record<string, string> = {
   A: "#19b7a2",
@@ -59,61 +35,181 @@ const groupColors: Record<string, string> = {
   L: "#5ea6cf",
 };
 
-function clampIndex(index: number) {
-  return Math.max(0, Math.min(index, collection.teams.length - 1));
+type TurnDirection = "next" | "previous";
+
+function StickerSlot({
+  sticker,
+  teamCode,
+}: {
+  sticker: Sticker;
+  teamCode: string;
+}) {
+  const toggleSticker = useAlbumStore((state) => state.toggleSticker);
+  const incrementDuplicate = useAlbumStore(
+    (state) => state.incrementDuplicate,
+  );
+  const decrementDuplicate = useAlbumStore(
+    (state) => state.decrementDuplicate,
+  );
+
+  const isOwned = sticker.status === "owned";
+
+  function handleControlClick(event: MouseEvent<HTMLButtonElement>) {
+    event.stopPropagation();
+  }
+
+  return (
+    <article
+      className={`album-sticker-slot ${
+        isOwned ? "album-sticker-owned" : "album-sticker-missing"
+      }`}
+    >
+      <button
+        aria-label={`${sticker.code}: ${
+          isOwned ? "marcar como faltante" : "marcar como obtenida"
+        }`}
+        className="album-sticker-toggle"
+        onClick={() => toggleSticker(teamCode, sticker.code)}
+        type="button"
+      >
+        <div className="album-sticker-art">
+          <span>{teamCode}</span>
+          <strong>{sticker.number}</strong>
+        </div>
+
+        <div className="album-sticker-meta">
+          <strong>{sticker.code}</strong>
+          <span>{isOwned ? "La tengo" : "Me falta"}</span>
+          <small>
+            {isOwned
+              ? "Pulsa para marcar faltante"
+              : "Pulsa para agregar"}
+          </small>
+        </div>
+      </button>
+
+      <div className="duplicate-control">
+        <span>Repetidas</span>
+
+        <div>
+          <button
+            aria-label={`Quitar repetida de ${sticker.code}`}
+            disabled={!isOwned || sticker.duplicates === 0}
+            onClick={(event) => {
+              handleControlClick(event);
+              decrementDuplicate(teamCode, sticker.code);
+            }}
+            type="button"
+          >
+            <Minus size={13} />
+          </button>
+
+          <strong>{sticker.duplicates}</strong>
+
+          <button
+            aria-label={`Agregar repetida a ${sticker.code}`}
+            onClick={(event) => {
+              handleControlClick(event);
+              incrementDuplicate(teamCode, sticker.code);
+            }}
+            type="button"
+          >
+            <Plus size={13} />
+          </button>
+        </div>
+      </div>
+    </article>
+  );
 }
 
 export default function AlbumViewer() {
   const searchParams = useSearchParams();
   const requestedTeam = searchParams.get("team")?.toUpperCase();
 
+  const teams = useAlbumStore((state) => state.teams);
+  const hasHydrated = useAlbumStore((state) => state.hasHydrated);
+  const resetCollection = useAlbumStore((state) => state.resetCollection);
+
   const initialIndex = useMemo(() => {
     if (!requestedTeam) {
       return 0;
     }
 
-    const foundIndex = collection.teams.findIndex(
+    const foundIndex = teams.findIndex(
       (team) => team.code === requestedTeam,
     );
 
     return foundIndex >= 0 ? foundIndex : 0;
-  }, [requestedTeam]);
+  }, [requestedTeam, teams]);
 
   const [currentIndex, setCurrentIndex] = useState(initialIndex);
-  const [turnDirection, setTurnDirection] = useState<"next" | "previous">(
-    "next",
-  );
+  const [turnDirection, setTurnDirection] =
+    useState<TurnDirection>("next");
 
-  const currentTeam = collection.teams[currentIndex];
+  useEffect(() => {
+    void useAlbumStore.persist.rehydrate();
+  }, []);
+
+
+  if (!hasHydrated) {
+    return (
+      <main className="album-page-shell">
+        <div className="album-loading">
+          <span>ALBUMFIND</span>
+          <strong>Cargando tu colección…</strong>
+        </div>
+      </main>
+    );
+  }
+
+  const safeIndex = Math.min(currentIndex, teams.length - 1);
+  const currentTeam = teams[safeIndex];
   const leftStickers = currentTeam.stickers.slice(0, 10);
   const rightStickers = currentTeam.stickers.slice(10, 20);
   const accent = groupColors[currentTeam.group] ?? "#7657ff";
 
-  function goToIndex(index: number, direction: "next" | "previous") {
+  const duplicateTotal = currentTeam.stickers.reduce(
+    (total, sticker) => total + sticker.duplicates,
+    0,
+  );
+
+  function goToIndex(index: number, direction: TurnDirection) {
+    const nextIndex = Math.max(
+      0,
+      Math.min(index, teams.length - 1),
+    );
+
     setTurnDirection(direction);
-    setCurrentIndex(clampIndex(index));
+    setCurrentIndex(nextIndex);
   }
 
   function goPrevious() {
-    if (currentIndex === 0) {
-      return;
+    if (safeIndex > 0) {
+      goToIndex(safeIndex - 1, "previous");
     }
-
-    goToIndex(currentIndex - 1, "previous");
   }
 
   function goNext() {
-    if (currentIndex === collection.teams.length - 1) {
-      return;
+    if (safeIndex < teams.length - 1) {
+      goToIndex(safeIndex + 1, "next");
     }
+  }
 
-    goToIndex(currentIndex + 1, "next");
+  function handleReset() {
+    const confirmed = window.confirm(
+      "¿Restaurar el inventario inicial? Se eliminarán los cambios guardados en este navegador.",
+    );
+
+    if (confirmed) {
+      resetCollection();
+      setCurrentIndex(initialIndex);
+    }
   }
 
   return (
     <main
       className="album-page-shell"
-      style={{ "--album-accent": accent } as React.CSSProperties}
+      style={{ "--album-accent": accent } as CSSProperties}
     >
       <header className="album-toolbar">
         <Link className="album-back-link" href="/">
@@ -126,9 +222,16 @@ export default function AlbumViewer() {
           <strong>Álbum Mundial 2026</strong>
         </div>
 
-        <div className="album-position">
-          <Grid3X3 size={17} />
-          {currentIndex + 1} de {collection.teams.length}
+        <div className="album-toolbar-actions">
+          <button onClick={handleReset} type="button">
+            <RotateCcw size={15} />
+            Restaurar
+          </button>
+
+          <div className="album-position">
+            <Grid3X3 size={17} />
+            {safeIndex + 1} de {teams.length}
+          </div>
         </div>
       </header>
 
@@ -143,15 +246,20 @@ export default function AlbumViewer() {
             <span>
               <strong>{currentTeam.ownedCount}</strong> tengo
             </span>
+
             <span>
               <strong>{currentTeam.missingCount}</strong> faltan
+            </span>
+
+            <span>
+              <strong>{duplicateTotal}</strong> repetidas
             </span>
           </div>
         </div>
 
         <div
           className={`album-book album-turn-${turnDirection}`}
-          key={currentTeam.code}
+          key={`${currentTeam.code}-${turnDirection}`}
         >
           <section className="album-sheet album-sheet-left">
             <div className="album-team-header">
@@ -165,31 +273,16 @@ export default function AlbumViewer() {
 
             <div className="album-sticker-grid">
               {leftStickers.map((sticker) => (
-                <article
-                  className={`album-sticker-slot ${
-                    sticker.status === "owned"
-                      ? "album-sticker-owned"
-                      : "album-sticker-missing"
-                  }`}
+                <StickerSlot
                   key={sticker.code}
-                >
-                  <div className="album-sticker-art">
-                    <span>{currentTeam.code}</span>
-                    <strong>{sticker.number}</strong>
-                  </div>
-
-                  <div className="album-sticker-meta">
-                    <strong>{sticker.code}</strong>
-                    <span>
-                      {sticker.status === "owned" ? "La tengo" : "Me falta"}
-                    </span>
-                  </div>
-                </article>
+                  sticker={sticker}
+                  teamCode={currentTeam.code}
+                />
               ))}
             </div>
 
             <div className="album-page-number">
-              Página {currentIndex * 2 + 1}
+              Página {safeIndex * 2 + 1}
             </div>
           </section>
 
@@ -207,38 +300,23 @@ export default function AlbumViewer() {
 
             <div className="album-sticker-grid">
               {rightStickers.map((sticker) => (
-                <article
-                  className={`album-sticker-slot ${
-                    sticker.status === "owned"
-                      ? "album-sticker-owned"
-                      : "album-sticker-missing"
-                  }`}
+                <StickerSlot
                   key={sticker.code}
-                >
-                  <div className="album-sticker-art">
-                    <span>{currentTeam.code}</span>
-                    <strong>{sticker.number}</strong>
-                  </div>
-
-                  <div className="album-sticker-meta">
-                    <strong>{sticker.code}</strong>
-                    <span>
-                      {sticker.status === "owned" ? "La tengo" : "Me falta"}
-                    </span>
-                  </div>
-                </article>
+                  sticker={sticker}
+                  teamCode={currentTeam.code}
+                />
               ))}
             </div>
 
             <div className="album-page-number album-page-number-right">
-              Página {currentIndex * 2 + 2}
+              Página {safeIndex * 2 + 2}
             </div>
           </section>
 
           <button
             aria-label="Selección anterior"
             className="album-corner-control album-corner-left"
-            disabled={currentIndex === 0}
+            disabled={safeIndex === 0}
             onClick={goPrevious}
             type="button"
           >
@@ -248,7 +326,7 @@ export default function AlbumViewer() {
           <button
             aria-label="Selección siguiente"
             className="album-corner-control album-corner-right"
-            disabled={currentIndex === collection.teams.length - 1}
+            disabled={safeIndex === teams.length - 1}
             onClick={goNext}
             type="button"
           >
@@ -258,7 +336,7 @@ export default function AlbumViewer() {
 
         <nav className="album-navigation" aria-label="Navegación del álbum">
           <button
-            disabled={currentIndex === 0}
+            disabled={safeIndex === 0}
             onClick={goPrevious}
             type="button"
           >
@@ -270,14 +348,14 @@ export default function AlbumViewer() {
             aria-label="Seleccionar equipo"
             onChange={(event) => {
               const nextIndex = Number(event.target.value);
-              const direction =
-                nextIndex >= currentIndex ? "next" : "previous";
+              const direction: TurnDirection =
+                nextIndex >= safeIndex ? "next" : "previous";
 
               goToIndex(nextIndex, direction);
             }}
-            value={currentIndex}
+            value={safeIndex}
           >
-            {collection.teams.map((team, index) => (
+            {teams.map((team, index) => (
               <option key={team.code} value={index}>
                 Grupo {team.group} · {team.name}
               </option>
@@ -285,7 +363,7 @@ export default function AlbumViewer() {
           </select>
 
           <button
-            disabled={currentIndex === collection.teams.length - 1}
+            disabled={safeIndex === teams.length - 1}
             onClick={goNext}
             type="button"
           >
@@ -293,7 +371,12 @@ export default function AlbumViewer() {
             <ChevronRight size={19} />
           </button>
         </nav>
+
+        <p className="album-save-message">
+          Los cambios se guardan automáticamente en este navegador.
+        </p>
       </section>
     </main>
   );
 }
+
