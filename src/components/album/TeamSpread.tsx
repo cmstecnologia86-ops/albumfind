@@ -222,7 +222,18 @@ export default function TeamSpread({
           <div className="editorial-title-block">
             <span>{theme.identity.eyebrow}</span>
 
-            <h1>
+            <h1
+              className={[
+                "editorial-team-title",
+                teamName.length >= 19
+                  ? "editorial-team-title-long"
+                  : teamName.length >= 11
+                    ? "editorial-team-title-medium"
+                    : "",
+              ]
+                .filter(Boolean)
+                .join(" ")}
+            >
               <small>We are</small>
               {teamName}
             </h1>
@@ -230,14 +241,7 @@ export default function TeamSpread({
             <p>{theme.identity.slogan}</p>
           </div>
 
-          <div className="editorial-association">
-            <Image
-              alt={`Bandera de ${teamName}`}
-              height={42}
-              src={theme.flag}
-              style={{ height: "auto" }}
-              width={64}
-            />
+          <div className="editorial-association editorial-association-text">
             <span>{theme.identity.association}</span>
           </div>
         </header>
@@ -340,6 +344,7 @@ export default function TeamSpread({
     </section>
   );
 }
+
 
 
 

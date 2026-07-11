@@ -5232,3 +5232,346 @@ button {
   margin-bottom: 0;
 }
 
+
+/* =========================================================
+   ALBUM PREVIEW — TEAM NAVIGATION
+   ========================================================= */
+
+.album-preview-team-nav {
+  display: grid;
+  width: min(1080px, calc(100% - 32px));
+  grid-template-columns:
+    minmax(180px, 1fr)
+    minmax(240px, 1.35fr)
+    minmax(180px, 1fr);
+  gap: 10px;
+  align-items: stretch;
+  margin: 0 auto 18px;
+}
+
+.album-preview-team-nav button,
+.album-preview-team-nav label {
+  display: grid;
+  min-width: 0;
+  gap: 4px;
+  padding: 10px 13px;
+  border: 1px solid rgba(28, 52, 48, 0.13);
+  border-radius: 11px;
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 5px 15px rgba(19, 42, 38, 0.06);
+}
+
+.album-preview-team-nav button {
+  cursor: pointer;
+  font: inherit;
+  text-align: left;
+  transition:
+    transform 150ms ease,
+    border-color 150ms ease,
+    box-shadow 150ms ease;
+}
+
+.album-preview-team-nav button:last-child {
+  text-align: right;
+}
+
+.album-preview-team-nav button:hover {
+  transform: translateY(-1px);
+  border-color: rgba(28, 52, 48, 0.3);
+  box-shadow: 0 8px 20px rgba(19, 42, 38, 0.1);
+}
+
+.album-preview-team-nav span {
+  color: rgba(25, 53, 48, 0.58);
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.album-preview-team-nav strong {
+  overflow: hidden;
+  color: #193530;
+  font-size: 11px;
+  font-weight: 900;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.album-preview-team-nav select {
+  width: 100%;
+  min-width: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: #193530;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 850;
+  cursor: pointer;
+}
+
+@media (max-width: 820px) {
+  .album-preview-team-nav {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .album-preview-team-nav label {
+    grid-column: 1 / -1;
+    grid-row: 1;
+  }
+}
+
+@media (max-width: 560px) {
+  .album-preview-team-nav {
+    width: min(100% - 20px, 1080px);
+  }
+
+  .album-preview-team-nav button strong {
+    font-size: 9px;
+  }
+}
+
+/* =========================================================
+   NATIONAL EDITORIAL TEMPLATE — DYNAMIC COUNTRY COLORS
+   ========================================================= */
+
+/* Títulos adaptativos */
+
+.editorial-team-title {
+  max-width: 100%;
+  overflow-wrap: normal;
+  white-space: nowrap;
+}
+
+.editorial-team-title-medium {
+  font-size: 46px !important;
+  letter-spacing: -0.055em;
+}
+
+.editorial-team-title-long {
+  max-width: 330px;
+  font-size: 34px !important;
+  line-height: 0.92 !important;
+  letter-spacing: -0.055em;
+  white-space: normal;
+}
+
+/* Asociación sin bandera duplicada */
+
+.editorial-association-text {
+  display: flex;
+  width: 128px;
+  min-height: 54px;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 16px;
+  text-align: right;
+}
+
+.editorial-association-text span {
+  max-width: 128px;
+  color: var(--team-ink);
+  font-size: 9px;
+  font-weight: 850;
+  line-height: 1.18;
+}
+
+/* Láminas obtenidas según cada país */
+
+.editorial-sticker.owned {
+  border-color:
+    color-mix(
+      in srgb,
+      var(--team-primary) 68%,
+      var(--team-paper)
+    );
+  background:
+    color-mix(
+      in srgb,
+      var(--team-primary) 9%,
+      white
+    );
+}
+
+.editorial-sticker.owned .editorial-sticker-top {
+  background:
+    linear-gradient(
+      145deg,
+      color-mix(in srgb, var(--team-primary) 88%, black),
+      var(--team-primary)
+    );
+  color: var(--team-accent);
+}
+
+.editorial-sticker.owned .editorial-sticker-body {
+  background:
+    color-mix(
+      in srgb,
+      var(--team-paper) 82%,
+      white
+    );
+}
+
+.editorial-sticker-check {
+  border-color:
+    color-mix(
+      in srgb,
+      var(--team-primary) 26%,
+      white
+    );
+  background: var(--team-accent);
+  color: var(--team-primary);
+}
+
+/* Lámina de emblema */
+
+.editorial-sticker.owned .editorial-crest-inner {
+  border-color:
+    color-mix(
+      in srgb,
+      var(--team-primary) 42%,
+      transparent
+    );
+  background:
+    linear-gradient(
+      145deg,
+      color-mix(in srgb, var(--team-primary) 92%, black),
+      var(--team-primary)
+    );
+}
+
+/* Cuadro del grupo según la selección */
+
+.editorial-group-panel-wide {
+  border-color:
+    color-mix(
+      in srgb,
+      var(--team-primary) 34%,
+      transparent
+    );
+  background:
+    color-mix(
+      in srgb,
+      var(--team-primary) 60%,
+      white
+    );
+}
+
+.editorial-group-table {
+  background:
+    color-mix(
+      in srgb,
+      var(--team-primary) 48%,
+      white
+    );
+}
+
+.editorial-group-table-row {
+  border-bottom-color:
+    color-mix(
+      in srgb,
+      var(--team-accent) 48%,
+      transparent
+    );
+  color: var(--team-ink);
+}
+
+.editorial-group-table-row strong,
+.editorial-group-table-row span {
+  color:
+    color-mix(
+      in srgb,
+      var(--team-ink) 88%,
+      black
+    );
+}
+
+.editorial-group-table-row.active {
+  background:
+    color-mix(
+      in srgb,
+      var(--team-accent) 38%,
+      transparent
+    );
+}
+
+.editorial-group-letter {
+  background:
+    linear-gradient(
+      155deg,
+      var(--team-primary),
+      color-mix(in srgb, var(--team-primary) 75%, black)
+    );
+  color: var(--team-accent);
+}
+
+/* Bloque ROAD TO */
+
+.editorial-roadto strong {
+  color: var(--team-primary);
+}
+
+.editorial-roadto span {
+  color: var(--team-ink);
+}
+
+/* Patrón nacional del papel */
+
+.editorial-page-pattern {
+  background-image:
+    linear-gradient(
+      30deg,
+      transparent 0 42%,
+      color-mix(in srgb, var(--team-primary) 9%, transparent) 43% 56%,
+      transparent 57%
+    ),
+    linear-gradient(
+      150deg,
+      transparent 0 42%,
+      color-mix(in srgb, var(--team-secondary) 8%, transparent) 43% 56%,
+      transparent 57%
+    );
+  background-size: 48px 32px;
+  opacity: 0.9;
+}
+
+/* Líneas y pequeños detalles */
+
+.editorial-note-panel {
+  border-color:
+    color-mix(
+      in srgb,
+      var(--team-primary) 18%,
+      transparent
+    );
+}
+
+.editorial-progress-panel > div {
+  border-color:
+    color-mix(
+      in srgb,
+      var(--team-primary) 14%,
+      transparent
+    );
+}
+
+@media (max-width: 1180px) {
+  .editorial-team-title-medium {
+    font-size: 39px !important;
+  }
+
+  .editorial-team-title-long {
+    max-width: 285px;
+    font-size: 29px !important;
+  }
+
+  .editorial-association-text {
+    width: 112px;
+  }
+
+  .editorial-association-text span {
+    max-width: 112px;
+    font-size: 8px;
+  }
+}
