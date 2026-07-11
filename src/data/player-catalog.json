@@ -1,0 +1,7017 @@
+{
+  "version": "1.0.0",
+  "schema": "albumfind-team-sticker-catalog",
+  "teamCount": 48,
+  "stickersPerTeam": 20,
+  "totalStickers": 960,
+  "teams": [
+    {
+      "teamCode": "NED",
+      "teamName": "Países Bajos",
+      "stickers": [
+        {
+          "code": "NED-01",
+          "number": 1,
+          "teamCode": "NED",
+          "kind": "emblem",
+          "name": "Emblema de Países Bajos"
+        },
+        {
+          "code": "NED-02",
+          "number": 2,
+          "teamCode": "NED",
+          "kind": "player",
+          "name": "Bart Verbruggen"
+        },
+        {
+          "code": "NED-03",
+          "number": 3,
+          "teamCode": "NED",
+          "kind": "player",
+          "name": "Virgil van Dijk"
+        },
+        {
+          "code": "NED-04",
+          "number": 4,
+          "teamCode": "NED",
+          "kind": "player",
+          "name": "Micky van de Ven"
+        },
+        {
+          "code": "NED-05",
+          "number": 5,
+          "teamCode": "NED",
+          "kind": "player",
+          "name": "Jurriën Timber"
+        },
+        {
+          "code": "NED-06",
+          "number": 6,
+          "teamCode": "NED",
+          "kind": "player",
+          "name": "Denzel Dumfries"
+        },
+        {
+          "code": "NED-07",
+          "number": 7,
+          "teamCode": "NED",
+          "kind": "player",
+          "name": "Nathan Aké"
+        },
+        {
+          "code": "NED-08",
+          "number": 8,
+          "teamCode": "NED",
+          "kind": "player",
+          "name": "Jeremie Frimpong"
+        },
+        {
+          "code": "NED-09",
+          "number": 9,
+          "teamCode": "NED",
+          "kind": "player",
+          "name": "Jan Paul van Hecke"
+        },
+        {
+          "code": "NED-10",
+          "number": 10,
+          "teamCode": "NED",
+          "kind": "player",
+          "name": "Tijjani Reijnders"
+        },
+        {
+          "code": "NED-11",
+          "number": 11,
+          "teamCode": "NED",
+          "kind": "player",
+          "name": "Ryan Gravenberch"
+        },
+        {
+          "code": "NED-12",
+          "number": 12,
+          "teamCode": "NED",
+          "kind": "player",
+          "name": "Teun Koopmeiners"
+        },
+        {
+          "code": "NED-13",
+          "number": 13,
+          "teamCode": "NED",
+          "kind": "squad",
+          "name": "Foto de equipo de Países Bajos"
+        },
+        {
+          "code": "NED-14",
+          "number": 14,
+          "teamCode": "NED",
+          "kind": "player",
+          "name": "Frenkie de Jong"
+        },
+        {
+          "code": "NED-15",
+          "number": 15,
+          "teamCode": "NED",
+          "kind": "player",
+          "name": "Xavi Simons"
+        },
+        {
+          "code": "NED-16",
+          "number": 16,
+          "teamCode": "NED",
+          "kind": "player",
+          "name": "Justin Kluivert"
+        },
+        {
+          "code": "NED-17",
+          "number": 17,
+          "teamCode": "NED",
+          "kind": "player",
+          "name": "Memphis Depay"
+        },
+        {
+          "code": "NED-18",
+          "number": 18,
+          "teamCode": "NED",
+          "kind": "player",
+          "name": "Donyell Malen"
+        },
+        {
+          "code": "NED-19",
+          "number": 19,
+          "teamCode": "NED",
+          "kind": "player",
+          "name": "Wout Weghorst"
+        },
+        {
+          "code": "NED-20",
+          "number": 20,
+          "teamCode": "NED",
+          "kind": "player",
+          "name": "Cody Gakpo"
+        }
+      ]
+    },
+    {
+      "teamCode": "ECU",
+      "teamName": "Ecuador",
+      "stickers": [
+        {
+          "code": "ECU-01",
+          "number": 1,
+          "teamCode": "ECU",
+          "kind": "emblem",
+          "name": "Emblema de Ecuador"
+        },
+        {
+          "code": "ECU-02",
+          "number": 2,
+          "teamCode": "ECU",
+          "kind": "player",
+          "name": "Hernán Galíndez"
+        },
+        {
+          "code": "ECU-03",
+          "number": 3,
+          "teamCode": "ECU",
+          "kind": "player",
+          "name": "Gonzalo Valle"
+        },
+        {
+          "code": "ECU-04",
+          "number": 4,
+          "teamCode": "ECU",
+          "kind": "player",
+          "name": "Piero Hincapié"
+        },
+        {
+          "code": "ECU-05",
+          "number": 5,
+          "teamCode": "ECU",
+          "kind": "player",
+          "name": "Pervis Estupiñán"
+        },
+        {
+          "code": "ECU-06",
+          "number": 6,
+          "teamCode": "ECU",
+          "kind": "player",
+          "name": "Willian Pacho"
+        },
+        {
+          "code": "ECU-07",
+          "number": 7,
+          "teamCode": "ECU",
+          "kind": "player",
+          "name": "Ángelo Preciado"
+        },
+        {
+          "code": "ECU-08",
+          "number": 8,
+          "teamCode": "ECU",
+          "kind": "player",
+          "name": "Joel Ordóñez"
+        },
+        {
+          "code": "ECU-09",
+          "number": 9,
+          "teamCode": "ECU",
+          "kind": "player",
+          "name": "Moisés Caicedo"
+        },
+        {
+          "code": "ECU-10",
+          "number": 10,
+          "teamCode": "ECU",
+          "kind": "player",
+          "name": "Alan Franco"
+        },
+        {
+          "code": "ECU-11",
+          "number": 11,
+          "teamCode": "ECU",
+          "kind": "player",
+          "name": "Kendry Páez"
+        },
+        {
+          "code": "ECU-12",
+          "number": 12,
+          "teamCode": "ECU",
+          "kind": "player",
+          "name": "Pedro Vite"
+        },
+        {
+          "code": "ECU-13",
+          "number": 13,
+          "teamCode": "ECU",
+          "kind": "squad",
+          "name": "Foto de equipo de Ecuador"
+        },
+        {
+          "code": "ECU-14",
+          "number": 14,
+          "teamCode": "ECU",
+          "kind": "player",
+          "name": "John Yeboah"
+        },
+        {
+          "code": "ECU-15",
+          "number": 15,
+          "teamCode": "ECU",
+          "kind": "player",
+          "name": "Leonardo Campana"
+        },
+        {
+          "code": "ECU-16",
+          "number": 16,
+          "teamCode": "ECU",
+          "kind": "player",
+          "name": "Gonzalo Plata"
+        },
+        {
+          "code": "ECU-17",
+          "number": 17,
+          "teamCode": "ECU",
+          "kind": "player",
+          "name": "Nilson Angulo"
+        },
+        {
+          "code": "ECU-18",
+          "number": 18,
+          "teamCode": "ECU",
+          "kind": "player",
+          "name": "Alan Minda"
+        },
+        {
+          "code": "ECU-19",
+          "number": 19,
+          "teamCode": "ECU",
+          "kind": "player",
+          "name": "Kevin Rodríguez"
+        },
+        {
+          "code": "ECU-20",
+          "number": 20,
+          "teamCode": "ECU",
+          "kind": "player",
+          "name": "Enner Valencia"
+        }
+      ]
+    },
+    {
+      "teamCode": "CIV",
+      "teamName": "Costa de Marfil",
+      "stickers": [
+        {
+          "code": "CIV-01",
+          "number": 1,
+          "teamCode": "CIV",
+          "kind": "emblem",
+          "name": "Emblema de Costa de Marfil"
+        },
+        {
+          "code": "CIV-02",
+          "number": 2,
+          "teamCode": "CIV",
+          "kind": "player",
+          "name": "Yahia Fofana"
+        },
+        {
+          "code": "CIV-03",
+          "number": 3,
+          "teamCode": "CIV",
+          "kind": "player",
+          "name": "Ghislain Konan"
+        },
+        {
+          "code": "CIV-04",
+          "number": 4,
+          "teamCode": "CIV",
+          "kind": "player",
+          "name": "Wilfried Singo"
+        },
+        {
+          "code": "CIV-05",
+          "number": 5,
+          "teamCode": "CIV",
+          "kind": "player",
+          "name": "Odilon Kossounou"
+        },
+        {
+          "code": "CIV-06",
+          "number": 6,
+          "teamCode": "CIV",
+          "kind": "player",
+          "name": "Evan Ndicka"
+        },
+        {
+          "code": "CIV-07",
+          "number": 7,
+          "teamCode": "CIV",
+          "kind": "player",
+          "name": "Willy Boly"
+        },
+        {
+          "code": "CIV-08",
+          "number": 8,
+          "teamCode": "CIV",
+          "kind": "player",
+          "name": "Emmanuel Agbadou"
+        },
+        {
+          "code": "CIV-09",
+          "number": 9,
+          "teamCode": "CIV",
+          "kind": "player",
+          "name": "Ousmane Diomande"
+        },
+        {
+          "code": "CIV-10",
+          "number": 10,
+          "teamCode": "CIV",
+          "kind": "player",
+          "name": "Franck Kessié"
+        },
+        {
+          "code": "CIV-11",
+          "number": 11,
+          "teamCode": "CIV",
+          "kind": "player",
+          "name": "Seko Fofana"
+        },
+        {
+          "code": "CIV-12",
+          "number": 12,
+          "teamCode": "CIV",
+          "kind": "player",
+          "name": "Ibrahim Sangaré"
+        },
+        {
+          "code": "CIV-13",
+          "number": 13,
+          "teamCode": "CIV",
+          "kind": "squad",
+          "name": "Foto de equipo de Costa de Marfil"
+        },
+        {
+          "code": "CIV-14",
+          "number": 14,
+          "teamCode": "CIV",
+          "kind": "player",
+          "name": "Jean-Philippe Gbamin"
+        },
+        {
+          "code": "CIV-15",
+          "number": 15,
+          "teamCode": "CIV",
+          "kind": "player",
+          "name": "Amad Diallo"
+        },
+        {
+          "code": "CIV-16",
+          "number": 16,
+          "teamCode": "CIV",
+          "kind": "player",
+          "name": "Sébastien Haller"
+        },
+        {
+          "code": "CIV-17",
+          "number": 17,
+          "teamCode": "CIV",
+          "kind": "player",
+          "name": "Simon Adingra"
+        },
+        {
+          "code": "CIV-18",
+          "number": 18,
+          "teamCode": "CIV",
+          "kind": "player",
+          "name": "Yan Diomande"
+        },
+        {
+          "code": "CIV-19",
+          "number": 19,
+          "teamCode": "CIV",
+          "kind": "player",
+          "name": "Evann Guessand"
+        },
+        {
+          "code": "CIV-20",
+          "number": 20,
+          "teamCode": "CIV",
+          "kind": "player",
+          "name": "Oumar Diakité"
+        }
+      ]
+    },
+    {
+      "teamCode": "CUW",
+      "teamName": "Curazao",
+      "stickers": [
+        {
+          "code": "CUW-01",
+          "number": 1,
+          "teamCode": "CUW",
+          "kind": "emblem",
+          "name": "Emblema de Curazao"
+        },
+        {
+          "code": "CUW-02",
+          "number": 2,
+          "teamCode": "CUW",
+          "kind": "player",
+          "name": "Eloy Room"
+        },
+        {
+          "code": "CUW-03",
+          "number": 3,
+          "teamCode": "CUW",
+          "kind": "player",
+          "name": "Armando Obispo"
+        },
+        {
+          "code": "CUW-04",
+          "number": 4,
+          "teamCode": "CUW",
+          "kind": "player",
+          "name": "Sherel Floranus"
+        },
+        {
+          "code": "CUW-05",
+          "number": 5,
+          "teamCode": "CUW",
+          "kind": "player",
+          "name": "Jurriën Gaari"
+        },
+        {
+          "code": "CUW-06",
+          "number": 6,
+          "teamCode": "CUW",
+          "kind": "player",
+          "name": "Joshua Brenet"
+        },
+        {
+          "code": "CUW-07",
+          "number": 7,
+          "teamCode": "CUW",
+          "kind": "player",
+          "name": "Roshon van Eijma"
+        },
+        {
+          "code": "CUW-08",
+          "number": 8,
+          "teamCode": "CUW",
+          "kind": "player",
+          "name": "Shurandy Sambo"
+        },
+        {
+          "code": "CUW-09",
+          "number": 9,
+          "teamCode": "CUW",
+          "kind": "player",
+          "name": "Livano Comenencia"
+        },
+        {
+          "code": "CUW-10",
+          "number": 10,
+          "teamCode": "CUW",
+          "kind": "player",
+          "name": "Godfried Roemeratoe"
+        },
+        {
+          "code": "CUW-11",
+          "number": 11,
+          "teamCode": "CUW",
+          "kind": "player",
+          "name": "Juninho Bacuna"
+        },
+        {
+          "code": "CUW-12",
+          "number": 12,
+          "teamCode": "CUW",
+          "kind": "player",
+          "name": "Leandro Bacuna"
+        },
+        {
+          "code": "CUW-13",
+          "number": 13,
+          "teamCode": "CUW",
+          "kind": "squad",
+          "name": "Foto de equipo de Curazao"
+        },
+        {
+          "code": "CUW-14",
+          "number": 14,
+          "teamCode": "CUW",
+          "kind": "player",
+          "name": "Tahith Chong"
+        },
+        {
+          "code": "CUW-15",
+          "number": 15,
+          "teamCode": "CUW",
+          "kind": "player",
+          "name": "Kenji Gorré"
+        },
+        {
+          "code": "CUW-16",
+          "number": 16,
+          "teamCode": "CUW",
+          "kind": "player",
+          "name": "Jearl Margaritha"
+        },
+        {
+          "code": "CUW-17",
+          "number": 17,
+          "teamCode": "CUW",
+          "kind": "player",
+          "name": "Jürgen Locadia"
+        },
+        {
+          "code": "CUW-18",
+          "number": 18,
+          "teamCode": "CUW",
+          "kind": "player",
+          "name": "Jérémy Antonisse"
+        },
+        {
+          "code": "CUW-19",
+          "number": 19,
+          "teamCode": "CUW",
+          "kind": "player",
+          "name": "Gervane Kastaneer"
+        },
+        {
+          "code": "CUW-20",
+          "number": 20,
+          "teamCode": "CUW",
+          "kind": "player",
+          "name": "Sontje Hansen"
+        }
+      ]
+    },
+    {
+      "teamCode": "GER",
+      "teamName": "Alemania",
+      "stickers": [
+        {
+          "code": "GER-01",
+          "number": 1,
+          "teamCode": "GER",
+          "kind": "emblem",
+          "name": "Emblema de Alemania"
+        },
+        {
+          "code": "GER-02",
+          "number": 2,
+          "teamCode": "GER",
+          "kind": "player",
+          "name": "Marc-André ter Stegen"
+        },
+        {
+          "code": "GER-03",
+          "number": 3,
+          "teamCode": "GER",
+          "kind": "player",
+          "name": "Jonathan Tah"
+        },
+        {
+          "code": "GER-04",
+          "number": 4,
+          "teamCode": "GER",
+          "kind": "player",
+          "name": "David Raum"
+        },
+        {
+          "code": "GER-05",
+          "number": 5,
+          "teamCode": "GER",
+          "kind": "player",
+          "name": "Nico Schlotterbeck"
+        },
+        {
+          "code": "GER-06",
+          "number": 6,
+          "teamCode": "GER",
+          "kind": "player",
+          "name": "Antonio Rüdiger"
+        },
+        {
+          "code": "GER-07",
+          "number": 7,
+          "teamCode": "GER",
+          "kind": "player",
+          "name": "Waldemar Anton"
+        },
+        {
+          "code": "GER-08",
+          "number": 8,
+          "teamCode": "GER",
+          "kind": "player",
+          "name": "Ridle Baku"
+        },
+        {
+          "code": "GER-09",
+          "number": 9,
+          "teamCode": "GER",
+          "kind": "player",
+          "name": "Maximilian Mittelstädt"
+        },
+        {
+          "code": "GER-10",
+          "number": 10,
+          "teamCode": "GER",
+          "kind": "player",
+          "name": "Joshua Kimmich"
+        },
+        {
+          "code": "GER-11",
+          "number": 11,
+          "teamCode": "GER",
+          "kind": "player",
+          "name": "Florian Wirtz"
+        },
+        {
+          "code": "GER-12",
+          "number": 12,
+          "teamCode": "GER",
+          "kind": "player",
+          "name": "Felix Nmecha"
+        },
+        {
+          "code": "GER-13",
+          "number": 13,
+          "teamCode": "GER",
+          "kind": "squad",
+          "name": "Foto de equipo de Alemania"
+        },
+        {
+          "code": "GER-14",
+          "number": 14,
+          "teamCode": "GER",
+          "kind": "player",
+          "name": "Leon Goretzka"
+        },
+        {
+          "code": "GER-15",
+          "number": 15,
+          "teamCode": "GER",
+          "kind": "player",
+          "name": "Jamal Musiala"
+        },
+        {
+          "code": "GER-16",
+          "number": 16,
+          "teamCode": "GER",
+          "kind": "player",
+          "name": "Serge Gnabry"
+        },
+        {
+          "code": "GER-17",
+          "number": 17,
+          "teamCode": "GER",
+          "kind": "player",
+          "name": "Kai Havertz"
+        },
+        {
+          "code": "GER-18",
+          "number": 18,
+          "teamCode": "GER",
+          "kind": "player",
+          "name": "Leroy Sané"
+        },
+        {
+          "code": "GER-19",
+          "number": 19,
+          "teamCode": "GER",
+          "kind": "player",
+          "name": "Karim Adeyemi"
+        },
+        {
+          "code": "GER-20",
+          "number": 20,
+          "teamCode": "GER",
+          "kind": "player",
+          "name": "Nick Woltemade"
+        }
+      ]
+    },
+    {
+      "teamCode": "TUR",
+      "teamName": "Turquía",
+      "stickers": [
+        {
+          "code": "TUR-01",
+          "number": 1,
+          "teamCode": "TUR",
+          "kind": "emblem",
+          "name": "Emblema de Turquía"
+        },
+        {
+          "code": "TUR-02",
+          "number": 2,
+          "teamCode": "TUR",
+          "kind": "player",
+          "name": "Uğurcan Çakır"
+        },
+        {
+          "code": "TUR-03",
+          "number": 3,
+          "teamCode": "TUR",
+          "kind": "player",
+          "name": "Mert Müldür"
+        },
+        {
+          "code": "TUR-04",
+          "number": 4,
+          "teamCode": "TUR",
+          "kind": "player",
+          "name": "Zeki Çelik"
+        },
+        {
+          "code": "TUR-05",
+          "number": 5,
+          "teamCode": "TUR",
+          "kind": "player",
+          "name": "Abdülkerim Bardakcı"
+        },
+        {
+          "code": "TUR-06",
+          "number": 6,
+          "teamCode": "TUR",
+          "kind": "player",
+          "name": "Çağlar Söyüncü"
+        },
+        {
+          "code": "TUR-07",
+          "number": 7,
+          "teamCode": "TUR",
+          "kind": "player",
+          "name": "Merih Demiral"
+        },
+        {
+          "code": "TUR-08",
+          "number": 8,
+          "teamCode": "TUR",
+          "kind": "player",
+          "name": "Ferdi Kadıoğlu"
+        },
+        {
+          "code": "TUR-09",
+          "number": 9,
+          "teamCode": "TUR",
+          "kind": "player",
+          "name": "Kaan Ayhan"
+        },
+        {
+          "code": "TUR-10",
+          "number": 10,
+          "teamCode": "TUR",
+          "kind": "player",
+          "name": "İsmail Yüksek"
+        },
+        {
+          "code": "TUR-11",
+          "number": 11,
+          "teamCode": "TUR",
+          "kind": "player",
+          "name": "Hakan Çalhanoğlu"
+        },
+        {
+          "code": "TUR-12",
+          "number": 12,
+          "teamCode": "TUR",
+          "kind": "player",
+          "name": "Orkun Kökçü"
+        },
+        {
+          "code": "TUR-13",
+          "number": 13,
+          "teamCode": "TUR",
+          "kind": "squad",
+          "name": "Foto de equipo de Turquía"
+        },
+        {
+          "code": "TUR-14",
+          "number": 14,
+          "teamCode": "TUR",
+          "kind": "player",
+          "name": "Arda Güler"
+        },
+        {
+          "code": "TUR-15",
+          "number": 15,
+          "teamCode": "TUR",
+          "kind": "player",
+          "name": "İrfan Can Kahveci"
+        },
+        {
+          "code": "TUR-16",
+          "number": 16,
+          "teamCode": "TUR",
+          "kind": "player",
+          "name": "Yunus Akgün"
+        },
+        {
+          "code": "TUR-17",
+          "number": 17,
+          "teamCode": "TUR",
+          "kind": "player",
+          "name": "Can Uzun"
+        },
+        {
+          "code": "TUR-18",
+          "number": 18,
+          "teamCode": "TUR",
+          "kind": "player",
+          "name": "Barış Alper Yılmaz"
+        },
+        {
+          "code": "TUR-19",
+          "number": 19,
+          "teamCode": "TUR",
+          "kind": "player",
+          "name": "Kerem Aktürkoğlu"
+        },
+        {
+          "code": "TUR-20",
+          "number": 20,
+          "teamCode": "TUR",
+          "kind": "player",
+          "name": "Kenan Yıldız"
+        }
+      ]
+    },
+    {
+      "teamCode": "AUS",
+      "teamName": "Australia",
+      "stickers": [
+        {
+          "code": "AUS-01",
+          "number": 1,
+          "teamCode": "AUS",
+          "kind": "emblem",
+          "name": "Emblema de Australia"
+        },
+        {
+          "code": "AUS-02",
+          "number": 2,
+          "teamCode": "AUS",
+          "kind": "player",
+          "name": "Mathew Ryan"
+        },
+        {
+          "code": "AUS-03",
+          "number": 3,
+          "teamCode": "AUS",
+          "kind": "player",
+          "name": "Joe Gauci"
+        },
+        {
+          "code": "AUS-04",
+          "number": 4,
+          "teamCode": "AUS",
+          "kind": "player",
+          "name": "Harry Souttar"
+        },
+        {
+          "code": "AUS-05",
+          "number": 5,
+          "teamCode": "AUS",
+          "kind": "player",
+          "name": "Alessandro Circati"
+        },
+        {
+          "code": "AUS-06",
+          "number": 6,
+          "teamCode": "AUS",
+          "kind": "player",
+          "name": "Jordan Bos"
+        },
+        {
+          "code": "AUS-07",
+          "number": 7,
+          "teamCode": "AUS",
+          "kind": "player",
+          "name": "Aziz Behich"
+        },
+        {
+          "code": "AUS-08",
+          "number": 8,
+          "teamCode": "AUS",
+          "kind": "player",
+          "name": "Cameron Burgess"
+        },
+        {
+          "code": "AUS-09",
+          "number": 9,
+          "teamCode": "AUS",
+          "kind": "player",
+          "name": "Lewis Miller"
+        },
+        {
+          "code": "AUS-10",
+          "number": 10,
+          "teamCode": "AUS",
+          "kind": "player",
+          "name": "Milos Degenek"
+        },
+        {
+          "code": "AUS-11",
+          "number": 11,
+          "teamCode": "AUS",
+          "kind": "player",
+          "name": "Jackson Irvine"
+        },
+        {
+          "code": "AUS-12",
+          "number": 12,
+          "teamCode": "AUS",
+          "kind": "player",
+          "name": "Riley McGree"
+        },
+        {
+          "code": "AUS-13",
+          "number": 13,
+          "teamCode": "AUS",
+          "kind": "squad",
+          "name": "Foto de equipo de Australia"
+        },
+        {
+          "code": "AUS-14",
+          "number": 14,
+          "teamCode": "AUS",
+          "kind": "player",
+          "name": "Aiden O’Neill"
+        },
+        {
+          "code": "AUS-15",
+          "number": 15,
+          "teamCode": "AUS",
+          "kind": "player",
+          "name": "Connor Metcalfe"
+        },
+        {
+          "code": "AUS-16",
+          "number": 16,
+          "teamCode": "AUS",
+          "kind": "player",
+          "name": "Connor Metcalfe"
+        },
+        {
+          "code": "AUS-17",
+          "number": 17,
+          "teamCode": "AUS",
+          "kind": "player",
+          "name": "Craig Goodwin"
+        },
+        {
+          "code": "AUS-18",
+          "number": 18,
+          "teamCode": "AUS",
+          "kind": "player",
+          "name": "Kusini Yengi"
+        },
+        {
+          "code": "AUS-19",
+          "number": 19,
+          "teamCode": "AUS",
+          "kind": "player",
+          "name": "Nestory Irankunda"
+        },
+        {
+          "code": "AUS-20",
+          "number": 20,
+          "teamCode": "AUS",
+          "kind": "player",
+          "name": "Mohamed Touré"
+        }
+      ]
+    },
+    {
+      "teamCode": "PAR",
+      "teamName": "Paraguay",
+      "stickers": [
+        {
+          "code": "PAR-01",
+          "number": 1,
+          "teamCode": "PAR",
+          "kind": "emblem",
+          "name": "Emblema de Paraguay"
+        },
+        {
+          "code": "PAR-02",
+          "number": 2,
+          "teamCode": "PAR",
+          "kind": "player",
+          "name": "Roberto Fernández"
+        },
+        {
+          "code": "PAR-03",
+          "number": 3,
+          "teamCode": "PAR",
+          "kind": "player",
+          "name": "Orlando Gill"
+        },
+        {
+          "code": "PAR-04",
+          "number": 4,
+          "teamCode": "PAR",
+          "kind": "player",
+          "name": "Gustavo Gómez"
+        },
+        {
+          "code": "PAR-05",
+          "number": 5,
+          "teamCode": "PAR",
+          "kind": "player",
+          "name": "Fabián Balbuena"
+        },
+        {
+          "code": "PAR-06",
+          "number": 6,
+          "teamCode": "PAR",
+          "kind": "player",
+          "name": "Juan José Cáceres"
+        },
+        {
+          "code": "PAR-07",
+          "number": 7,
+          "teamCode": "PAR",
+          "kind": "player",
+          "name": "Omar Alderete"
+        },
+        {
+          "code": "PAR-08",
+          "number": 8,
+          "teamCode": "PAR",
+          "kind": "player",
+          "name": "Júnior Alonso"
+        },
+        {
+          "code": "PAR-09",
+          "number": 9,
+          "teamCode": "PAR",
+          "kind": "player",
+          "name": "Matías Villasanti"
+        },
+        {
+          "code": "PAR-10",
+          "number": 10,
+          "teamCode": "PAR",
+          "kind": "player",
+          "name": "Diego Gómez"
+        },
+        {
+          "code": "PAR-11",
+          "number": 11,
+          "teamCode": "PAR",
+          "kind": "player",
+          "name": "Damián Bobadilla"
+        },
+        {
+          "code": "PAR-12",
+          "number": 12,
+          "teamCode": "PAR",
+          "kind": "player",
+          "name": "Andrés Cubas"
+        },
+        {
+          "code": "PAR-13",
+          "number": 13,
+          "teamCode": "PAR",
+          "kind": "squad",
+          "name": "Foto de equipo de Paraguay"
+        },
+        {
+          "code": "PAR-14",
+          "number": 14,
+          "teamCode": "PAR",
+          "kind": "player",
+          "name": "Matías Galarza Fonda"
+        },
+        {
+          "code": "PAR-15",
+          "number": 15,
+          "teamCode": "PAR",
+          "kind": "player",
+          "name": "Julio Enciso"
+        },
+        {
+          "code": "PAR-16",
+          "number": 16,
+          "teamCode": "PAR",
+          "kind": "player",
+          "name": "Alejandro Romero Gamarra"
+        },
+        {
+          "code": "PAR-17",
+          "number": 17,
+          "teamCode": "PAR",
+          "kind": "player",
+          "name": "Miguel Almirón"
+        },
+        {
+          "code": "PAR-18",
+          "number": 18,
+          "teamCode": "PAR",
+          "kind": "player",
+          "name": "Ramón Sosa"
+        },
+        {
+          "code": "PAR-19",
+          "number": 19,
+          "teamCode": "PAR",
+          "kind": "player",
+          "name": "Ángel Romero"
+        },
+        {
+          "code": "PAR-20",
+          "number": 20,
+          "teamCode": "PAR",
+          "kind": "player",
+          "name": "Antonio Sanabria"
+        }
+      ]
+    },
+    {
+      "teamCode": "USA",
+      "teamName": "Estados Unidos",
+      "stickers": [
+        {
+          "code": "USA-01",
+          "number": 1,
+          "teamCode": "USA",
+          "kind": "emblem",
+          "name": "Emblema de Estados Unidos"
+        },
+        {
+          "code": "USA-02",
+          "number": 2,
+          "teamCode": "USA",
+          "kind": "player",
+          "name": "Matt Freese"
+        },
+        {
+          "code": "USA-03",
+          "number": 3,
+          "teamCode": "USA",
+          "kind": "player",
+          "name": "Chris Richards"
+        },
+        {
+          "code": "USA-04",
+          "number": 4,
+          "teamCode": "USA",
+          "kind": "player",
+          "name": "Tim Ream"
+        },
+        {
+          "code": "USA-05",
+          "number": 5,
+          "teamCode": "USA",
+          "kind": "player",
+          "name": "Mark McKenzie"
+        },
+        {
+          "code": "USA-06",
+          "number": 6,
+          "teamCode": "USA",
+          "kind": "player",
+          "name": "Alex Freeman"
+        },
+        {
+          "code": "USA-07",
+          "number": 7,
+          "teamCode": "USA",
+          "kind": "player",
+          "name": "Antonee Robinson"
+        },
+        {
+          "code": "USA-08",
+          "number": 8,
+          "teamCode": "USA",
+          "kind": "player",
+          "name": "Tyler Adams"
+        },
+        {
+          "code": "USA-09",
+          "number": 9,
+          "teamCode": "USA",
+          "kind": "player",
+          "name": "Tanner Tessmann"
+        },
+        {
+          "code": "USA-10",
+          "number": 10,
+          "teamCode": "USA",
+          "kind": "player",
+          "name": "Weston McKennie"
+        },
+        {
+          "code": "USA-11",
+          "number": 11,
+          "teamCode": "USA",
+          "kind": "player",
+          "name": "Cristian Roldan"
+        },
+        {
+          "code": "USA-12",
+          "number": 12,
+          "teamCode": "USA",
+          "kind": "player",
+          "name": "Timothy Weah"
+        },
+        {
+          "code": "USA-13",
+          "number": 13,
+          "teamCode": "USA",
+          "kind": "squad",
+          "name": "Foto de equipo de Estados Unidos"
+        },
+        {
+          "code": "USA-14",
+          "number": 14,
+          "teamCode": "USA",
+          "kind": "player",
+          "name": "Diego Luna"
+        },
+        {
+          "code": "USA-15",
+          "number": 15,
+          "teamCode": "USA",
+          "kind": "player",
+          "name": "Malik Tillman"
+        },
+        {
+          "code": "USA-16",
+          "number": 16,
+          "teamCode": "USA",
+          "kind": "player",
+          "name": "Christian Pulisic"
+        },
+        {
+          "code": "USA-17",
+          "number": 17,
+          "teamCode": "USA",
+          "kind": "player",
+          "name": "Brenden Aaronson"
+        },
+        {
+          "code": "USA-18",
+          "number": 18,
+          "teamCode": "USA",
+          "kind": "player",
+          "name": "Ricardo Pepi"
+        },
+        {
+          "code": "USA-19",
+          "number": 19,
+          "teamCode": "USA",
+          "kind": "player",
+          "name": "Haji Wright"
+        },
+        {
+          "code": "USA-20",
+          "number": 20,
+          "teamCode": "USA",
+          "kind": "player",
+          "name": "Folarin Balogun"
+        }
+      ]
+    },
+    {
+      "teamCode": "SCO",
+      "teamName": "Escocia",
+      "stickers": [
+        {
+          "code": "SCO-01",
+          "number": 1,
+          "teamCode": "SCO",
+          "kind": "emblem",
+          "name": "Emblema de Escocia"
+        },
+        {
+          "code": "SCO-02",
+          "number": 2,
+          "teamCode": "SCO",
+          "kind": "player",
+          "name": "Angus Gunn"
+        },
+        {
+          "code": "SCO-03",
+          "number": 3,
+          "teamCode": "SCO",
+          "kind": "player",
+          "name": "Jack Hendry"
+        },
+        {
+          "code": "SCO-04",
+          "number": 4,
+          "teamCode": "SCO",
+          "kind": "player",
+          "name": "Kieran Tierney"
+        },
+        {
+          "code": "SCO-05",
+          "number": 5,
+          "teamCode": "SCO",
+          "kind": "player",
+          "name": "Aaron Hickey"
+        },
+        {
+          "code": "SCO-06",
+          "number": 6,
+          "teamCode": "SCO",
+          "kind": "player",
+          "name": "Andrew Robertson"
+        },
+        {
+          "code": "SCO-07",
+          "number": 7,
+          "teamCode": "SCO",
+          "kind": "player",
+          "name": "Scott McKenna"
+        },
+        {
+          "code": "SCO-08",
+          "number": 8,
+          "teamCode": "SCO",
+          "kind": "player",
+          "name": "John Souttar"
+        },
+        {
+          "code": "SCO-09",
+          "number": 9,
+          "teamCode": "SCO",
+          "kind": "player",
+          "name": "Anthony Ralston"
+        },
+        {
+          "code": "SCO-10",
+          "number": 10,
+          "teamCode": "SCO",
+          "kind": "player",
+          "name": "Grant Hanley"
+        },
+        {
+          "code": "SCO-11",
+          "number": 11,
+          "teamCode": "SCO",
+          "kind": "player",
+          "name": "Scott McTominay"
+        },
+        {
+          "code": "SCO-12",
+          "number": 12,
+          "teamCode": "SCO",
+          "kind": "player",
+          "name": "Billy Gilmour"
+        },
+        {
+          "code": "SCO-13",
+          "number": 13,
+          "teamCode": "SCO",
+          "kind": "squad",
+          "name": "Foto de equipo de Escocia"
+        },
+        {
+          "code": "SCO-14",
+          "number": 14,
+          "teamCode": "SCO",
+          "kind": "player",
+          "name": "Lewis Ferguson"
+        },
+        {
+          "code": "SCO-15",
+          "number": 15,
+          "teamCode": "SCO",
+          "kind": "player",
+          "name": "Ryan Christie"
+        },
+        {
+          "code": "SCO-16",
+          "number": 16,
+          "teamCode": "SCO",
+          "kind": "player",
+          "name": "Kenny McLean"
+        },
+        {
+          "code": "SCO-17",
+          "number": 17,
+          "teamCode": "SCO",
+          "kind": "player",
+          "name": "John McGinn"
+        },
+        {
+          "code": "SCO-18",
+          "number": 18,
+          "teamCode": "SCO",
+          "kind": "player",
+          "name": "Lyndon Dykes"
+        },
+        {
+          "code": "SCO-19",
+          "number": 19,
+          "teamCode": "SCO",
+          "kind": "player",
+          "name": "Che Adams"
+        },
+        {
+          "code": "SCO-20",
+          "number": 20,
+          "teamCode": "SCO",
+          "kind": "player",
+          "name": "Ben Gannon-Doak"
+        }
+      ]
+    },
+    {
+      "teamCode": "HAI",
+      "teamName": "Haití",
+      "stickers": [
+        {
+          "code": "HAI-01",
+          "number": 1,
+          "teamCode": "HAI",
+          "kind": "emblem",
+          "name": "Emblema de Haití"
+        },
+        {
+          "code": "HAI-02",
+          "number": 2,
+          "teamCode": "HAI",
+          "kind": "player",
+          "name": "Johny Placide"
+        },
+        {
+          "code": "HAI-03",
+          "number": 3,
+          "teamCode": "HAI",
+          "kind": "player",
+          "name": "Carlens Arcus"
+        },
+        {
+          "code": "HAI-04",
+          "number": 4,
+          "teamCode": "HAI",
+          "kind": "player",
+          "name": "Martin Expérience"
+        },
+        {
+          "code": "HAI-05",
+          "number": 5,
+          "teamCode": "HAI",
+          "kind": "player",
+          "name": "Jean-Kévin Duverne"
+        },
+        {
+          "code": "HAI-06",
+          "number": 6,
+          "teamCode": "HAI",
+          "kind": "player",
+          "name": "Ricardo Adé"
+        },
+        {
+          "code": "HAI-07",
+          "number": 7,
+          "teamCode": "HAI",
+          "kind": "player",
+          "name": "Duke Lacroix"
+        },
+        {
+          "code": "HAI-08",
+          "number": 8,
+          "teamCode": "HAI",
+          "kind": "player",
+          "name": "Garven Metusala"
+        },
+        {
+          "code": "HAI-09",
+          "number": 9,
+          "teamCode": "HAI",
+          "kind": "player",
+          "name": "Hannes Delcroix"
+        },
+        {
+          "code": "HAI-10",
+          "number": 10,
+          "teamCode": "HAI",
+          "kind": "player",
+          "name": "Leverton Pierre"
+        },
+        {
+          "code": "HAI-11",
+          "number": 11,
+          "teamCode": "HAI",
+          "kind": "player",
+          "name": "Danley Jean Jacques"
+        },
+        {
+          "code": "HAI-12",
+          "number": 12,
+          "teamCode": "HAI",
+          "kind": "player",
+          "name": "Jean-Ricner Bellegarde"
+        },
+        {
+          "code": "HAI-13",
+          "number": 13,
+          "teamCode": "HAI",
+          "kind": "squad",
+          "name": "Foto de equipo de Haití"
+        },
+        {
+          "code": "HAI-14",
+          "number": 14,
+          "teamCode": "HAI",
+          "kind": "player",
+          "name": "Christopher Attys"
+        },
+        {
+          "code": "HAI-15",
+          "number": 15,
+          "teamCode": "HAI",
+          "kind": "player",
+          "name": "Derrick Etienne Jr."
+        },
+        {
+          "code": "HAI-16",
+          "number": 16,
+          "teamCode": "HAI",
+          "kind": "player",
+          "name": "Josué Casimir"
+        },
+        {
+          "code": "HAI-17",
+          "number": 17,
+          "teamCode": "HAI",
+          "kind": "player",
+          "name": "Ruben Providence"
+        },
+        {
+          "code": "HAI-18",
+          "number": 18,
+          "teamCode": "HAI",
+          "kind": "player",
+          "name": "Duckens Nazon"
+        },
+        {
+          "code": "HAI-19",
+          "number": 19,
+          "teamCode": "HAI",
+          "kind": "player",
+          "name": "Louicius Don Deedson"
+        },
+        {
+          "code": "HAI-20",
+          "number": 20,
+          "teamCode": "HAI",
+          "kind": "player",
+          "name": "Frantzdy Pierrot"
+        }
+      ]
+    },
+    {
+      "teamCode": "MAR",
+      "teamName": "Marruecos",
+      "stickers": [
+        {
+          "code": "MAR-01",
+          "number": 1,
+          "teamCode": "MAR",
+          "kind": "emblem",
+          "name": "Emblema de Marruecos"
+        },
+        {
+          "code": "MAR-02",
+          "number": 2,
+          "teamCode": "MAR",
+          "kind": "player",
+          "name": "Yassine Bounou"
+        },
+        {
+          "code": "MAR-03",
+          "number": 3,
+          "teamCode": "MAR",
+          "kind": "player",
+          "name": "Munir El Kajoui"
+        },
+        {
+          "code": "MAR-04",
+          "number": 4,
+          "teamCode": "MAR",
+          "kind": "player",
+          "name": "Achraf Hakimi"
+        },
+        {
+          "code": "MAR-05",
+          "number": 5,
+          "teamCode": "MAR",
+          "kind": "player",
+          "name": "Noussair Mazraoui"
+        },
+        {
+          "code": "MAR-06",
+          "number": 6,
+          "teamCode": "MAR",
+          "kind": "player",
+          "name": "Nayef Aguerd"
+        },
+        {
+          "code": "MAR-07",
+          "number": 7,
+          "teamCode": "MAR",
+          "kind": "player",
+          "name": "Romain Saïss"
+        },
+        {
+          "code": "MAR-08",
+          "number": 8,
+          "teamCode": "MAR",
+          "kind": "player",
+          "name": "Jawad El Yamiq"
+        },
+        {
+          "code": "MAR-09",
+          "number": 9,
+          "teamCode": "MAR",
+          "kind": "player",
+          "name": "Adam Masina"
+        },
+        {
+          "code": "MAR-10",
+          "number": 10,
+          "teamCode": "MAR",
+          "kind": "player",
+          "name": "Sofyan Amrabat"
+        },
+        {
+          "code": "MAR-11",
+          "number": 11,
+          "teamCode": "MAR",
+          "kind": "player",
+          "name": "Azzedine Ounahi"
+        },
+        {
+          "code": "MAR-12",
+          "number": 12,
+          "teamCode": "MAR",
+          "kind": "player",
+          "name": "Eliesse Ben Seghir"
+        },
+        {
+          "code": "MAR-13",
+          "number": 13,
+          "teamCode": "MAR",
+          "kind": "squad",
+          "name": "Foto de equipo de Marruecos"
+        },
+        {
+          "code": "MAR-14",
+          "number": 14,
+          "teamCode": "MAR",
+          "kind": "player",
+          "name": "Bilal El Khannouss"
+        },
+        {
+          "code": "MAR-15",
+          "number": 15,
+          "teamCode": "MAR",
+          "kind": "player",
+          "name": "Ismaël Saibari"
+        },
+        {
+          "code": "MAR-16",
+          "number": 16,
+          "teamCode": "MAR",
+          "kind": "player",
+          "name": "Youssef En-Nesyri"
+        },
+        {
+          "code": "MAR-17",
+          "number": 17,
+          "teamCode": "MAR",
+          "kind": "player",
+          "name": "Abde Ezzalzouli"
+        },
+        {
+          "code": "MAR-18",
+          "number": 18,
+          "teamCode": "MAR",
+          "kind": "player",
+          "name": "Soufiane Rahimi"
+        },
+        {
+          "code": "MAR-19",
+          "number": 19,
+          "teamCode": "MAR",
+          "kind": "player",
+          "name": "Brahim Díaz"
+        },
+        {
+          "code": "MAR-20",
+          "number": 20,
+          "teamCode": "MAR",
+          "kind": "player",
+          "name": "Ayoub El Kaabi"
+        }
+      ]
+    },
+    {
+      "teamCode": "BRA",
+      "teamName": "Brasil",
+      "stickers": [
+        {
+          "code": "BRA-01",
+          "number": 1,
+          "teamCode": "BRA",
+          "kind": "emblem",
+          "name": "Emblema de Brasil"
+        },
+        {
+          "code": "BRA-02",
+          "number": 2,
+          "teamCode": "BRA",
+          "kind": "player",
+          "name": "Alisson"
+        },
+        {
+          "code": "BRA-03",
+          "number": 3,
+          "teamCode": "BRA",
+          "kind": "player",
+          "name": "Bento"
+        },
+        {
+          "code": "BRA-04",
+          "number": 4,
+          "teamCode": "BRA",
+          "kind": "player",
+          "name": "Marquinhos"
+        },
+        {
+          "code": "BRA-05",
+          "number": 5,
+          "teamCode": "BRA",
+          "kind": "player",
+          "name": "Éder Militão"
+        },
+        {
+          "code": "BRA-06",
+          "number": 6,
+          "teamCode": "BRA",
+          "kind": "player",
+          "name": "Gabriel Magalhães"
+        },
+        {
+          "code": "BRA-07",
+          "number": 7,
+          "teamCode": "BRA",
+          "kind": "player",
+          "name": "Danilo"
+        },
+        {
+          "code": "BRA-08",
+          "number": 8,
+          "teamCode": "BRA",
+          "kind": "player",
+          "name": "Wesley"
+        },
+        {
+          "code": "BRA-09",
+          "number": 9,
+          "teamCode": "BRA",
+          "kind": "player",
+          "name": "Lucas Paquetá"
+        },
+        {
+          "code": "BRA-10",
+          "number": 10,
+          "teamCode": "BRA",
+          "kind": "player",
+          "name": "Casemiro"
+        },
+        {
+          "code": "BRA-11",
+          "number": 11,
+          "teamCode": "BRA",
+          "kind": "player",
+          "name": "Bruno Guimarães"
+        },
+        {
+          "code": "BRA-12",
+          "number": 12,
+          "teamCode": "BRA",
+          "kind": "player",
+          "name": "Luiz Henrique"
+        },
+        {
+          "code": "BRA-13",
+          "number": 13,
+          "teamCode": "BRA",
+          "kind": "squad",
+          "name": "Foto de equipo de Brasil"
+        },
+        {
+          "code": "BRA-14",
+          "number": 14,
+          "teamCode": "BRA",
+          "kind": "player",
+          "name": "Vinícius Júnior"
+        },
+        {
+          "code": "BRA-15",
+          "number": 15,
+          "teamCode": "BRA",
+          "kind": "player",
+          "name": "Rodrygo"
+        },
+        {
+          "code": "BRA-16",
+          "number": 16,
+          "teamCode": "BRA",
+          "kind": "player",
+          "name": "João Pedro"
+        },
+        {
+          "code": "BRA-17",
+          "number": 17,
+          "teamCode": "BRA",
+          "kind": "player",
+          "name": "Matheus Cunha"
+        },
+        {
+          "code": "BRA-18",
+          "number": 18,
+          "teamCode": "BRA",
+          "kind": "player",
+          "name": "Gabriel Martinelli"
+        },
+        {
+          "code": "BRA-19",
+          "number": 19,
+          "teamCode": "BRA",
+          "kind": "player",
+          "name": "Raphinha"
+        },
+        {
+          "code": "BRA-20",
+          "number": 20,
+          "teamCode": "BRA",
+          "kind": "player",
+          "name": "Estêvão"
+        }
+      ]
+    },
+    {
+      "teamCode": "BIH",
+      "teamName": "Bosnia-Herzegovina",
+      "stickers": [
+        {
+          "code": "BIH-01",
+          "number": 1,
+          "teamCode": "BIH",
+          "kind": "emblem",
+          "name": "Emblema de Bosnia-Herzegovina"
+        },
+        {
+          "code": "BIH-02",
+          "number": 2,
+          "teamCode": "BIH",
+          "kind": "player",
+          "name": "Nikola Vasilj"
+        },
+        {
+          "code": "BIH-03",
+          "number": 3,
+          "teamCode": "BIH",
+          "kind": "player",
+          "name": "Amar Dedić"
+        },
+        {
+          "code": "BIH-04",
+          "number": 4,
+          "teamCode": "BIH",
+          "kind": "player",
+          "name": "Sead Kolašinac"
+        },
+        {
+          "code": "BIH-05",
+          "number": 5,
+          "teamCode": "BIH",
+          "kind": "player",
+          "name": "Tarik Muharemović"
+        },
+        {
+          "code": "BIH-06",
+          "number": 6,
+          "teamCode": "BIH",
+          "kind": "player",
+          "name": "Haris Hajradinović"
+        },
+        {
+          "code": "BIH-07",
+          "number": 7,
+          "teamCode": "BIH",
+          "kind": "player",
+          "name": "Nikola Katić"
+        },
+        {
+          "code": "BIH-08",
+          "number": 8,
+          "teamCode": "BIH",
+          "kind": "player",
+          "name": "Amir Hadžiahmetović"
+        },
+        {
+          "code": "BIH-09",
+          "number": 9,
+          "teamCode": "BIH",
+          "kind": "player",
+          "name": "Benjamin Tahirović"
+        },
+        {
+          "code": "BIH-10",
+          "number": 10,
+          "teamCode": "BIH",
+          "kind": "player",
+          "name": "Armin Gigović"
+        },
+        {
+          "code": "BIH-11",
+          "number": 11,
+          "teamCode": "BIH",
+          "kind": "player",
+          "name": "Ivan Šunjić"
+        },
+        {
+          "code": "BIH-12",
+          "number": 12,
+          "teamCode": "BIH",
+          "kind": "player",
+          "name": "Ivan Bašić"
+        },
+        {
+          "code": "BIH-13",
+          "number": 13,
+          "teamCode": "BIH",
+          "kind": "squad",
+          "name": "Foto de equipo de Bosnia-Herzegovina"
+        },
+        {
+          "code": "BIH-14",
+          "number": 14,
+          "teamCode": "BIH",
+          "kind": "player",
+          "name": "Dženis Burnić"
+        },
+        {
+          "code": "BIH-15",
+          "number": 15,
+          "teamCode": "BIH",
+          "kind": "player",
+          "name": "Esmir Bajraktarević"
+        },
+        {
+          "code": "BIH-16",
+          "number": 16,
+          "teamCode": "BIH",
+          "kind": "player",
+          "name": "Amar Memić"
+        },
+        {
+          "code": "BIH-17",
+          "number": 17,
+          "teamCode": "BIH",
+          "kind": "player",
+          "name": "Ermedin Demirović"
+        },
+        {
+          "code": "BIH-18",
+          "number": 18,
+          "teamCode": "BIH",
+          "kind": "player",
+          "name": "Edin Džeko"
+        },
+        {
+          "code": "BIH-19",
+          "number": 19,
+          "teamCode": "BIH",
+          "kind": "player",
+          "name": "Samed Baždar"
+        },
+        {
+          "code": "BIH-20",
+          "number": 20,
+          "teamCode": "BIH",
+          "kind": "player",
+          "name": "Haris Tabaković"
+        }
+      ]
+    },
+    {
+      "teamCode": "CAN",
+      "teamName": "Canadá",
+      "stickers": [
+        {
+          "code": "CAN-01",
+          "number": 1,
+          "teamCode": "CAN",
+          "kind": "emblem",
+          "name": "Emblema de Canadá"
+        },
+        {
+          "code": "CAN-02",
+          "number": 2,
+          "teamCode": "CAN",
+          "kind": "player",
+          "name": "Dayne St. Clair"
+        },
+        {
+          "code": "CAN-03",
+          "number": 3,
+          "teamCode": "CAN",
+          "kind": "player",
+          "name": "Alphonso Davies"
+        },
+        {
+          "code": "CAN-04",
+          "number": 4,
+          "teamCode": "CAN",
+          "kind": "player",
+          "name": "Alistair Johnston"
+        },
+        {
+          "code": "CAN-05",
+          "number": 5,
+          "teamCode": "CAN",
+          "kind": "player",
+          "name": "Samuel Adekugbe"
+        },
+        {
+          "code": "CAN-06",
+          "number": 6,
+          "teamCode": "CAN",
+          "kind": "player",
+          "name": "Stephen Eustáquio"
+        },
+        {
+          "code": "CAN-07",
+          "number": 7,
+          "teamCode": "CAN",
+          "kind": "player",
+          "name": "Derek Cornelius"
+        },
+        {
+          "code": "CAN-08",
+          "number": 8,
+          "teamCode": "CAN",
+          "kind": "player",
+          "name": "Moïse Bombito"
+        },
+        {
+          "code": "CAN-09",
+          "number": 9,
+          "teamCode": "CAN",
+          "kind": "player",
+          "name": "Kamal Miller"
+        },
+        {
+          "code": "CAN-10",
+          "number": 10,
+          "teamCode": "CAN",
+          "kind": "player",
+          "name": "Richie Laryea"
+        },
+        {
+          "code": "CAN-11",
+          "number": 11,
+          "teamCode": "CAN",
+          "kind": "player",
+          "name": "Ismaël Koné"
+        },
+        {
+          "code": "CAN-12",
+          "number": 12,
+          "teamCode": "CAN",
+          "kind": "player",
+          "name": "Jonathan Osorio"
+        },
+        {
+          "code": "CAN-13",
+          "number": 13,
+          "teamCode": "CAN",
+          "kind": "squad",
+          "name": "Foto de equipo de Canadá"
+        },
+        {
+          "code": "CAN-14",
+          "number": 14,
+          "teamCode": "CAN",
+          "kind": "player",
+          "name": "Jacob Shaffelburg"
+        },
+        {
+          "code": "CAN-15",
+          "number": 15,
+          "teamCode": "CAN",
+          "kind": "player",
+          "name": "Mathieu Choinière"
+        },
+        {
+          "code": "CAN-16",
+          "number": 16,
+          "teamCode": "CAN",
+          "kind": "player",
+          "name": "Niko Sigur"
+        },
+        {
+          "code": "CAN-17",
+          "number": 17,
+          "teamCode": "CAN",
+          "kind": "player",
+          "name": "Tajon Buchanan"
+        },
+        {
+          "code": "CAN-18",
+          "number": 18,
+          "teamCode": "CAN",
+          "kind": "player",
+          "name": "Liam Millar"
+        },
+        {
+          "code": "CAN-19",
+          "number": 19,
+          "teamCode": "CAN",
+          "kind": "player",
+          "name": "Cyle Larin"
+        },
+        {
+          "code": "CAN-20",
+          "number": 20,
+          "teamCode": "CAN",
+          "kind": "player",
+          "name": "Jonathan David"
+        }
+      ]
+    },
+    {
+      "teamCode": "CZE",
+      "teamName": "Chequia",
+      "stickers": [
+        {
+          "code": "CZE-01",
+          "number": 1,
+          "teamCode": "CZE",
+          "kind": "emblem",
+          "name": "Emblema de Chequia"
+        },
+        {
+          "code": "CZE-02",
+          "number": 2,
+          "teamCode": "CZE",
+          "kind": "player",
+          "name": "Matěj Kovář"
+        },
+        {
+          "code": "CZE-03",
+          "number": 3,
+          "teamCode": "CZE",
+          "kind": "player",
+          "name": "Jindřich Staněk"
+        },
+        {
+          "code": "CZE-04",
+          "number": 4,
+          "teamCode": "CZE",
+          "kind": "player",
+          "name": "Ladislav Krejčí"
+        },
+        {
+          "code": "CZE-05",
+          "number": 5,
+          "teamCode": "CZE",
+          "kind": "player",
+          "name": "Vladimír Coufal"
+        },
+        {
+          "code": "CZE-06",
+          "number": 6,
+          "teamCode": "CZE",
+          "kind": "player",
+          "name": "Jaroslav Zelený"
+        },
+        {
+          "code": "CZE-07",
+          "number": 7,
+          "teamCode": "CZE",
+          "kind": "player",
+          "name": "Tomáš Holeš"
+        },
+        {
+          "code": "CZE-08",
+          "number": 8,
+          "teamCode": "CZE",
+          "kind": "player",
+          "name": "David Zima"
+        },
+        {
+          "code": "CZE-09",
+          "number": 9,
+          "teamCode": "CZE",
+          "kind": "player",
+          "name": "Michal Sadílek"
+        },
+        {
+          "code": "CZE-10",
+          "number": 10,
+          "teamCode": "CZE",
+          "kind": "player",
+          "name": "Lukáš Provod"
+        },
+        {
+          "code": "CZE-11",
+          "number": 11,
+          "teamCode": "CZE",
+          "kind": "player",
+          "name": "Lukáš Červ"
+        },
+        {
+          "code": "CZE-12",
+          "number": 12,
+          "teamCode": "CZE",
+          "kind": "player",
+          "name": "Tomáš Souček"
+        },
+        {
+          "code": "CZE-13",
+          "number": 13,
+          "teamCode": "CZE",
+          "kind": "squad",
+          "name": "Foto de equipo de Chequia"
+        },
+        {
+          "code": "CZE-14",
+          "number": 14,
+          "teamCode": "CZE",
+          "kind": "player",
+          "name": "Pavel Šulc"
+        },
+        {
+          "code": "CZE-15",
+          "number": 15,
+          "teamCode": "CZE",
+          "kind": "player",
+          "name": "Matěj Vydra"
+        },
+        {
+          "code": "CZE-16",
+          "number": 16,
+          "teamCode": "CZE",
+          "kind": "player",
+          "name": "Václav Jurečka"
+        },
+        {
+          "code": "CZE-17",
+          "number": 17,
+          "teamCode": "CZE",
+          "kind": "player",
+          "name": "Tomáš Chorý"
+        },
+        {
+          "code": "CZE-18",
+          "number": 18,
+          "teamCode": "CZE",
+          "kind": "player",
+          "name": "Václav Černý"
+        },
+        {
+          "code": "CZE-19",
+          "number": 19,
+          "teamCode": "CZE",
+          "kind": "player",
+          "name": "Adam Hložek"
+        },
+        {
+          "code": "CZE-20",
+          "number": 20,
+          "teamCode": "CZE",
+          "kind": "player",
+          "name": "Patrik Schick"
+        }
+      ]
+    },
+    {
+      "teamCode": "KOR",
+      "teamName": "República de Corea",
+      "stickers": [
+        {
+          "code": "KOR-01",
+          "number": 1,
+          "teamCode": "KOR",
+          "kind": "emblem",
+          "name": "Emblema de República de Corea"
+        },
+        {
+          "code": "KOR-02",
+          "number": 2,
+          "teamCode": "KOR",
+          "kind": "player",
+          "name": "Hyeonwoo Jo"
+        },
+        {
+          "code": "KOR-03",
+          "number": 3,
+          "teamCode": "KOR",
+          "kind": "player",
+          "name": "Seunggyu Kim"
+        },
+        {
+          "code": "KOR-04",
+          "number": 4,
+          "teamCode": "KOR",
+          "kind": "player",
+          "name": "Minjae Kim"
+        },
+        {
+          "code": "KOR-05",
+          "number": 5,
+          "teamCode": "KOR",
+          "kind": "player",
+          "name": "Yumin Cho"
+        },
+        {
+          "code": "KOR-06",
+          "number": 6,
+          "teamCode": "KOR",
+          "kind": "player",
+          "name": "Youngwoo Seol"
+        },
+        {
+          "code": "KOR-07",
+          "number": 7,
+          "teamCode": "KOR",
+          "kind": "player",
+          "name": "Hanbeom Lee"
+        },
+        {
+          "code": "KOR-08",
+          "number": 8,
+          "teamCode": "KOR",
+          "kind": "player",
+          "name": "Taeseok Lee"
+        },
+        {
+          "code": "KOR-09",
+          "number": 9,
+          "teamCode": "KOR",
+          "kind": "player",
+          "name": "Myungjae Lee"
+        },
+        {
+          "code": "KOR-10",
+          "number": 10,
+          "teamCode": "KOR",
+          "kind": "player",
+          "name": "Jaesung Lee"
+        },
+        {
+          "code": "KOR-11",
+          "number": 11,
+          "teamCode": "KOR",
+          "kind": "player",
+          "name": "Inbeom Hwang"
+        },
+        {
+          "code": "KOR-12",
+          "number": 12,
+          "teamCode": "KOR",
+          "kind": "player",
+          "name": "Kangin Lee"
+        },
+        {
+          "code": "KOR-13",
+          "number": 13,
+          "teamCode": "KOR",
+          "kind": "squad",
+          "name": "Foto de equipo de República de Corea"
+        },
+        {
+          "code": "KOR-14",
+          "number": 14,
+          "teamCode": "KOR",
+          "kind": "player",
+          "name": "Seunghyun Park"
+        },
+        {
+          "code": "KOR-15",
+          "number": 15,
+          "teamCode": "KOR",
+          "kind": "player",
+          "name": "Jens Castrop"
+        },
+        {
+          "code": "KOR-16",
+          "number": 16,
+          "teamCode": "KOR",
+          "kind": "player",
+          "name": "Donggyeong Lee"
+        },
+        {
+          "code": "KOR-17",
+          "number": 17,
+          "teamCode": "KOR",
+          "kind": "player",
+          "name": "Guesung Cho"
+        },
+        {
+          "code": "KOR-18",
+          "number": 18,
+          "teamCode": "KOR",
+          "kind": "player",
+          "name": "Heungmin Son"
+        },
+        {
+          "code": "KOR-19",
+          "number": 19,
+          "teamCode": "KOR",
+          "kind": "player",
+          "name": "Heechan Hwang"
+        },
+        {
+          "code": "KOR-20",
+          "number": 20,
+          "teamCode": "KOR",
+          "kind": "player",
+          "name": "Hyeongyu Oh"
+        }
+      ]
+    },
+    {
+      "teamCode": "RSA",
+      "teamName": "Sudáfrica",
+      "stickers": [
+        {
+          "code": "RSA-01",
+          "number": 1,
+          "teamCode": "RSA",
+          "kind": "emblem",
+          "name": "Emblema de Sudáfrica"
+        },
+        {
+          "code": "RSA-02",
+          "number": 2,
+          "teamCode": "RSA",
+          "kind": "player",
+          "name": "Ronwen Williams"
+        },
+        {
+          "code": "RSA-03",
+          "number": 3,
+          "teamCode": "RSA",
+          "kind": "player",
+          "name": "Sipho Chaine"
+        },
+        {
+          "code": "RSA-04",
+          "number": 4,
+          "teamCode": "RSA",
+          "kind": "player",
+          "name": "Aubrey Modiba"
+        },
+        {
+          "code": "RSA-05",
+          "number": 5,
+          "teamCode": "RSA",
+          "kind": "player",
+          "name": "Samukele Kabini"
+        },
+        {
+          "code": "RSA-06",
+          "number": 6,
+          "teamCode": "RSA",
+          "kind": "player",
+          "name": "Mbekezeli Mbokazi"
+        },
+        {
+          "code": "RSA-07",
+          "number": 7,
+          "teamCode": "RSA",
+          "kind": "player",
+          "name": "Khulumani Ndamane"
+        },
+        {
+          "code": "RSA-08",
+          "number": 8,
+          "teamCode": "RSA",
+          "kind": "player",
+          "name": "Siyabonga Ngezana"
+        },
+        {
+          "code": "RSA-09",
+          "number": 9,
+          "teamCode": "RSA",
+          "kind": "player",
+          "name": "Khuliso Mudau"
+        },
+        {
+          "code": "RSA-10",
+          "number": 10,
+          "teamCode": "RSA",
+          "kind": "player",
+          "name": "Nkosinathi Sibisi"
+        },
+        {
+          "code": "RSA-11",
+          "number": 11,
+          "teamCode": "RSA",
+          "kind": "player",
+          "name": "Teboho Mokoena"
+        },
+        {
+          "code": "RSA-12",
+          "number": 12,
+          "teamCode": "RSA",
+          "kind": "player",
+          "name": "Thalente Mbatha"
+        },
+        {
+          "code": "RSA-13",
+          "number": 13,
+          "teamCode": "RSA",
+          "kind": "squad",
+          "name": "Foto de equipo de Sudáfrica"
+        },
+        {
+          "code": "RSA-14",
+          "number": 14,
+          "teamCode": "RSA",
+          "kind": "player",
+          "name": "Bathusi Aubaas"
+        },
+        {
+          "code": "RSA-15",
+          "number": 15,
+          "teamCode": "RSA",
+          "kind": "player",
+          "name": "Yaya Sithole"
+        },
+        {
+          "code": "RSA-16",
+          "number": 16,
+          "teamCode": "RSA",
+          "kind": "player",
+          "name": "Sipho Mbule"
+        },
+        {
+          "code": "RSA-17",
+          "number": 17,
+          "teamCode": "RSA",
+          "kind": "player",
+          "name": "Lyle Foster"
+        },
+        {
+          "code": "RSA-18",
+          "number": 18,
+          "teamCode": "RSA",
+          "kind": "player",
+          "name": "Iqraam Rayners"
+        },
+        {
+          "code": "RSA-19",
+          "number": 19,
+          "teamCode": "RSA",
+          "kind": "player",
+          "name": "Mohau Nkota"
+        },
+        {
+          "code": "RSA-20",
+          "number": 20,
+          "teamCode": "RSA",
+          "kind": "player",
+          "name": "Oswin Appollis"
+        }
+      ]
+    },
+    {
+      "teamCode": "MEX",
+      "teamName": "México",
+      "stickers": [
+        {
+          "code": "MEX-01",
+          "number": 1,
+          "teamCode": "MEX",
+          "kind": "emblem",
+          "name": "Emblema de México"
+        },
+        {
+          "code": "MEX-02",
+          "number": 2,
+          "teamCode": "MEX",
+          "kind": "player",
+          "name": "Luis Malagón"
+        },
+        {
+          "code": "MEX-03",
+          "number": 3,
+          "teamCode": "MEX",
+          "kind": "player",
+          "name": "Johan Vásquez"
+        },
+        {
+          "code": "MEX-04",
+          "number": 4,
+          "teamCode": "MEX",
+          "kind": "player",
+          "name": "Jorge Sánchez"
+        },
+        {
+          "code": "MEX-05",
+          "number": 5,
+          "teamCode": "MEX",
+          "kind": "player",
+          "name": "César Montes"
+        },
+        {
+          "code": "MEX-06",
+          "number": 6,
+          "teamCode": "MEX",
+          "kind": "player",
+          "name": "Gerardo Arteaga"
+        },
+        {
+          "code": "MEX-07",
+          "number": 7,
+          "teamCode": "MEX",
+          "kind": "player",
+          "name": "Israel Reyes"
+        },
+        {
+          "code": "MEX-08",
+          "number": 8,
+          "teamCode": "MEX",
+          "kind": "player",
+          "name": "Diego Lainez"
+        },
+        {
+          "code": "MEX-09",
+          "number": 9,
+          "teamCode": "MEX",
+          "kind": "player",
+          "name": "Carlos Rodríguez"
+        },
+        {
+          "code": "MEX-10",
+          "number": 10,
+          "teamCode": "MEX",
+          "kind": "player",
+          "name": "Edson Álvarez"
+        },
+        {
+          "code": "MEX-11",
+          "number": 11,
+          "teamCode": "MEX",
+          "kind": "player",
+          "name": "Orbelín Pineda"
+        },
+        {
+          "code": "MEX-12",
+          "number": 12,
+          "teamCode": "MEX",
+          "kind": "player",
+          "name": "Marcel Ruiz"
+        },
+        {
+          "code": "MEX-13",
+          "number": 13,
+          "teamCode": "MEX",
+          "kind": "squad",
+          "name": "Foto de equipo de México"
+        },
+        {
+          "code": "MEX-14",
+          "number": 14,
+          "teamCode": "MEX",
+          "kind": "player",
+          "name": "Erick Sánchez"
+        },
+        {
+          "code": "MEX-15",
+          "number": 15,
+          "teamCode": "MEX",
+          "kind": "player",
+          "name": "Hirving Lozano"
+        },
+        {
+          "code": "MEX-16",
+          "number": 16,
+          "teamCode": "MEX",
+          "kind": "player",
+          "name": "Santiago Giménez"
+        },
+        {
+          "code": "MEX-17",
+          "number": 17,
+          "teamCode": "MEX",
+          "kind": "player",
+          "name": "Raúl Jiménez"
+        },
+        {
+          "code": "MEX-18",
+          "number": 18,
+          "teamCode": "MEX",
+          "kind": "player",
+          "name": "Alexis Vega"
+        },
+        {
+          "code": "MEX-19",
+          "number": 19,
+          "teamCode": "MEX",
+          "kind": "player",
+          "name": "Roberto Alvarado"
+        },
+        {
+          "code": "MEX-20",
+          "number": 20,
+          "teamCode": "MEX",
+          "kind": "player",
+          "name": "César Huerta"
+        }
+      ]
+    },
+    {
+      "teamCode": "SUI",
+      "teamName": "Suiza",
+      "stickers": [
+        {
+          "code": "SUI-01",
+          "number": 1,
+          "teamCode": "SUI",
+          "kind": "emblem",
+          "name": "Emblema de Suiza"
+        },
+        {
+          "code": "SUI-02",
+          "number": 2,
+          "teamCode": "SUI",
+          "kind": "player",
+          "name": "Gregor Kobel"
+        },
+        {
+          "code": "SUI-03",
+          "number": 3,
+          "teamCode": "SUI",
+          "kind": "player",
+          "name": "Yvon Mvogo"
+        },
+        {
+          "code": "SUI-04",
+          "number": 4,
+          "teamCode": "SUI",
+          "kind": "player",
+          "name": "Manuel Akanji"
+        },
+        {
+          "code": "SUI-05",
+          "number": 5,
+          "teamCode": "SUI",
+          "kind": "player",
+          "name": "Ricardo Rodríguez"
+        },
+        {
+          "code": "SUI-06",
+          "number": 6,
+          "teamCode": "SUI",
+          "kind": "player",
+          "name": "Nico Elvedi"
+        },
+        {
+          "code": "SUI-07",
+          "number": 7,
+          "teamCode": "SUI",
+          "kind": "player",
+          "name": "Aurèle Amenda"
+        },
+        {
+          "code": "SUI-08",
+          "number": 8,
+          "teamCode": "SUI",
+          "kind": "player",
+          "name": "Silvan Widmer"
+        },
+        {
+          "code": "SUI-09",
+          "number": 9,
+          "teamCode": "SUI",
+          "kind": "player",
+          "name": "Granit Xhaka"
+        },
+        {
+          "code": "SUI-10",
+          "number": 10,
+          "teamCode": "SUI",
+          "kind": "player",
+          "name": "Denis Zakaria"
+        },
+        {
+          "code": "SUI-11",
+          "number": 11,
+          "teamCode": "SUI",
+          "kind": "player",
+          "name": "Remo Freuler"
+        },
+        {
+          "code": "SUI-12",
+          "number": 12,
+          "teamCode": "SUI",
+          "kind": "player",
+          "name": "Fabian Rieder"
+        },
+        {
+          "code": "SUI-13",
+          "number": 13,
+          "teamCode": "SUI",
+          "kind": "squad",
+          "name": "Foto de equipo de Suiza"
+        },
+        {
+          "code": "SUI-14",
+          "number": 14,
+          "teamCode": "SUI",
+          "kind": "player",
+          "name": "Ardon Jashari"
+        },
+        {
+          "code": "SUI-15",
+          "number": 15,
+          "teamCode": "SUI",
+          "kind": "player",
+          "name": "Johan Manzambi"
+        },
+        {
+          "code": "SUI-16",
+          "number": 16,
+          "teamCode": "SUI",
+          "kind": "player",
+          "name": "Michel Aebischer"
+        },
+        {
+          "code": "SUI-17",
+          "number": 17,
+          "teamCode": "SUI",
+          "kind": "player",
+          "name": "Breel Embolo"
+        },
+        {
+          "code": "SUI-18",
+          "number": 18,
+          "teamCode": "SUI",
+          "kind": "player",
+          "name": "Ruben Vargas"
+        },
+        {
+          "code": "SUI-19",
+          "number": 19,
+          "teamCode": "SUI",
+          "kind": "player",
+          "name": "Dan Ndoye"
+        },
+        {
+          "code": "SUI-20",
+          "number": 20,
+          "teamCode": "SUI",
+          "kind": "player",
+          "name": "Zeki Amdouni"
+        }
+      ]
+    },
+    {
+      "teamCode": "QAT",
+      "teamName": "Qatar",
+      "stickers": [
+        {
+          "code": "QAT-01",
+          "number": 1,
+          "teamCode": "QAT",
+          "kind": "emblem",
+          "name": "Emblema de Qatar"
+        },
+        {
+          "code": "QAT-02",
+          "number": 2,
+          "teamCode": "QAT",
+          "kind": "player",
+          "name": "Meshaal Barsham"
+        },
+        {
+          "code": "QAT-03",
+          "number": 3,
+          "teamCode": "QAT",
+          "kind": "player",
+          "name": "Sultan Al Brake"
+        },
+        {
+          "code": "QAT-04",
+          "number": 4,
+          "teamCode": "QAT",
+          "kind": "player",
+          "name": "Lucas Mendes"
+        },
+        {
+          "code": "QAT-05",
+          "number": 5,
+          "teamCode": "QAT",
+          "kind": "player",
+          "name": "Homam Ahmed"
+        },
+        {
+          "code": "QAT-06",
+          "number": 6,
+          "teamCode": "QAT",
+          "kind": "player",
+          "name": "Boualem Khoukhi"
+        },
+        {
+          "code": "QAT-07",
+          "number": 7,
+          "teamCode": "QAT",
+          "kind": "player",
+          "name": "Pedro Miguel"
+        },
+        {
+          "code": "QAT-08",
+          "number": 8,
+          "teamCode": "QAT",
+          "kind": "player",
+          "name": "Tarek Salman"
+        },
+        {
+          "code": "QAT-09",
+          "number": 9,
+          "teamCode": "QAT",
+          "kind": "player",
+          "name": "Mohammed Mannai"
+        },
+        {
+          "code": "QAT-10",
+          "number": 10,
+          "teamCode": "QAT",
+          "kind": "player",
+          "name": "Karim Boudiaf"
+        },
+        {
+          "code": "QAT-11",
+          "number": 11,
+          "teamCode": "QAT",
+          "kind": "player",
+          "name": "Assim Madibo"
+        },
+        {
+          "code": "QAT-12",
+          "number": 12,
+          "teamCode": "QAT",
+          "kind": "player",
+          "name": "Hamed Fathi"
+        },
+        {
+          "code": "QAT-13",
+          "number": 13,
+          "teamCode": "QAT",
+          "kind": "squad",
+          "name": "Foto de equipo de Qatar"
+        },
+        {
+          "code": "QAT-14",
+          "number": 14,
+          "teamCode": "QAT",
+          "kind": "player",
+          "name": "Mohammed Waad"
+        },
+        {
+          "code": "QAT-15",
+          "number": 15,
+          "teamCode": "QAT",
+          "kind": "player",
+          "name": "Abdulaziz Hatem"
+        },
+        {
+          "code": "QAT-16",
+          "number": 16,
+          "teamCode": "QAT",
+          "kind": "player",
+          "name": "Hassan Al-Haydos"
+        },
+        {
+          "code": "QAT-17",
+          "number": 17,
+          "teamCode": "QAT",
+          "kind": "player",
+          "name": "Edmilson Junior"
+        },
+        {
+          "code": "QAT-18",
+          "number": 18,
+          "teamCode": "QAT",
+          "kind": "player",
+          "name": "Akram Hassan Afif"
+        },
+        {
+          "code": "QAT-19",
+          "number": 19,
+          "teamCode": "QAT",
+          "kind": "player",
+          "name": "Ahmed Al-Ganehi"
+        },
+        {
+          "code": "QAT-20",
+          "number": 20,
+          "teamCode": "QAT",
+          "kind": "player",
+          "name": "Almoez Ali"
+        }
+      ]
+    },
+    {
+      "teamCode": "PAN",
+      "teamName": "Panamá",
+      "stickers": [
+        {
+          "code": "PAN-01",
+          "number": 1,
+          "teamCode": "PAN",
+          "kind": "emblem",
+          "name": "Emblema de Panamá"
+        },
+        {
+          "code": "PAN-02",
+          "number": 2,
+          "teamCode": "PAN",
+          "kind": "player",
+          "name": "Orlando Mosquera"
+        },
+        {
+          "code": "PAN-03",
+          "number": 3,
+          "teamCode": "PAN",
+          "kind": "player",
+          "name": "Luis Mejía"
+        },
+        {
+          "code": "PAN-04",
+          "number": 4,
+          "teamCode": "PAN",
+          "kind": "player",
+          "name": "Fidel Escobar"
+        },
+        {
+          "code": "PAN-05",
+          "number": 5,
+          "teamCode": "PAN",
+          "kind": "player",
+          "name": "Andrés Andrade"
+        },
+        {
+          "code": "PAN-06",
+          "number": 6,
+          "teamCode": "PAN",
+          "kind": "player",
+          "name": "Michael Amir Murillo"
+        },
+        {
+          "code": "PAN-07",
+          "number": 7,
+          "teamCode": "PAN",
+          "kind": "player",
+          "name": "Eric Davis"
+        },
+        {
+          "code": "PAN-08",
+          "number": 8,
+          "teamCode": "PAN",
+          "kind": "player",
+          "name": "José Córdoba"
+        },
+        {
+          "code": "PAN-09",
+          "number": 9,
+          "teamCode": "PAN",
+          "kind": "player",
+          "name": "César Blackman"
+        },
+        {
+          "code": "PAN-10",
+          "number": 10,
+          "teamCode": "PAN",
+          "kind": "player",
+          "name": "Cristian Martínez"
+        },
+        {
+          "code": "PAN-11",
+          "number": 11,
+          "teamCode": "PAN",
+          "kind": "player",
+          "name": "Aníbal Godoy"
+        },
+        {
+          "code": "PAN-12",
+          "number": 12,
+          "teamCode": "PAN",
+          "kind": "player",
+          "name": "Adalberto Carrasquilla"
+        },
+        {
+          "code": "PAN-13",
+          "number": 13,
+          "teamCode": "PAN",
+          "kind": "squad",
+          "name": "Foto de equipo de Panamá"
+        },
+        {
+          "code": "PAN-14",
+          "number": 14,
+          "teamCode": "PAN",
+          "kind": "player",
+          "name": "Édgar Bárcenas"
+        },
+        {
+          "code": "PAN-15",
+          "number": 15,
+          "teamCode": "PAN",
+          "kind": "player",
+          "name": "Carlos Harvey"
+        },
+        {
+          "code": "PAN-16",
+          "number": 16,
+          "teamCode": "PAN",
+          "kind": "player",
+          "name": "Ismael Díaz"
+        },
+        {
+          "code": "PAN-17",
+          "number": 17,
+          "teamCode": "PAN",
+          "kind": "player",
+          "name": "José Fajardo"
+        },
+        {
+          "code": "PAN-18",
+          "number": 18,
+          "teamCode": "PAN",
+          "kind": "player",
+          "name": "Cecilio Waterman"
+        },
+        {
+          "code": "PAN-19",
+          "number": 19,
+          "teamCode": "PAN",
+          "kind": "player",
+          "name": "José Luis Rodríguez"
+        },
+        {
+          "code": "PAN-20",
+          "number": 20,
+          "teamCode": "PAN",
+          "kind": "player",
+          "name": "Alberto Quintero"
+        }
+      ]
+    },
+    {
+      "teamCode": "GHA",
+      "teamName": "Ghana",
+      "stickers": [
+        {
+          "code": "GHA-01",
+          "number": 1,
+          "teamCode": "GHA",
+          "kind": "emblem",
+          "name": "Emblema de Ghana"
+        },
+        {
+          "code": "GHA-02",
+          "number": 2,
+          "teamCode": "GHA",
+          "kind": "player",
+          "name": "Lawrence Ati-Zigi"
+        },
+        {
+          "code": "GHA-03",
+          "number": 3,
+          "teamCode": "GHA",
+          "kind": "player",
+          "name": "Tariq Lamptey"
+        },
+        {
+          "code": "GHA-04",
+          "number": 4,
+          "teamCode": "GHA",
+          "kind": "player",
+          "name": "Mohammed Salisu"
+        },
+        {
+          "code": "GHA-05",
+          "number": 5,
+          "teamCode": "GHA",
+          "kind": "player",
+          "name": "Alidu Seidu"
+        },
+        {
+          "code": "GHA-06",
+          "number": 6,
+          "teamCode": "GHA",
+          "kind": "player",
+          "name": "Alexander Djiku"
+        },
+        {
+          "code": "GHA-07",
+          "number": 7,
+          "teamCode": "GHA",
+          "kind": "player",
+          "name": "Gideon Mensah"
+        },
+        {
+          "code": "GHA-08",
+          "number": 8,
+          "teamCode": "GHA",
+          "kind": "player",
+          "name": "Caleb Yirenkyi"
+        },
+        {
+          "code": "GHA-09",
+          "number": 9,
+          "teamCode": "GHA",
+          "kind": "player",
+          "name": "Abdul Issahaku Fatawu"
+        },
+        {
+          "code": "GHA-10",
+          "number": 10,
+          "teamCode": "GHA",
+          "kind": "player",
+          "name": "Thomas Partey"
+        },
+        {
+          "code": "GHA-11",
+          "number": 11,
+          "teamCode": "GHA",
+          "kind": "player",
+          "name": "Salis Abdul Samed"
+        },
+        {
+          "code": "GHA-12",
+          "number": 12,
+          "teamCode": "GHA",
+          "kind": "player",
+          "name": "Kamaldeen Sulemana"
+        },
+        {
+          "code": "GHA-13",
+          "number": 13,
+          "teamCode": "GHA",
+          "kind": "squad",
+          "name": "Foto de equipo de Ghana"
+        },
+        {
+          "code": "GHA-14",
+          "number": 14,
+          "teamCode": "GHA",
+          "kind": "player",
+          "name": "Mohammed Kudus"
+        },
+        {
+          "code": "GHA-15",
+          "number": 15,
+          "teamCode": "GHA",
+          "kind": "player",
+          "name": "Iñaki Williams"
+        },
+        {
+          "code": "GHA-16",
+          "number": 16,
+          "teamCode": "GHA",
+          "kind": "player",
+          "name": "Jordan Ayew"
+        },
+        {
+          "code": "GHA-17",
+          "number": 17,
+          "teamCode": "GHA",
+          "kind": "player",
+          "name": "André Ayew"
+        },
+        {
+          "code": "GHA-18",
+          "number": 18,
+          "teamCode": "GHA",
+          "kind": "player",
+          "name": "Joseph Paintsil"
+        },
+        {
+          "code": "GHA-19",
+          "number": 19,
+          "teamCode": "GHA",
+          "kind": "player",
+          "name": "Osman Bukari"
+        },
+        {
+          "code": "GHA-20",
+          "number": 20,
+          "teamCode": "GHA",
+          "kind": "player",
+          "name": "Antoine Semenyo"
+        }
+      ]
+    },
+    {
+      "teamCode": "CRO",
+      "teamName": "Croacia",
+      "stickers": [
+        {
+          "code": "CRO-01",
+          "number": 1,
+          "teamCode": "CRO",
+          "kind": "emblem",
+          "name": "Emblema de Croacia"
+        },
+        {
+          "code": "CRO-02",
+          "number": 2,
+          "teamCode": "CRO",
+          "kind": "player",
+          "name": "Dominik Livaković"
+        },
+        {
+          "code": "CRO-03",
+          "number": 3,
+          "teamCode": "CRO",
+          "kind": "player",
+          "name": "Duje Ćaleta-Car"
+        },
+        {
+          "code": "CRO-04",
+          "number": 4,
+          "teamCode": "CRO",
+          "kind": "player",
+          "name": "Joško Gvardiol"
+        },
+        {
+          "code": "CRO-05",
+          "number": 5,
+          "teamCode": "CRO",
+          "kind": "player",
+          "name": "Josip Stanišić"
+        },
+        {
+          "code": "CRO-06",
+          "number": 6,
+          "teamCode": "CRO",
+          "kind": "player",
+          "name": "Luka Vušković"
+        },
+        {
+          "code": "CRO-07",
+          "number": 7,
+          "teamCode": "CRO",
+          "kind": "player",
+          "name": "Josip Šutalo"
+        },
+        {
+          "code": "CRO-08",
+          "number": 8,
+          "teamCode": "CRO",
+          "kind": "player",
+          "name": "Kristijan Jakić"
+        },
+        {
+          "code": "CRO-09",
+          "number": 9,
+          "teamCode": "CRO",
+          "kind": "player",
+          "name": "Luka Modrić"
+        },
+        {
+          "code": "CRO-10",
+          "number": 10,
+          "teamCode": "CRO",
+          "kind": "player",
+          "name": "Mateo Kovačić"
+        },
+        {
+          "code": "CRO-11",
+          "number": 11,
+          "teamCode": "CRO",
+          "kind": "player",
+          "name": "Martin Baturina"
+        },
+        {
+          "code": "CRO-12",
+          "number": 12,
+          "teamCode": "CRO",
+          "kind": "player",
+          "name": "Lovro Majer"
+        },
+        {
+          "code": "CRO-13",
+          "number": 13,
+          "teamCode": "CRO",
+          "kind": "squad",
+          "name": "Foto de equipo de Croacia"
+        },
+        {
+          "code": "CRO-14",
+          "number": 14,
+          "teamCode": "CRO",
+          "kind": "player",
+          "name": "Mario Pašalić"
+        },
+        {
+          "code": "CRO-15",
+          "number": 15,
+          "teamCode": "CRO",
+          "kind": "player",
+          "name": "Petar Sučić"
+        },
+        {
+          "code": "CRO-16",
+          "number": 16,
+          "teamCode": "CRO",
+          "kind": "player",
+          "name": "Ivan Perišić"
+        },
+        {
+          "code": "CRO-17",
+          "number": 17,
+          "teamCode": "CRO",
+          "kind": "player",
+          "name": "Marco Pašalić"
+        },
+        {
+          "code": "CRO-18",
+          "number": 18,
+          "teamCode": "CRO",
+          "kind": "player",
+          "name": "Ante Budimir"
+        },
+        {
+          "code": "CRO-19",
+          "number": 19,
+          "teamCode": "CRO",
+          "kind": "player",
+          "name": "Andrej Kramarić"
+        },
+        {
+          "code": "CRO-20",
+          "number": 20,
+          "teamCode": "CRO",
+          "kind": "player",
+          "name": "Franjo Ivanović"
+        }
+      ]
+    },
+    {
+      "teamCode": "ENG",
+      "teamName": "Inglaterra",
+      "stickers": [
+        {
+          "code": "ENG-01",
+          "number": 1,
+          "teamCode": "ENG",
+          "kind": "emblem",
+          "name": "Emblema de Inglaterra"
+        },
+        {
+          "code": "ENG-02",
+          "number": 2,
+          "teamCode": "ENG",
+          "kind": "player",
+          "name": "Jordan Pickford"
+        },
+        {
+          "code": "ENG-03",
+          "number": 3,
+          "teamCode": "ENG",
+          "kind": "player",
+          "name": "John Stones"
+        },
+        {
+          "code": "ENG-04",
+          "number": 4,
+          "teamCode": "ENG",
+          "kind": "player",
+          "name": "Marc Guéhi"
+        },
+        {
+          "code": "ENG-05",
+          "number": 5,
+          "teamCode": "ENG",
+          "kind": "player",
+          "name": "Ezri Konsa"
+        },
+        {
+          "code": "ENG-06",
+          "number": 6,
+          "teamCode": "ENG",
+          "kind": "player",
+          "name": "Trent Alexander-Arnold"
+        },
+        {
+          "code": "ENG-07",
+          "number": 7,
+          "teamCode": "ENG",
+          "kind": "player",
+          "name": "Reece James"
+        },
+        {
+          "code": "ENG-08",
+          "number": 8,
+          "teamCode": "ENG",
+          "kind": "player",
+          "name": "Dan Burn"
+        },
+        {
+          "code": "ENG-09",
+          "number": 9,
+          "teamCode": "ENG",
+          "kind": "player",
+          "name": "Jordan Henderson"
+        },
+        {
+          "code": "ENG-10",
+          "number": 10,
+          "teamCode": "ENG",
+          "kind": "player",
+          "name": "Declan Rice"
+        },
+        {
+          "code": "ENG-11",
+          "number": 11,
+          "teamCode": "ENG",
+          "kind": "player",
+          "name": "Jude Bellingham"
+        },
+        {
+          "code": "ENG-12",
+          "number": 12,
+          "teamCode": "ENG",
+          "kind": "player",
+          "name": "Cole Palmer"
+        },
+        {
+          "code": "ENG-13",
+          "number": 13,
+          "teamCode": "ENG",
+          "kind": "squad",
+          "name": "Foto de equipo de Inglaterra"
+        },
+        {
+          "code": "ENG-14",
+          "number": 14,
+          "teamCode": "ENG",
+          "kind": "player",
+          "name": "Morgan Rogers"
+        },
+        {
+          "code": "ENG-15",
+          "number": 15,
+          "teamCode": "ENG",
+          "kind": "player",
+          "name": "Anthony Gordon"
+        },
+        {
+          "code": "ENG-16",
+          "number": 16,
+          "teamCode": "ENG",
+          "kind": "player",
+          "name": "Phil Foden"
+        },
+        {
+          "code": "ENG-17",
+          "number": 17,
+          "teamCode": "ENG",
+          "kind": "player",
+          "name": "Bukayo Saka"
+        },
+        {
+          "code": "ENG-18",
+          "number": 18,
+          "teamCode": "ENG",
+          "kind": "player",
+          "name": "Harry Kane"
+        },
+        {
+          "code": "ENG-19",
+          "number": 19,
+          "teamCode": "ENG",
+          "kind": "player",
+          "name": "Marcus Rashford"
+        },
+        {
+          "code": "ENG-20",
+          "number": 20,
+          "teamCode": "ENG",
+          "kind": "player",
+          "name": "Ollie Watkins"
+        }
+      ]
+    },
+    {
+      "teamCode": "COL",
+      "teamName": "Colombia",
+      "stickers": [
+        {
+          "code": "COL-01",
+          "number": 1,
+          "teamCode": "COL",
+          "kind": "emblem",
+          "name": "Emblema de Colombia"
+        },
+        {
+          "code": "COL-02",
+          "number": 2,
+          "teamCode": "COL",
+          "kind": "player",
+          "name": "Camilo Vargas"
+        },
+        {
+          "code": "COL-03",
+          "number": 3,
+          "teamCode": "COL",
+          "kind": "player",
+          "name": "David Ospina"
+        },
+        {
+          "code": "COL-04",
+          "number": 4,
+          "teamCode": "COL",
+          "kind": "player",
+          "name": "Davinson Sánchez"
+        },
+        {
+          "code": "COL-05",
+          "number": 5,
+          "teamCode": "COL",
+          "kind": "player",
+          "name": "Yerry Mina"
+        },
+        {
+          "code": "COL-06",
+          "number": 6,
+          "teamCode": "COL",
+          "kind": "player",
+          "name": "Daniel Muñoz"
+        },
+        {
+          "code": "COL-07",
+          "number": 7,
+          "teamCode": "COL",
+          "kind": "player",
+          "name": "Johan Mojica"
+        },
+        {
+          "code": "COL-08",
+          "number": 8,
+          "teamCode": "COL",
+          "kind": "player",
+          "name": "Jhon Lucumí"
+        },
+        {
+          "code": "COL-09",
+          "number": 9,
+          "teamCode": "COL",
+          "kind": "player",
+          "name": "Santiago Arias"
+        },
+        {
+          "code": "COL-10",
+          "number": 10,
+          "teamCode": "COL",
+          "kind": "player",
+          "name": "Jefferson Lerma"
+        },
+        {
+          "code": "COL-11",
+          "number": 11,
+          "teamCode": "COL",
+          "kind": "player",
+          "name": "Kevin Castaño"
+        },
+        {
+          "code": "COL-12",
+          "number": 12,
+          "teamCode": "COL",
+          "kind": "player",
+          "name": "Richard Ríos"
+        },
+        {
+          "code": "COL-13",
+          "number": 13,
+          "teamCode": "COL",
+          "kind": "squad",
+          "name": "Foto de equipo de Colombia"
+        },
+        {
+          "code": "COL-14",
+          "number": 14,
+          "teamCode": "COL",
+          "kind": "player",
+          "name": "James Rodríguez"
+        },
+        {
+          "code": "COL-15",
+          "number": 15,
+          "teamCode": "COL",
+          "kind": "player",
+          "name": "Juan Fernando Quintero"
+        },
+        {
+          "code": "COL-16",
+          "number": 16,
+          "teamCode": "COL",
+          "kind": "player",
+          "name": "Jorge Carrascal"
+        },
+        {
+          "code": "COL-17",
+          "number": 17,
+          "teamCode": "COL",
+          "kind": "player",
+          "name": "Jhon Arias"
+        },
+        {
+          "code": "COL-18",
+          "number": 18,
+          "teamCode": "COL",
+          "kind": "player",
+          "name": "Jhon Córdoba"
+        },
+        {
+          "code": "COL-19",
+          "number": 19,
+          "teamCode": "COL",
+          "kind": "player",
+          "name": "Luis Suárez"
+        },
+        {
+          "code": "COL-20",
+          "number": 20,
+          "teamCode": "COL",
+          "kind": "player",
+          "name": "Luis Díaz"
+        }
+      ]
+    },
+    {
+      "teamCode": "UZB",
+      "teamName": "Uzbekistán",
+      "stickers": [
+        {
+          "code": "UZB-01",
+          "number": 1,
+          "teamCode": "UZB",
+          "kind": "emblem",
+          "name": "Emblema de Uzbekistán"
+        },
+        {
+          "code": "UZB-02",
+          "number": 2,
+          "teamCode": "UZB",
+          "kind": "player",
+          "name": "Utkir Yusupov"
+        },
+        {
+          "code": "UZB-03",
+          "number": 3,
+          "teamCode": "UZB",
+          "kind": "player",
+          "name": "Farrukh Sayfiev"
+        },
+        {
+          "code": "UZB-04",
+          "number": 4,
+          "teamCode": "UZB",
+          "kind": "player",
+          "name": "Sherzod Nasrullaev"
+        },
+        {
+          "code": "UZB-05",
+          "number": 5,
+          "teamCode": "UZB",
+          "kind": "player",
+          "name": "Umar Eshmurodov"
+        },
+        {
+          "code": "UZB-06",
+          "number": 6,
+          "teamCode": "UZB",
+          "kind": "player",
+          "name": "Husniddin Aliqulov"
+        },
+        {
+          "code": "UZB-07",
+          "number": 7,
+          "teamCode": "UZB",
+          "kind": "player",
+          "name": "Rustam Ashurmatov"
+        },
+        {
+          "code": "UZB-08",
+          "number": 8,
+          "teamCode": "UZB",
+          "kind": "player",
+          "name": "Khojiakbar Alijonov"
+        },
+        {
+          "code": "UZB-09",
+          "number": 9,
+          "teamCode": "UZB",
+          "kind": "player",
+          "name": "Abdukodir Khusanov"
+        },
+        {
+          "code": "UZB-10",
+          "number": 10,
+          "teamCode": "UZB",
+          "kind": "player",
+          "name": "Odiljon Hamrobekov"
+        },
+        {
+          "code": "UZB-11",
+          "number": 11,
+          "teamCode": "UZB",
+          "kind": "player",
+          "name": "Otabek Shukurov"
+        },
+        {
+          "code": "UZB-12",
+          "number": 12,
+          "teamCode": "UZB",
+          "kind": "player",
+          "name": "Jamshid Iskanderov"
+        },
+        {
+          "code": "UZB-13",
+          "number": 13,
+          "teamCode": "UZB",
+          "kind": "squad",
+          "name": "Foto de equipo de Uzbekistán"
+        },
+        {
+          "code": "UZB-14",
+          "number": 14,
+          "teamCode": "UZB",
+          "kind": "player",
+          "name": "Azizbek Turgunboev"
+        },
+        {
+          "code": "UZB-15",
+          "number": 15,
+          "teamCode": "UZB",
+          "kind": "player",
+          "name": "Khojimat Erkinov"
+        },
+        {
+          "code": "UZB-16",
+          "number": 16,
+          "teamCode": "UZB",
+          "kind": "player",
+          "name": "Eldor Shomurodov"
+        },
+        {
+          "code": "UZB-17",
+          "number": 17,
+          "teamCode": "UZB",
+          "kind": "player",
+          "name": "Oston Urunov"
+        },
+        {
+          "code": "UZB-18",
+          "number": 18,
+          "teamCode": "UZB",
+          "kind": "player",
+          "name": "Jaloliddin Masharipov"
+        },
+        {
+          "code": "UZB-19",
+          "number": 19,
+          "teamCode": "UZB",
+          "kind": "player",
+          "name": "Igor Sergeev"
+        },
+        {
+          "code": "UZB-20",
+          "number": 20,
+          "teamCode": "UZB",
+          "kind": "player",
+          "name": "Abbosbek Fayzullaev"
+        }
+      ]
+    },
+    {
+      "teamCode": "COD",
+      "teamName": "República Democrática del Congo",
+      "stickers": [
+        {
+          "code": "COD-01",
+          "number": 1,
+          "teamCode": "COD",
+          "kind": "emblem",
+          "name": "Emblema de RD Congo"
+        },
+        {
+          "code": "COD-02",
+          "number": 2,
+          "teamCode": "COD",
+          "kind": "player",
+          "name": "Lionel Mpasi"
+        },
+        {
+          "code": "COD-03",
+          "number": 3,
+          "teamCode": "COD",
+          "kind": "player",
+          "name": "Aaron Wan-Bissaka"
+        },
+        {
+          "code": "COD-04",
+          "number": 4,
+          "teamCode": "COD",
+          "kind": "player",
+          "name": "Axel Tuanzebe"
+        },
+        {
+          "code": "COD-05",
+          "number": 5,
+          "teamCode": "COD",
+          "kind": "player",
+          "name": "Arthur Masuaku"
+        },
+        {
+          "code": "COD-06",
+          "number": 6,
+          "teamCode": "COD",
+          "kind": "player",
+          "name": "Chancel Mbemba"
+        },
+        {
+          "code": "COD-07",
+          "number": 7,
+          "teamCode": "COD",
+          "kind": "player",
+          "name": "Joris Kayembe"
+        },
+        {
+          "code": "COD-08",
+          "number": 8,
+          "teamCode": "COD",
+          "kind": "player",
+          "name": "Charles Pickel"
+        },
+        {
+          "code": "COD-09",
+          "number": 9,
+          "teamCode": "COD",
+          "kind": "player",
+          "name": "Ngal'ayel Mukau"
+        },
+        {
+          "code": "COD-10",
+          "number": 10,
+          "teamCode": "COD",
+          "kind": "player",
+          "name": "Edo Kayembe"
+        },
+        {
+          "code": "COD-11",
+          "number": 11,
+          "teamCode": "COD",
+          "kind": "player",
+          "name": "Samuel Moutoussamy"
+        },
+        {
+          "code": "COD-12",
+          "number": 12,
+          "teamCode": "COD",
+          "kind": "player",
+          "name": "Noah Sadiki"
+        },
+        {
+          "code": "COD-13",
+          "number": 13,
+          "teamCode": "COD",
+          "kind": "squad",
+          "name": "Foto de equipo de RD Congo"
+        },
+        {
+          "code": "COD-14",
+          "number": 14,
+          "teamCode": "COD",
+          "kind": "player",
+          "name": "Théo Bongonda"
+        },
+        {
+          "code": "COD-15",
+          "number": 15,
+          "teamCode": "COD",
+          "kind": "player",
+          "name": "Meschack Elia"
+        },
+        {
+          "code": "COD-16",
+          "number": 16,
+          "teamCode": "COD",
+          "kind": "player",
+          "name": "Yoane Wissa"
+        },
+        {
+          "code": "COD-17",
+          "number": 17,
+          "teamCode": "COD",
+          "kind": "player",
+          "name": "Brian Cipenga"
+        },
+        {
+          "code": "COD-18",
+          "number": 18,
+          "teamCode": "COD",
+          "kind": "player",
+          "name": "Fiston Mayele"
+        },
+        {
+          "code": "COD-19",
+          "number": 19,
+          "teamCode": "COD",
+          "kind": "player",
+          "name": "Cédric Bakambu"
+        },
+        {
+          "code": "COD-20",
+          "number": 20,
+          "teamCode": "COD",
+          "kind": "player",
+          "name": "Nathanaël Mbuku"
+        }
+      ]
+    },
+    {
+      "teamCode": "POR",
+      "teamName": "Portugal",
+      "stickers": [
+        {
+          "code": "POR-01",
+          "number": 1,
+          "teamCode": "POR",
+          "kind": "emblem",
+          "name": "Emblema de Portugal"
+        },
+        {
+          "code": "POR-02",
+          "number": 2,
+          "teamCode": "POR",
+          "kind": "player",
+          "name": "Diogo Costa"
+        },
+        {
+          "code": "POR-03",
+          "number": 3,
+          "teamCode": "POR",
+          "kind": "player",
+          "name": "José Sá"
+        },
+        {
+          "code": "POR-04",
+          "number": 4,
+          "teamCode": "POR",
+          "kind": "player",
+          "name": "Rúben Dias"
+        },
+        {
+          "code": "POR-05",
+          "number": 5,
+          "teamCode": "POR",
+          "kind": "player",
+          "name": "João Cancelo"
+        },
+        {
+          "code": "POR-06",
+          "number": 6,
+          "teamCode": "POR",
+          "kind": "player",
+          "name": "Diogo Dalot"
+        },
+        {
+          "code": "POR-07",
+          "number": 7,
+          "teamCode": "POR",
+          "kind": "player",
+          "name": "Nuno Mendes"
+        },
+        {
+          "code": "POR-08",
+          "number": 8,
+          "teamCode": "POR",
+          "kind": "player",
+          "name": "Gonçalo Inácio"
+        },
+        {
+          "code": "POR-09",
+          "number": 9,
+          "teamCode": "POR",
+          "kind": "player",
+          "name": "Bernardo Silva"
+        },
+        {
+          "code": "POR-10",
+          "number": 10,
+          "teamCode": "POR",
+          "kind": "player",
+          "name": "Bruno Fernandes"
+        },
+        {
+          "code": "POR-11",
+          "number": 11,
+          "teamCode": "POR",
+          "kind": "player",
+          "name": "Rúben Neves"
+        },
+        {
+          "code": "POR-12",
+          "number": 12,
+          "teamCode": "POR",
+          "kind": "player",
+          "name": "Vitinha"
+        },
+        {
+          "code": "POR-13",
+          "number": 13,
+          "teamCode": "POR",
+          "kind": "squad",
+          "name": "Foto de equipo de Portugal"
+        },
+        {
+          "code": "POR-14",
+          "number": 14,
+          "teamCode": "POR",
+          "kind": "player",
+          "name": "João Neves"
+        },
+        {
+          "code": "POR-15",
+          "number": 15,
+          "teamCode": "POR",
+          "kind": "player",
+          "name": "Cristiano Ronaldo"
+        },
+        {
+          "code": "POR-16",
+          "number": 16,
+          "teamCode": "POR",
+          "kind": "player",
+          "name": "Francisco Trincão"
+        },
+        {
+          "code": "POR-17",
+          "number": 17,
+          "teamCode": "POR",
+          "kind": "player",
+          "name": "João Félix"
+        },
+        {
+          "code": "POR-18",
+          "number": 18,
+          "teamCode": "POR",
+          "kind": "player",
+          "name": "Gonçalo Ramos"
+        },
+        {
+          "code": "POR-19",
+          "number": 19,
+          "teamCode": "POR",
+          "kind": "player",
+          "name": "Pedro Neto"
+        },
+        {
+          "code": "POR-20",
+          "number": 20,
+          "teamCode": "POR",
+          "kind": "player",
+          "name": "Rafael Leão"
+        }
+      ]
+    },
+    {
+      "teamCode": "JOR",
+      "teamName": "Jordania",
+      "stickers": [
+        {
+          "code": "JOR-01",
+          "number": 1,
+          "teamCode": "JOR",
+          "kind": "emblem",
+          "name": "Emblema de Jordania"
+        },
+        {
+          "code": "JOR-02",
+          "number": 2,
+          "teamCode": "JOR",
+          "kind": "player",
+          "name": "Yazeed Abulaila"
+        },
+        {
+          "code": "JOR-03",
+          "number": 3,
+          "teamCode": "JOR",
+          "kind": "player",
+          "name": "Ihsan Haddad"
+        },
+        {
+          "code": "JOR-04",
+          "number": 4,
+          "teamCode": "JOR",
+          "kind": "player",
+          "name": "Mohammad Abu Hashish"
+        },
+        {
+          "code": "JOR-05",
+          "number": 5,
+          "teamCode": "JOR",
+          "kind": "player",
+          "name": "Yazan Al-Arab"
+        },
+        {
+          "code": "JOR-06",
+          "number": 6,
+          "teamCode": "JOR",
+          "kind": "player",
+          "name": "Abdallah Nasib"
+        },
+        {
+          "code": "JOR-07",
+          "number": 7,
+          "teamCode": "JOR",
+          "kind": "player",
+          "name": "Salem Obaid"
+        },
+        {
+          "code": "JOR-08",
+          "number": 8,
+          "teamCode": "JOR",
+          "kind": "player",
+          "name": "Mohammad Abualnadi"
+        },
+        {
+          "code": "JOR-09",
+          "number": 9,
+          "teamCode": "JOR",
+          "kind": "player",
+          "name": "Ibrahim Saadeh"
+        },
+        {
+          "code": "JOR-10",
+          "number": 10,
+          "teamCode": "JOR",
+          "kind": "player",
+          "name": "Nizar Al-Rashdan"
+        },
+        {
+          "code": "JOR-11",
+          "number": 11,
+          "teamCode": "JOR",
+          "kind": "player",
+          "name": "Noor Al-Rawabdeh"
+        },
+        {
+          "code": "JOR-12",
+          "number": 12,
+          "teamCode": "JOR",
+          "kind": "player",
+          "name": "Mohannad Abu Taha"
+        },
+        {
+          "code": "JOR-13",
+          "number": 13,
+          "teamCode": "JOR",
+          "kind": "squad",
+          "name": "Foto de equipo de Jordania"
+        },
+        {
+          "code": "JOR-14",
+          "number": 14,
+          "teamCode": "JOR",
+          "kind": "player",
+          "name": "Amer Jamous"
+        },
+        {
+          "code": "JOR-15",
+          "number": 15,
+          "teamCode": "JOR",
+          "kind": "player",
+          "name": "Mousa Al-Taamari"
+        },
+        {
+          "code": "JOR-16",
+          "number": 16,
+          "teamCode": "JOR",
+          "kind": "player",
+          "name": "Yazan Al-Naimat"
+        },
+        {
+          "code": "JOR-17",
+          "number": 17,
+          "teamCode": "JOR",
+          "kind": "player",
+          "name": "Mahmoud Al-Mardi"
+        },
+        {
+          "code": "JOR-18",
+          "number": 18,
+          "teamCode": "JOR",
+          "kind": "player",
+          "name": "Ali Olwan"
+        },
+        {
+          "code": "JOR-19",
+          "number": 19,
+          "teamCode": "JOR",
+          "kind": "player",
+          "name": "Mohammad Abu Zrayq"
+        },
+        {
+          "code": "JOR-20",
+          "number": 20,
+          "teamCode": "JOR",
+          "kind": "player",
+          "name": "Ibrahim Sabra"
+        }
+      ]
+    },
+    {
+      "teamCode": "AUT",
+      "teamName": "Austria",
+      "stickers": [
+        {
+          "code": "AUT-01",
+          "number": 1,
+          "teamCode": "AUT",
+          "kind": "emblem",
+          "name": "Emblema de Austria"
+        },
+        {
+          "code": "AUT-02",
+          "number": 2,
+          "teamCode": "AUT",
+          "kind": "player",
+          "name": "Alexander Schlager"
+        },
+        {
+          "code": "AUT-03",
+          "number": 3,
+          "teamCode": "AUT",
+          "kind": "player",
+          "name": "Patrick Pentz"
+        },
+        {
+          "code": "AUT-04",
+          "number": 4,
+          "teamCode": "AUT",
+          "kind": "player",
+          "name": "David Alaba"
+        },
+        {
+          "code": "AUT-05",
+          "number": 5,
+          "teamCode": "AUT",
+          "kind": "player",
+          "name": "Kevin Danso"
+        },
+        {
+          "code": "AUT-06",
+          "number": 6,
+          "teamCode": "AUT",
+          "kind": "player",
+          "name": "Philipp Lienhart"
+        },
+        {
+          "code": "AUT-07",
+          "number": 7,
+          "teamCode": "AUT",
+          "kind": "player",
+          "name": "Stefan Posch"
+        },
+        {
+          "code": "AUT-08",
+          "number": 8,
+          "teamCode": "AUT",
+          "kind": "player",
+          "name": "Philipp Mwene"
+        },
+        {
+          "code": "AUT-09",
+          "number": 9,
+          "teamCode": "AUT",
+          "kind": "player",
+          "name": "Alexander Prass"
+        },
+        {
+          "code": "AUT-10",
+          "number": 10,
+          "teamCode": "AUT",
+          "kind": "player",
+          "name": "Xaver Schlager"
+        },
+        {
+          "code": "AUT-11",
+          "number": 11,
+          "teamCode": "AUT",
+          "kind": "player",
+          "name": "Marcel Sabitzer"
+        },
+        {
+          "code": "AUT-12",
+          "number": 12,
+          "teamCode": "AUT",
+          "kind": "player",
+          "name": "Konrad Laimer"
+        },
+        {
+          "code": "AUT-13",
+          "number": 13,
+          "teamCode": "AUT",
+          "kind": "squad",
+          "name": "Foto de equipo de Austria"
+        },
+        {
+          "code": "AUT-14",
+          "number": 14,
+          "teamCode": "AUT",
+          "kind": "player",
+          "name": "Florian Grillitsch"
+        },
+        {
+          "code": "AUT-15",
+          "number": 15,
+          "teamCode": "AUT",
+          "kind": "player",
+          "name": "Nicolas Seiwald"
+        },
+        {
+          "code": "AUT-16",
+          "number": 16,
+          "teamCode": "AUT",
+          "kind": "player",
+          "name": "Romano Schmid"
+        },
+        {
+          "code": "AUT-17",
+          "number": 17,
+          "teamCode": "AUT",
+          "kind": "player",
+          "name": "Patrick Wimmer"
+        },
+        {
+          "code": "AUT-18",
+          "number": 18,
+          "teamCode": "AUT",
+          "kind": "player",
+          "name": "Christoph Baumgartner"
+        },
+        {
+          "code": "AUT-19",
+          "number": 19,
+          "teamCode": "AUT",
+          "kind": "player",
+          "name": "Michael Gregoritsch"
+        },
+        {
+          "code": "AUT-20",
+          "number": 20,
+          "teamCode": "AUT",
+          "kind": "player",
+          "name": "Marko Arnautović"
+        }
+      ]
+    },
+    {
+      "teamCode": "ALG",
+      "teamName": "Argelia",
+      "stickers": [
+        {
+          "code": "ALG-01",
+          "number": 1,
+          "teamCode": "ALG",
+          "kind": "emblem",
+          "name": "Emblema de Argelia"
+        },
+        {
+          "code": "ALG-02",
+          "number": 2,
+          "teamCode": "ALG",
+          "kind": "player",
+          "name": "Alexis Guendouz"
+        },
+        {
+          "code": "ALG-03",
+          "number": 3,
+          "teamCode": "ALG",
+          "kind": "player",
+          "name": "Ramy Bensebaini"
+        },
+        {
+          "code": "ALG-04",
+          "number": 4,
+          "teamCode": "ALG",
+          "kind": "player",
+          "name": "Youcef Atal"
+        },
+        {
+          "code": "ALG-05",
+          "number": 5,
+          "teamCode": "ALG",
+          "kind": "player",
+          "name": "Rayan Aït-Nouri"
+        },
+        {
+          "code": "ALG-06",
+          "number": 6,
+          "teamCode": "ALG",
+          "kind": "player",
+          "name": "Mohamed Amine Tougai"
+        },
+        {
+          "code": "ALG-07",
+          "number": 7,
+          "teamCode": "ALG",
+          "kind": "player",
+          "name": "Aïssa Mandi"
+        },
+        {
+          "code": "ALG-08",
+          "number": 8,
+          "teamCode": "ALG",
+          "kind": "player",
+          "name": "Ismaël Bennacer"
+        },
+        {
+          "code": "ALG-09",
+          "number": 9,
+          "teamCode": "ALG",
+          "kind": "player",
+          "name": "Houssem Aouar"
+        },
+        {
+          "code": "ALG-10",
+          "number": 10,
+          "teamCode": "ALG",
+          "kind": "player",
+          "name": "Hicham Boudaoui"
+        },
+        {
+          "code": "ALG-11",
+          "number": 11,
+          "teamCode": "ALG",
+          "kind": "player",
+          "name": "Ramiz Zerrouki"
+        },
+        {
+          "code": "ALG-12",
+          "number": 12,
+          "teamCode": "ALG",
+          "kind": "player",
+          "name": "Nabil Bentaleb"
+        },
+        {
+          "code": "ALG-13",
+          "number": 13,
+          "teamCode": "ALG",
+          "kind": "squad",
+          "name": "Foto de equipo de Argelia"
+        },
+        {
+          "code": "ALG-14",
+          "number": 14,
+          "teamCode": "ALG",
+          "kind": "player",
+          "name": "Farès Chaïbi"
+        },
+        {
+          "code": "ALG-15",
+          "number": 15,
+          "teamCode": "ALG",
+          "kind": "player",
+          "name": "Riyad Mahrez"
+        },
+        {
+          "code": "ALG-16",
+          "number": 16,
+          "teamCode": "ALG",
+          "kind": "player",
+          "name": "Saïd Benrahma"
+        },
+        {
+          "code": "ALG-17",
+          "number": 17,
+          "teamCode": "ALG",
+          "kind": "player",
+          "name": "Anis Hadj Moussa"
+        },
+        {
+          "code": "ALG-18",
+          "number": 18,
+          "teamCode": "ALG",
+          "kind": "player",
+          "name": "Amine Gouiri"
+        },
+        {
+          "code": "ALG-19",
+          "number": 19,
+          "teamCode": "ALG",
+          "kind": "player",
+          "name": "Baghdad Bounedjah"
+        },
+        {
+          "code": "ALG-20",
+          "number": 20,
+          "teamCode": "ALG",
+          "kind": "player",
+          "name": "Mohamed Amoura"
+        }
+      ]
+    },
+    {
+      "teamCode": "ARG",
+      "teamName": "Argentina",
+      "stickers": [
+        {
+          "code": "ARG-01",
+          "number": 1,
+          "teamCode": "ARG",
+          "kind": "emblem",
+          "name": "Emblema de Argentina"
+        },
+        {
+          "code": "ARG-02",
+          "number": 2,
+          "teamCode": "ARG",
+          "kind": "player",
+          "name": "Emiliano Martínez"
+        },
+        {
+          "code": "ARG-03",
+          "number": 3,
+          "teamCode": "ARG",
+          "kind": "player",
+          "name": "Nahuel Molina"
+        },
+        {
+          "code": "ARG-04",
+          "number": 4,
+          "teamCode": "ARG",
+          "kind": "player",
+          "name": "Cristian Romero"
+        },
+        {
+          "code": "ARG-05",
+          "number": 5,
+          "teamCode": "ARG",
+          "kind": "player",
+          "name": "Nicolás Otamendi"
+        },
+        {
+          "code": "ARG-06",
+          "number": 6,
+          "teamCode": "ARG",
+          "kind": "player",
+          "name": "Nicolás Tagliafico"
+        },
+        {
+          "code": "ARG-07",
+          "number": 7,
+          "teamCode": "ARG",
+          "kind": "player",
+          "name": "Leonardo Balerdi"
+        },
+        {
+          "code": "ARG-08",
+          "number": 8,
+          "teamCode": "ARG",
+          "kind": "player",
+          "name": "Enzo Fernández"
+        },
+        {
+          "code": "ARG-09",
+          "number": 9,
+          "teamCode": "ARG",
+          "kind": "player",
+          "name": "Alexis Mac Allister"
+        },
+        {
+          "code": "ARG-10",
+          "number": 10,
+          "teamCode": "ARG",
+          "kind": "player",
+          "name": "Rodrigo De Paul"
+        },
+        {
+          "code": "ARG-11",
+          "number": 11,
+          "teamCode": "ARG",
+          "kind": "player",
+          "name": "Exequiel Palacios"
+        },
+        {
+          "code": "ARG-12",
+          "number": 12,
+          "teamCode": "ARG",
+          "kind": "player",
+          "name": "Leandro Paredes"
+        },
+        {
+          "code": "ARG-13",
+          "number": 13,
+          "teamCode": "ARG",
+          "kind": "squad",
+          "name": "Foto de equipo de Argentina"
+        },
+        {
+          "code": "ARG-14",
+          "number": 14,
+          "teamCode": "ARG",
+          "kind": "player",
+          "name": "Nico Paz"
+        },
+        {
+          "code": "ARG-15",
+          "number": 15,
+          "teamCode": "ARG",
+          "kind": "player",
+          "name": "Franco Mastantuono"
+        },
+        {
+          "code": "ARG-16",
+          "number": 16,
+          "teamCode": "ARG",
+          "kind": "player",
+          "name": "Nico González"
+        },
+        {
+          "code": "ARG-17",
+          "number": 17,
+          "teamCode": "ARG",
+          "kind": "player",
+          "name": "Lionel Messi"
+        },
+        {
+          "code": "ARG-18",
+          "number": 18,
+          "teamCode": "ARG",
+          "kind": "player",
+          "name": "Lautaro Martínez"
+        },
+        {
+          "code": "ARG-19",
+          "number": 19,
+          "teamCode": "ARG",
+          "kind": "player",
+          "name": "Julián Álvarez"
+        },
+        {
+          "code": "ARG-20",
+          "number": 20,
+          "teamCode": "ARG",
+          "kind": "player",
+          "name": "Giuliano Simeone"
+        }
+      ]
+    },
+    {
+      "teamCode": "NOR",
+      "teamName": "Noruega",
+      "stickers": [
+        {
+          "code": "NOR-01",
+          "number": 1,
+          "teamCode": "NOR",
+          "kind": "emblem",
+          "name": "Emblema de Noruega"
+        },
+        {
+          "code": "NOR-02",
+          "number": 2,
+          "teamCode": "NOR",
+          "kind": "player",
+          "name": "Ørjan Nyland"
+        },
+        {
+          "code": "NOR-03",
+          "number": 3,
+          "teamCode": "NOR",
+          "kind": "player",
+          "name": "Julian Ryerson"
+        },
+        {
+          "code": "NOR-04",
+          "number": 4,
+          "teamCode": "NOR",
+          "kind": "player",
+          "name": "Leo Østigård"
+        },
+        {
+          "code": "NOR-05",
+          "number": 5,
+          "teamCode": "NOR",
+          "kind": "player",
+          "name": "Kristoffer Vassbakk Ajer"
+        },
+        {
+          "code": "NOR-06",
+          "number": 6,
+          "teamCode": "NOR",
+          "kind": "player",
+          "name": "Marcus Holmgren Pedersen"
+        },
+        {
+          "code": "NOR-07",
+          "number": 7,
+          "teamCode": "NOR",
+          "kind": "player",
+          "name": "David Møller Wolfe"
+        },
+        {
+          "code": "NOR-08",
+          "number": 8,
+          "teamCode": "NOR",
+          "kind": "player",
+          "name": "Torbjørn Heggem"
+        },
+        {
+          "code": "NOR-09",
+          "number": 9,
+          "teamCode": "NOR",
+          "kind": "player",
+          "name": "Morten Thorsby"
+        },
+        {
+          "code": "NOR-10",
+          "number": 10,
+          "teamCode": "NOR",
+          "kind": "player",
+          "name": "Martin Ødegaard"
+        },
+        {
+          "code": "NOR-11",
+          "number": 11,
+          "teamCode": "NOR",
+          "kind": "player",
+          "name": "Sander Berge"
+        },
+        {
+          "code": "NOR-12",
+          "number": 12,
+          "teamCode": "NOR",
+          "kind": "player",
+          "name": "Andreas Schjelderup"
+        },
+        {
+          "code": "NOR-13",
+          "number": 13,
+          "teamCode": "NOR",
+          "kind": "squad",
+          "name": "Foto de equipo de Noruega"
+        },
+        {
+          "code": "NOR-14",
+          "number": 14,
+          "teamCode": "NOR",
+          "kind": "player",
+          "name": "Patrick Berg"
+        },
+        {
+          "code": "NOR-15",
+          "number": 15,
+          "teamCode": "NOR",
+          "kind": "player",
+          "name": "Erling Haaland"
+        },
+        {
+          "code": "NOR-16",
+          "number": 16,
+          "teamCode": "NOR",
+          "kind": "player",
+          "name": "Alexander Sørloth"
+        },
+        {
+          "code": "NOR-17",
+          "number": 17,
+          "teamCode": "NOR",
+          "kind": "player",
+          "name": "Aron Dønnum"
+        },
+        {
+          "code": "NOR-18",
+          "number": 18,
+          "teamCode": "NOR",
+          "kind": "player",
+          "name": "Jørgen Strand Larsen"
+        },
+        {
+          "code": "NOR-19",
+          "number": 19,
+          "teamCode": "NOR",
+          "kind": "player",
+          "name": "Antonio Nusa"
+        },
+        {
+          "code": "NOR-20",
+          "number": 20,
+          "teamCode": "NOR",
+          "kind": "player",
+          "name": "Oscar Bobb"
+        }
+      ]
+    },
+    {
+      "teamCode": "IRQ",
+      "teamName": "Irak",
+      "stickers": [
+        {
+          "code": "IRQ-01",
+          "number": 1,
+          "teamCode": "IRQ",
+          "kind": "emblem",
+          "name": "Emblema de Irak"
+        },
+        {
+          "code": "IRQ-02",
+          "number": 2,
+          "teamCode": "IRQ",
+          "kind": "player",
+          "name": "Jalal Hassan"
+        },
+        {
+          "code": "IRQ-03",
+          "number": 3,
+          "teamCode": "IRQ",
+          "kind": "player",
+          "name": "Rebin Sulaka"
+        },
+        {
+          "code": "IRQ-04",
+          "number": 4,
+          "teamCode": "IRQ",
+          "kind": "player",
+          "name": "Hussein Ali"
+        },
+        {
+          "code": "IRQ-05",
+          "number": 5,
+          "teamCode": "IRQ",
+          "kind": "player",
+          "name": "Akam Hashem"
+        },
+        {
+          "code": "IRQ-06",
+          "number": 6,
+          "teamCode": "IRQ",
+          "kind": "player",
+          "name": "Merchas Doski"
+        },
+        {
+          "code": "IRQ-07",
+          "number": 7,
+          "teamCode": "IRQ",
+          "kind": "player",
+          "name": "Zaid Tahseen"
+        },
+        {
+          "code": "IRQ-08",
+          "number": 8,
+          "teamCode": "IRQ",
+          "kind": "player",
+          "name": "Manaf Younis"
+        },
+        {
+          "code": "IRQ-09",
+          "number": 9,
+          "teamCode": "IRQ",
+          "kind": "player",
+          "name": "Zidane Iqbal"
+        },
+        {
+          "code": "IRQ-10",
+          "number": 10,
+          "teamCode": "IRQ",
+          "kind": "player",
+          "name": "Amir Al-Ammari"
+        },
+        {
+          "code": "IRQ-11",
+          "number": 11,
+          "teamCode": "IRQ",
+          "kind": "player",
+          "name": "Ibrahim Bayesh"
+        },
+        {
+          "code": "IRQ-12",
+          "number": 12,
+          "teamCode": "IRQ",
+          "kind": "player",
+          "name": "Ali Jasim"
+        },
+        {
+          "code": "IRQ-13",
+          "number": 13,
+          "teamCode": "IRQ",
+          "kind": "squad",
+          "name": "Foto de equipo de Irak"
+        },
+        {
+          "code": "IRQ-14",
+          "number": 14,
+          "teamCode": "IRQ",
+          "kind": "player",
+          "name": "Youssef Amyn"
+        },
+        {
+          "code": "IRQ-15",
+          "number": 15,
+          "teamCode": "IRQ",
+          "kind": "player",
+          "name": "Aimar Sher"
+        },
+        {
+          "code": "IRQ-16",
+          "number": 16,
+          "teamCode": "IRQ",
+          "kind": "player",
+          "name": "Marko Farji"
+        },
+        {
+          "code": "IRQ-17",
+          "number": 17,
+          "teamCode": "IRQ",
+          "kind": "player",
+          "name": "Osama Rashid"
+        },
+        {
+          "code": "IRQ-18",
+          "number": 18,
+          "teamCode": "IRQ",
+          "kind": "player",
+          "name": "Ali Al-Hamadi"
+        },
+        {
+          "code": "IRQ-19",
+          "number": 19,
+          "teamCode": "IRQ",
+          "kind": "player",
+          "name": "Aymen Hussein"
+        },
+        {
+          "code": "IRQ-20",
+          "number": 20,
+          "teamCode": "IRQ",
+          "kind": "player",
+          "name": "Mohanad Ali"
+        }
+      ]
+    },
+    {
+      "teamCode": "SEN",
+      "teamName": "Senegal",
+      "stickers": [
+        {
+          "code": "SEN-01",
+          "number": 1,
+          "teamCode": "SEN",
+          "kind": "emblem",
+          "name": "Emblema de Senegal"
+        },
+        {
+          "code": "SEN-02",
+          "number": 2,
+          "teamCode": "SEN",
+          "kind": "player",
+          "name": "Édouard Mendy"
+        },
+        {
+          "code": "SEN-03",
+          "number": 3,
+          "teamCode": "SEN",
+          "kind": "player",
+          "name": "Yehvann Diouf"
+        },
+        {
+          "code": "SEN-04",
+          "number": 4,
+          "teamCode": "SEN",
+          "kind": "player",
+          "name": "Moussa Niakhaté"
+        },
+        {
+          "code": "SEN-05",
+          "number": 5,
+          "teamCode": "SEN",
+          "kind": "player",
+          "name": "Abdoulaye Seck"
+        },
+        {
+          "code": "SEN-06",
+          "number": 6,
+          "teamCode": "SEN",
+          "kind": "player",
+          "name": "Ismail Jakobs"
+        },
+        {
+          "code": "SEN-07",
+          "number": 7,
+          "teamCode": "SEN",
+          "kind": "player",
+          "name": "El Hadji Malick Diouf"
+        },
+        {
+          "code": "SEN-08",
+          "number": 8,
+          "teamCode": "SEN",
+          "kind": "player",
+          "name": "Kalidou Koulibaly"
+        },
+        {
+          "code": "SEN-09",
+          "number": 9,
+          "teamCode": "SEN",
+          "kind": "player",
+          "name": "Idrissa Gana Gueye"
+        },
+        {
+          "code": "SEN-10",
+          "number": 10,
+          "teamCode": "SEN",
+          "kind": "player",
+          "name": "Pape Matar Sarr"
+        },
+        {
+          "code": "SEN-11",
+          "number": 11,
+          "teamCode": "SEN",
+          "kind": "player",
+          "name": "Pape Gueye"
+        },
+        {
+          "code": "SEN-12",
+          "number": 12,
+          "teamCode": "SEN",
+          "kind": "player",
+          "name": "Habib Diarra"
+        },
+        {
+          "code": "SEN-13",
+          "number": 13,
+          "teamCode": "SEN",
+          "kind": "squad",
+          "name": "Foto de equipo de Senegal"
+        },
+        {
+          "code": "SEN-14",
+          "number": 14,
+          "teamCode": "SEN",
+          "kind": "player",
+          "name": "Lamine Camara"
+        },
+        {
+          "code": "SEN-15",
+          "number": 15,
+          "teamCode": "SEN",
+          "kind": "player",
+          "name": "Sadio Mané"
+        },
+        {
+          "code": "SEN-16",
+          "number": 16,
+          "teamCode": "SEN",
+          "kind": "player",
+          "name": "Ismaïla Sarr"
+        },
+        {
+          "code": "SEN-17",
+          "number": 17,
+          "teamCode": "SEN",
+          "kind": "player",
+          "name": "Boulaye Dia"
+        },
+        {
+          "code": "SEN-18",
+          "number": 18,
+          "teamCode": "SEN",
+          "kind": "player",
+          "name": "Iliman Ndiaye"
+        },
+        {
+          "code": "SEN-19",
+          "number": 19,
+          "teamCode": "SEN",
+          "kind": "player",
+          "name": "Nicolas Jackson"
+        },
+        {
+          "code": "SEN-20",
+          "number": 20,
+          "teamCode": "SEN",
+          "kind": "player",
+          "name": "Krépin Diatta"
+        }
+      ]
+    },
+    {
+      "teamCode": "FRA",
+      "teamName": "Francia",
+      "stickers": [
+        {
+          "code": "FRA-01",
+          "number": 1,
+          "teamCode": "FRA",
+          "kind": "emblem",
+          "name": "Emblema de Francia"
+        },
+        {
+          "code": "FRA-02",
+          "number": 2,
+          "teamCode": "FRA",
+          "kind": "player",
+          "name": "Mike Maignan"
+        },
+        {
+          "code": "FRA-03",
+          "number": 3,
+          "teamCode": "FRA",
+          "kind": "player",
+          "name": "Théo Hernández"
+        },
+        {
+          "code": "FRA-04",
+          "number": 4,
+          "teamCode": "FRA",
+          "kind": "player",
+          "name": "William Saliba"
+        },
+        {
+          "code": "FRA-05",
+          "number": 5,
+          "teamCode": "FRA",
+          "kind": "player",
+          "name": "Jules Koundé"
+        },
+        {
+          "code": "FRA-06",
+          "number": 6,
+          "teamCode": "FRA",
+          "kind": "player",
+          "name": "Ibrahima Konaté"
+        },
+        {
+          "code": "FRA-07",
+          "number": 7,
+          "teamCode": "FRA",
+          "kind": "player",
+          "name": "Dayot Upamecano"
+        },
+        {
+          "code": "FRA-08",
+          "number": 8,
+          "teamCode": "FRA",
+          "kind": "player",
+          "name": "Lucas Digne"
+        },
+        {
+          "code": "FRA-09",
+          "number": 9,
+          "teamCode": "FRA",
+          "kind": "player",
+          "name": "Aurélien Tchouaméni"
+        },
+        {
+          "code": "FRA-10",
+          "number": 10,
+          "teamCode": "FRA",
+          "kind": "player",
+          "name": "Eduardo Camavinga"
+        },
+        {
+          "code": "FRA-11",
+          "number": 11,
+          "teamCode": "FRA",
+          "kind": "player",
+          "name": "Manu Koné"
+        },
+        {
+          "code": "FRA-12",
+          "number": 12,
+          "teamCode": "FRA",
+          "kind": "player",
+          "name": "Adrien Rabiot"
+        },
+        {
+          "code": "FRA-13",
+          "number": 13,
+          "teamCode": "FRA",
+          "kind": "squad",
+          "name": "Foto de equipo de Francia"
+        },
+        {
+          "code": "FRA-14",
+          "number": 14,
+          "teamCode": "FRA",
+          "kind": "player",
+          "name": "Michael Olise"
+        },
+        {
+          "code": "FRA-15",
+          "number": 15,
+          "teamCode": "FRA",
+          "kind": "player",
+          "name": "Ousmane Dembélé"
+        },
+        {
+          "code": "FRA-16",
+          "number": 16,
+          "teamCode": "FRA",
+          "kind": "player",
+          "name": "Bradley Barcola"
+        },
+        {
+          "code": "FRA-17",
+          "number": 17,
+          "teamCode": "FRA",
+          "kind": "player",
+          "name": "Désiré Doué"
+        },
+        {
+          "code": "FRA-18",
+          "number": 18,
+          "teamCode": "FRA",
+          "kind": "player",
+          "name": "Kingsley Coman"
+        },
+        {
+          "code": "FRA-19",
+          "number": 19,
+          "teamCode": "FRA",
+          "kind": "player",
+          "name": "Hugo Ekitiké"
+        },
+        {
+          "code": "FRA-20",
+          "number": 20,
+          "teamCode": "FRA",
+          "kind": "player",
+          "name": "Kylian Mbappé"
+        }
+      ]
+    },
+    {
+      "teamCode": "URU",
+      "teamName": "Uruguay",
+      "stickers": [
+        {
+          "code": "URU-01",
+          "number": 1,
+          "teamCode": "URU",
+          "kind": "emblem",
+          "name": "Emblema de Uruguay"
+        },
+        {
+          "code": "URU-02",
+          "number": 2,
+          "teamCode": "URU",
+          "kind": "player",
+          "name": "Sergio Rochet"
+        },
+        {
+          "code": "URU-03",
+          "number": 3,
+          "teamCode": "URU",
+          "kind": "player",
+          "name": "Santiago Mele"
+        },
+        {
+          "code": "URU-04",
+          "number": 4,
+          "teamCode": "URU",
+          "kind": "player",
+          "name": "Ronald Araújo"
+        },
+        {
+          "code": "URU-05",
+          "number": 5,
+          "teamCode": "URU",
+          "kind": "player",
+          "name": "José María Giménez"
+        },
+        {
+          "code": "URU-06",
+          "number": 6,
+          "teamCode": "URU",
+          "kind": "player",
+          "name": "Sebastián Cáceres"
+        },
+        {
+          "code": "URU-07",
+          "number": 7,
+          "teamCode": "URU",
+          "kind": "player",
+          "name": "Mathías Olivera"
+        },
+        {
+          "code": "URU-08",
+          "number": 8,
+          "teamCode": "URU",
+          "kind": "player",
+          "name": "Guillermo Varela"
+        },
+        {
+          "code": "URU-09",
+          "number": 9,
+          "teamCode": "URU",
+          "kind": "player",
+          "name": "Nahitan Nández"
+        },
+        {
+          "code": "URU-10",
+          "number": 10,
+          "teamCode": "URU",
+          "kind": "player",
+          "name": "Federico Valverde"
+        },
+        {
+          "code": "URU-11",
+          "number": 11,
+          "teamCode": "URU",
+          "kind": "player",
+          "name": "Giorgian de Arrascaeta"
+        },
+        {
+          "code": "URU-12",
+          "number": 12,
+          "teamCode": "URU",
+          "kind": "player",
+          "name": "Rodrigo Bentancur"
+        },
+        {
+          "code": "URU-13",
+          "number": 13,
+          "teamCode": "URU",
+          "kind": "squad",
+          "name": "Foto de equipo de Uruguay"
+        },
+        {
+          "code": "URU-14",
+          "number": 14,
+          "teamCode": "URU",
+          "kind": "player",
+          "name": "Manuel Ugarte"
+        },
+        {
+          "code": "URU-15",
+          "number": 15,
+          "teamCode": "URU",
+          "kind": "player",
+          "name": "Nicolás de la Cruz"
+        },
+        {
+          "code": "URU-16",
+          "number": 16,
+          "teamCode": "URU",
+          "kind": "player",
+          "name": "Maxi Araújo"
+        },
+        {
+          "code": "URU-17",
+          "number": 17,
+          "teamCode": "URU",
+          "kind": "player",
+          "name": "Darwin Núñez"
+        },
+        {
+          "code": "URU-18",
+          "number": 18,
+          "teamCode": "URU",
+          "kind": "player",
+          "name": "Federico Viñas"
+        },
+        {
+          "code": "URU-19",
+          "number": 19,
+          "teamCode": "URU",
+          "kind": "player",
+          "name": "Rodrigo Aguirre"
+        },
+        {
+          "code": "URU-20",
+          "number": 20,
+          "teamCode": "URU",
+          "kind": "player",
+          "name": "Facundo Pellistri"
+        }
+      ]
+    },
+    {
+      "teamCode": "KSA",
+      "teamName": "Arabia Saudita",
+      "stickers": [
+        {
+          "code": "KSA-01",
+          "number": 1,
+          "teamCode": "KSA",
+          "kind": "emblem",
+          "name": "Emblema de Arabia Saudita"
+        },
+        {
+          "code": "KSA-02",
+          "number": 2,
+          "teamCode": "KSA",
+          "kind": "player",
+          "name": "Nawaf Alaqidi"
+        },
+        {
+          "code": "KSA-03",
+          "number": 3,
+          "teamCode": "KSA",
+          "kind": "player",
+          "name": "Abdulrahman Alsanbi"
+        },
+        {
+          "code": "KSA-04",
+          "number": 4,
+          "teamCode": "KSA",
+          "kind": "player",
+          "name": "Saud Abdulhamid"
+        },
+        {
+          "code": "KSA-05",
+          "number": 5,
+          "teamCode": "KSA",
+          "kind": "player",
+          "name": "Nawaf Boushal"
+        },
+        {
+          "code": "KSA-06",
+          "number": 6,
+          "teamCode": "KSA",
+          "kind": "player",
+          "name": "Jehad Thakri"
+        },
+        {
+          "code": "KSA-07",
+          "number": 7,
+          "teamCode": "KSA",
+          "kind": "player",
+          "name": "Moteb Alharbi"
+        },
+        {
+          "code": "KSA-08",
+          "number": 8,
+          "teamCode": "KSA",
+          "kind": "player",
+          "name": "Musab Aljuwayr"
+        },
+        {
+          "code": "KSA-09",
+          "number": 9,
+          "teamCode": "KSA",
+          "kind": "player",
+          "name": "Faisal Alghamdi"
+        },
+        {
+          "code": "KSA-10",
+          "number": 10,
+          "teamCode": "KSA",
+          "kind": "player",
+          "name": "Mohammed Kanno"
+        },
+        {
+          "code": "KSA-11",
+          "number": 11,
+          "teamCode": "KSA",
+          "kind": "player",
+          "name": "Abdullah Alkhaibari"
+        },
+        {
+          "code": "KSA-12",
+          "number": 12,
+          "teamCode": "KSA",
+          "kind": "player",
+          "name": "Nasser Aldawsari"
+        },
+        {
+          "code": "KSA-13",
+          "number": 13,
+          "teamCode": "KSA",
+          "kind": "squad",
+          "name": "Foto de equipo de Arabia Saudita"
+        },
+        {
+          "code": "KSA-14",
+          "number": 14,
+          "teamCode": "KSA",
+          "kind": "player",
+          "name": "Saleh Abu Alshamat"
+        },
+        {
+          "code": "KSA-15",
+          "number": 15,
+          "teamCode": "KSA",
+          "kind": "player",
+          "name": "Marwan Alsahafi"
+        },
+        {
+          "code": "KSA-16",
+          "number": 16,
+          "teamCode": "KSA",
+          "kind": "player",
+          "name": "Salem Aldawsari"
+        },
+        {
+          "code": "KSA-17",
+          "number": 17,
+          "teamCode": "KSA",
+          "kind": "player",
+          "name": "Abdulrahman Alobud"
+        },
+        {
+          "code": "KSA-18",
+          "number": 18,
+          "teamCode": "KSA",
+          "kind": "player",
+          "name": "Feras Albrikan"
+        },
+        {
+          "code": "KSA-19",
+          "number": 19,
+          "teamCode": "KSA",
+          "kind": "player",
+          "name": "Saleh Alshehri"
+        },
+        {
+          "code": "KSA-20",
+          "number": 20,
+          "teamCode": "KSA",
+          "kind": "player",
+          "name": "Abdullah Alhamdan"
+        }
+      ]
+    },
+    {
+      "teamCode": "CPV",
+      "teamName": "Cabo Verde",
+      "stickers": [
+        {
+          "code": "CPV-01",
+          "number": 1,
+          "teamCode": "CPV",
+          "kind": "emblem",
+          "name": "Emblema de Cabo Verde"
+        },
+        {
+          "code": "CPV-02",
+          "number": 2,
+          "teamCode": "CPV",
+          "kind": "player",
+          "name": "Vozinha"
+        },
+        {
+          "code": "CPV-03",
+          "number": 3,
+          "teamCode": "CPV",
+          "kind": "player",
+          "name": "Logan Costa"
+        },
+        {
+          "code": "CPV-04",
+          "number": 4,
+          "teamCode": "CPV",
+          "kind": "player",
+          "name": "Pico"
+        },
+        {
+          "code": "CPV-05",
+          "number": 5,
+          "teamCode": "CPV",
+          "kind": "player",
+          "name": "Diney"
+        },
+        {
+          "code": "CPV-06",
+          "number": 6,
+          "teamCode": "CPV",
+          "kind": "player",
+          "name": "Steven Moreira"
+        },
+        {
+          "code": "CPV-07",
+          "number": 7,
+          "teamCode": "CPV",
+          "kind": "player",
+          "name": "Wagner Pina"
+        },
+        {
+          "code": "CPV-08",
+          "number": 8,
+          "teamCode": "CPV",
+          "kind": "player",
+          "name": "João Paulo"
+        },
+        {
+          "code": "CPV-09",
+          "number": 9,
+          "teamCode": "CPV",
+          "kind": "player",
+          "name": "Yannick Semedo"
+        },
+        {
+          "code": "CPV-10",
+          "number": 10,
+          "teamCode": "CPV",
+          "kind": "player",
+          "name": "Kevin Pina"
+        },
+        {
+          "code": "CPV-11",
+          "number": 11,
+          "teamCode": "CPV",
+          "kind": "player",
+          "name": "Patrick Andrade"
+        },
+        {
+          "code": "CPV-12",
+          "number": 12,
+          "teamCode": "CPV",
+          "kind": "player",
+          "name": "Jamiro Monteiro"
+        },
+        {
+          "code": "CPV-13",
+          "number": 13,
+          "teamCode": "CPV",
+          "kind": "squad",
+          "name": "Foto de equipo de Cabo Verde"
+        },
+        {
+          "code": "CPV-14",
+          "number": 14,
+          "teamCode": "CPV",
+          "kind": "player",
+          "name": "Deroy Duarte"
+        },
+        {
+          "code": "CPV-15",
+          "number": 15,
+          "teamCode": "CPV",
+          "kind": "player",
+          "name": "Garry Rodrigues"
+        },
+        {
+          "code": "CPV-16",
+          "number": 16,
+          "teamCode": "CPV",
+          "kind": "player",
+          "name": "João Cabral"
+        },
+        {
+          "code": "CPV-17",
+          "number": 17,
+          "teamCode": "CPV",
+          "kind": "player",
+          "name": "Ryan Mendes"
+        },
+        {
+          "code": "CPV-18",
+          "number": 18,
+          "teamCode": "CPV",
+          "kind": "player",
+          "name": "Dailon Livramento"
+        },
+        {
+          "code": "CPV-19",
+          "number": 19,
+          "teamCode": "CPV",
+          "kind": "player",
+          "name": "Willy Semedo"
+        },
+        {
+          "code": "CPV-20",
+          "number": 20,
+          "teamCode": "CPV",
+          "kind": "player",
+          "name": "Bebé"
+        }
+      ]
+    },
+    {
+      "teamCode": "ESP",
+      "teamName": "España",
+      "stickers": [
+        {
+          "code": "ESP-01",
+          "number": 1,
+          "teamCode": "ESP",
+          "kind": "emblem",
+          "name": "Emblema de España"
+        },
+        {
+          "code": "ESP-02",
+          "number": 2,
+          "teamCode": "ESP",
+          "kind": "player",
+          "name": "Unai Simón"
+        },
+        {
+          "code": "ESP-03",
+          "number": 3,
+          "teamCode": "ESP",
+          "kind": "player",
+          "name": "Robin Le Normand"
+        },
+        {
+          "code": "ESP-04",
+          "number": 4,
+          "teamCode": "ESP",
+          "kind": "player",
+          "name": "Aymeric Laporte"
+        },
+        {
+          "code": "ESP-05",
+          "number": 5,
+          "teamCode": "ESP",
+          "kind": "player",
+          "name": "Dean Huijsen"
+        },
+        {
+          "code": "ESP-06",
+          "number": 6,
+          "teamCode": "ESP",
+          "kind": "player",
+          "name": "Pedro Porro"
+        },
+        {
+          "code": "ESP-07",
+          "number": 7,
+          "teamCode": "ESP",
+          "kind": "player",
+          "name": "Dani Carvajal"
+        },
+        {
+          "code": "ESP-08",
+          "number": 8,
+          "teamCode": "ESP",
+          "kind": "player",
+          "name": "Marc Cucurella"
+        },
+        {
+          "code": "ESP-09",
+          "number": 9,
+          "teamCode": "ESP",
+          "kind": "player",
+          "name": "Pau Cubarsí"
+        },
+        {
+          "code": "ESP-10",
+          "number": 10,
+          "teamCode": "ESP",
+          "kind": "player",
+          "name": "Rodri"
+        },
+        {
+          "code": "ESP-11",
+          "number": 11,
+          "teamCode": "ESP",
+          "kind": "player",
+          "name": "Pedri"
+        },
+        {
+          "code": "ESP-12",
+          "number": 12,
+          "teamCode": "ESP",
+          "kind": "player",
+          "name": "Fabián Ruiz"
+        },
+        {
+          "code": "ESP-13",
+          "number": 13,
+          "teamCode": "ESP",
+          "kind": "squad",
+          "name": "Foto de equipo de España"
+        },
+        {
+          "code": "ESP-14",
+          "number": 14,
+          "teamCode": "ESP",
+          "kind": "player",
+          "name": "Mikel Merino"
+        },
+        {
+          "code": "ESP-15",
+          "number": 15,
+          "teamCode": "ESP",
+          "kind": "player",
+          "name": "Lamine Yamal"
+        },
+        {
+          "code": "ESP-16",
+          "number": 16,
+          "teamCode": "ESP",
+          "kind": "player",
+          "name": "Dani Olmo"
+        },
+        {
+          "code": "ESP-17",
+          "number": 17,
+          "teamCode": "ESP",
+          "kind": "player",
+          "name": "Nico Williams"
+        },
+        {
+          "code": "ESP-18",
+          "number": 18,
+          "teamCode": "ESP",
+          "kind": "player",
+          "name": "Ferran Torres"
+        },
+        {
+          "code": "ESP-19",
+          "number": 19,
+          "teamCode": "ESP",
+          "kind": "player",
+          "name": "Álvaro Morata"
+        },
+        {
+          "code": "ESP-20",
+          "number": 20,
+          "teamCode": "ESP",
+          "kind": "player",
+          "name": "Mikel Oyarzabal"
+        }
+      ]
+    },
+    {
+      "teamCode": "NZL",
+      "teamName": "Nueva Zelanda",
+      "stickers": [
+        {
+          "code": "NZL-01",
+          "number": 1,
+          "teamCode": "NZL",
+          "kind": "emblem",
+          "name": "Emblema de Nueva Zelanda"
+        },
+        {
+          "code": "NZL-02",
+          "number": 2,
+          "teamCode": "NZL",
+          "kind": "player",
+          "name": "Max Crocombe"
+        },
+        {
+          "code": "NZL-03",
+          "number": 3,
+          "teamCode": "NZL",
+          "kind": "player",
+          "name": "Alex Paulsen"
+        },
+        {
+          "code": "NZL-04",
+          "number": 4,
+          "teamCode": "NZL",
+          "kind": "player",
+          "name": "Michael Boxall"
+        },
+        {
+          "code": "NZL-05",
+          "number": 5,
+          "teamCode": "NZL",
+          "kind": "player",
+          "name": "Liberato Cacace"
+        },
+        {
+          "code": "NZL-06",
+          "number": 6,
+          "teamCode": "NZL",
+          "kind": "player",
+          "name": "Tim Payne"
+        },
+        {
+          "code": "NZL-07",
+          "number": 7,
+          "teamCode": "NZL",
+          "kind": "player",
+          "name": "Tyler Bindon"
+        },
+        {
+          "code": "NZL-08",
+          "number": 8,
+          "teamCode": "NZL",
+          "kind": "player",
+          "name": "Francis de Vries"
+        },
+        {
+          "code": "NZL-09",
+          "number": 9,
+          "teamCode": "NZL",
+          "kind": "player",
+          "name": "Finn Surman"
+        },
+        {
+          "code": "NZL-10",
+          "number": 10,
+          "teamCode": "NZL",
+          "kind": "player",
+          "name": "Joe Bell"
+        },
+        {
+          "code": "NZL-11",
+          "number": 11,
+          "teamCode": "NZL",
+          "kind": "player",
+          "name": "Sarpreet Singh"
+        },
+        {
+          "code": "NZL-12",
+          "number": 12,
+          "teamCode": "NZL",
+          "kind": "player",
+          "name": "Bill Tuiloma"
+        },
+        {
+          "code": "NZL-13",
+          "number": 13,
+          "teamCode": "NZL",
+          "kind": "squad",
+          "name": "Foto de equipo de Nueva Zelanda"
+        },
+        {
+          "code": "NZL-14",
+          "number": 14,
+          "teamCode": "NZL",
+          "kind": "player",
+          "name": "Matthew Garbett"
+        },
+        {
+          "code": "NZL-15",
+          "number": 15,
+          "teamCode": "NZL",
+          "kind": "player",
+          "name": "Marko Stamenić"
+        },
+        {
+          "code": "NZL-16",
+          "number": 16,
+          "teamCode": "NZL",
+          "kind": "player",
+          "name": "Ben Old"
+        },
+        {
+          "code": "NZL-17",
+          "number": 17,
+          "teamCode": "NZL",
+          "kind": "player",
+          "name": "Chris Wood"
+        },
+        {
+          "code": "NZL-18",
+          "number": 18,
+          "teamCode": "NZL",
+          "kind": "player",
+          "name": "Elijah Just"
+        },
+        {
+          "code": "NZL-19",
+          "number": 19,
+          "teamCode": "NZL",
+          "kind": "player",
+          "name": "Callum McCowatt"
+        },
+        {
+          "code": "NZL-20",
+          "number": 20,
+          "teamCode": "NZL",
+          "kind": "player",
+          "name": "Kosta Barbarouses"
+        }
+      ]
+    },
+    {
+      "teamCode": "IRN",
+      "teamName": "Irán",
+      "stickers": [
+        {
+          "code": "IRN-01",
+          "number": 1,
+          "teamCode": "IRN",
+          "kind": "emblem",
+          "name": "Emblema de Irán"
+        },
+        {
+          "code": "IRN-02",
+          "number": 2,
+          "teamCode": "IRN",
+          "kind": "player",
+          "name": "Alireza Beiranvand"
+        },
+        {
+          "code": "IRN-03",
+          "number": 3,
+          "teamCode": "IRN",
+          "kind": "player",
+          "name": "Morteza Pouraliganji"
+        },
+        {
+          "code": "IRN-04",
+          "number": 4,
+          "teamCode": "IRN",
+          "kind": "player",
+          "name": "Ehsan Hajsafi"
+        },
+        {
+          "code": "IRN-05",
+          "number": 5,
+          "teamCode": "IRN",
+          "kind": "player",
+          "name": "Milad Mohammadi"
+        },
+        {
+          "code": "IRN-06",
+          "number": 6,
+          "teamCode": "IRN",
+          "kind": "player",
+          "name": "Shojae Khalilzadeh"
+        },
+        {
+          "code": "IRN-07",
+          "number": 7,
+          "teamCode": "IRN",
+          "kind": "player",
+          "name": "Ramin Rezaeian"
+        },
+        {
+          "code": "IRN-08",
+          "number": 8,
+          "teamCode": "IRN",
+          "kind": "player",
+          "name": "Hossein Kanaani"
+        },
+        {
+          "code": "IRN-09",
+          "number": 9,
+          "teamCode": "IRN",
+          "kind": "player",
+          "name": "Ali Karimi"
+        },
+        {
+          "code": "IRN-10",
+          "number": 10,
+          "teamCode": "IRN",
+          "kind": "player",
+          "name": "Mehdi Torabi"
+        },
+        {
+          "code": "IRN-11",
+          "number": 11,
+          "teamCode": "IRN",
+          "kind": "player",
+          "name": "Saeid Ezatolahi"
+        },
+        {
+          "code": "IRN-12",
+          "number": 12,
+          "teamCode": "IRN",
+          "kind": "player",
+          "name": "Saman Ghoddos"
+        },
+        {
+          "code": "IRN-13",
+          "number": 13,
+          "teamCode": "IRN",
+          "kind": "squad",
+          "name": "Foto de equipo de Irán"
+        },
+        {
+          "code": "IRN-14",
+          "number": 14,
+          "teamCode": "IRN",
+          "kind": "player",
+          "name": "Omid Noorafkan"
+        },
+        {
+          "code": "IRN-15",
+          "number": 15,
+          "teamCode": "IRN",
+          "kind": "player",
+          "name": "Roozbeh Cheshmi"
+        },
+        {
+          "code": "IRN-16",
+          "number": 16,
+          "teamCode": "IRN",
+          "kind": "player",
+          "name": "Mohammad Mohebi"
+        },
+        {
+          "code": "IRN-17",
+          "number": 17,
+          "teamCode": "IRN",
+          "kind": "player",
+          "name": "Sardar Azmoun"
+        },
+        {
+          "code": "IRN-18",
+          "number": 18,
+          "teamCode": "IRN",
+          "kind": "player",
+          "name": "Mehdi Taremi"
+        },
+        {
+          "code": "IRN-19",
+          "number": 19,
+          "teamCode": "IRN",
+          "kind": "player",
+          "name": "Alireza Jahanbakhsh"
+        },
+        {
+          "code": "IRN-20",
+          "number": 20,
+          "teamCode": "IRN",
+          "kind": "player",
+          "name": "Ali Gholizadeh"
+        }
+      ]
+    },
+    {
+      "teamCode": "EGY",
+      "teamName": "Egipto",
+      "stickers": [
+        {
+          "code": "EGY-01",
+          "number": 1,
+          "teamCode": "EGY",
+          "kind": "emblem",
+          "name": "Emblema de Egipto"
+        },
+        {
+          "code": "EGY-02",
+          "number": 2,
+          "teamCode": "EGY",
+          "kind": "player",
+          "name": "Mohamed El Shenawy"
+        },
+        {
+          "code": "EGY-03",
+          "number": 3,
+          "teamCode": "EGY",
+          "kind": "player",
+          "name": "Mohamed Hany"
+        },
+        {
+          "code": "EGY-04",
+          "number": 4,
+          "teamCode": "EGY",
+          "kind": "player",
+          "name": "Mohamed Hamdy"
+        },
+        {
+          "code": "EGY-05",
+          "number": 5,
+          "teamCode": "EGY",
+          "kind": "player",
+          "name": "Yasser Ibrahim"
+        },
+        {
+          "code": "EGY-06",
+          "number": 6,
+          "teamCode": "EGY",
+          "kind": "player",
+          "name": "Khaled Sobhi"
+        },
+        {
+          "code": "EGY-07",
+          "number": 7,
+          "teamCode": "EGY",
+          "kind": "player",
+          "name": "Ramy Rabia"
+        },
+        {
+          "code": "EGY-08",
+          "number": 8,
+          "teamCode": "EGY",
+          "kind": "player",
+          "name": "Hossam Abdelmaguid"
+        },
+        {
+          "code": "EGY-09",
+          "number": 9,
+          "teamCode": "EGY",
+          "kind": "player",
+          "name": "Ahmed Nabil Kouka"
+        },
+        {
+          "code": "EGY-10",
+          "number": 10,
+          "teamCode": "EGY",
+          "kind": "player",
+          "name": "Marwan Attia"
+        },
+        {
+          "code": "EGY-11",
+          "number": 11,
+          "teamCode": "EGY",
+          "kind": "player",
+          "name": "Zizo"
+        },
+        {
+          "code": "EGY-12",
+          "number": 12,
+          "teamCode": "EGY",
+          "kind": "player",
+          "name": "Hamdy Fathy"
+        },
+        {
+          "code": "EGY-13",
+          "number": 13,
+          "teamCode": "EGY",
+          "kind": "squad",
+          "name": "Foto de equipo de Egipto"
+        },
+        {
+          "code": "EGY-14",
+          "number": 14,
+          "teamCode": "EGY",
+          "kind": "player",
+          "name": "Mohanad Lasheen"
+        },
+        {
+          "code": "EGY-15",
+          "number": 15,
+          "teamCode": "EGY",
+          "kind": "player",
+          "name": "Emam Ashour"
+        },
+        {
+          "code": "EGY-16",
+          "number": 16,
+          "teamCode": "EGY",
+          "kind": "player",
+          "name": "Osama Faisal"
+        },
+        {
+          "code": "EGY-17",
+          "number": 17,
+          "teamCode": "EGY",
+          "kind": "player",
+          "name": "Mohamed Salah"
+        },
+        {
+          "code": "EGY-18",
+          "number": 18,
+          "teamCode": "EGY",
+          "kind": "player",
+          "name": "Mostafa Mohamed"
+        },
+        {
+          "code": "EGY-19",
+          "number": 19,
+          "teamCode": "EGY",
+          "kind": "player",
+          "name": "Trezeguet"
+        },
+        {
+          "code": "EGY-20",
+          "number": 20,
+          "teamCode": "EGY",
+          "kind": "player",
+          "name": "Omar Marmoush"
+        }
+      ]
+    },
+    {
+      "teamCode": "BEL",
+      "teamName": "Bélgica",
+      "stickers": [
+        {
+          "code": "BEL-01",
+          "number": 1,
+          "teamCode": "BEL",
+          "kind": "emblem",
+          "name": "Emblema de Bélgica"
+        },
+        {
+          "code": "BEL-02",
+          "number": 2,
+          "teamCode": "BEL",
+          "kind": "player",
+          "name": "Thibaut Courtois"
+        },
+        {
+          "code": "BEL-03",
+          "number": 3,
+          "teamCode": "BEL",
+          "kind": "player",
+          "name": "Arthur Theate"
+        },
+        {
+          "code": "BEL-04",
+          "number": 4,
+          "teamCode": "BEL",
+          "kind": "player",
+          "name": "Timothy Castagne"
+        },
+        {
+          "code": "BEL-05",
+          "number": 5,
+          "teamCode": "BEL",
+          "kind": "player",
+          "name": "Zeno Debast"
+        },
+        {
+          "code": "BEL-06",
+          "number": 6,
+          "teamCode": "BEL",
+          "kind": "player",
+          "name": "Brandon Mechele"
+        },
+        {
+          "code": "BEL-07",
+          "number": 7,
+          "teamCode": "BEL",
+          "kind": "player",
+          "name": "Maxim De Cuyper"
+        },
+        {
+          "code": "BEL-08",
+          "number": 8,
+          "teamCode": "BEL",
+          "kind": "player",
+          "name": "Thomas Meunier"
+        },
+        {
+          "code": "BEL-09",
+          "number": 9,
+          "teamCode": "BEL",
+          "kind": "player",
+          "name": "Youri Tielemans"
+        },
+        {
+          "code": "BEL-10",
+          "number": 10,
+          "teamCode": "BEL",
+          "kind": "player",
+          "name": "Amadou Onana"
+        },
+        {
+          "code": "BEL-11",
+          "number": 11,
+          "teamCode": "BEL",
+          "kind": "player",
+          "name": "Nicolas Raskin"
+        },
+        {
+          "code": "BEL-12",
+          "number": 12,
+          "teamCode": "BEL",
+          "kind": "player",
+          "name": "Alexis Saelemaekers"
+        },
+        {
+          "code": "BEL-13",
+          "number": 13,
+          "teamCode": "BEL",
+          "kind": "squad",
+          "name": "Foto de equipo de Bélgica"
+        },
+        {
+          "code": "BEL-14",
+          "number": 14,
+          "teamCode": "BEL",
+          "kind": "player",
+          "name": "Hans Vanaken"
+        },
+        {
+          "code": "BEL-15",
+          "number": 15,
+          "teamCode": "BEL",
+          "kind": "player",
+          "name": "Kevin De Bruyne"
+        },
+        {
+          "code": "BEL-16",
+          "number": 16,
+          "teamCode": "BEL",
+          "kind": "player",
+          "name": "Jérémy Doku"
+        },
+        {
+          "code": "BEL-17",
+          "number": 17,
+          "teamCode": "BEL",
+          "kind": "player",
+          "name": "Charles De Ketelaere"
+        },
+        {
+          "code": "BEL-18",
+          "number": 18,
+          "teamCode": "BEL",
+          "kind": "player",
+          "name": "Leandro Trossard"
+        },
+        {
+          "code": "BEL-19",
+          "number": 19,
+          "teamCode": "BEL",
+          "kind": "player",
+          "name": "Loïs Openda"
+        },
+        {
+          "code": "BEL-20",
+          "number": 20,
+          "teamCode": "BEL",
+          "kind": "player",
+          "name": "Romelu Lukaku"
+        }
+      ]
+    },
+    {
+      "teamCode": "TUN",
+      "teamName": "Túnez",
+      "stickers": [
+        {
+          "code": "TUN-01",
+          "number": 1,
+          "teamCode": "TUN",
+          "kind": "emblem",
+          "name": "Emblema de Túnez"
+        },
+        {
+          "code": "TUN-02",
+          "number": 2,
+          "teamCode": "TUN",
+          "kind": "player",
+          "name": "Bechir Ben Said"
+        },
+        {
+          "code": "TUN-03",
+          "number": 3,
+          "teamCode": "TUN",
+          "kind": "player",
+          "name": "Aymen Dahmen"
+        },
+        {
+          "code": "TUN-04",
+          "number": 4,
+          "teamCode": "TUN",
+          "kind": "player",
+          "name": "Yan Valery"
+        },
+        {
+          "code": "TUN-05",
+          "number": 5,
+          "teamCode": "TUN",
+          "kind": "player",
+          "name": "Montassar Talbi"
+        },
+        {
+          "code": "TUN-06",
+          "number": 6,
+          "teamCode": "TUN",
+          "kind": "player",
+          "name": "Yassine Meriah"
+        },
+        {
+          "code": "TUN-07",
+          "number": 7,
+          "teamCode": "TUN",
+          "kind": "player",
+          "name": "Ali Abdi"
+        },
+        {
+          "code": "TUN-08",
+          "number": 8,
+          "teamCode": "TUN",
+          "kind": "player",
+          "name": "Dylan Bronn"
+        },
+        {
+          "code": "TUN-09",
+          "number": 9,
+          "teamCode": "TUN",
+          "kind": "player",
+          "name": "Ellyes Skhiri"
+        },
+        {
+          "code": "TUN-10",
+          "number": 10,
+          "teamCode": "TUN",
+          "kind": "player",
+          "name": "Aïssa Laïdouni"
+        },
+        {
+          "code": "TUN-11",
+          "number": 11,
+          "teamCode": "TUN",
+          "kind": "player",
+          "name": "Ferjani Sassi"
+        },
+        {
+          "code": "TUN-12",
+          "number": 12,
+          "teamCode": "TUN",
+          "kind": "player",
+          "name": "Mohamed Ali Ben Romdhane"
+        },
+        {
+          "code": "TUN-13",
+          "number": 13,
+          "teamCode": "TUN",
+          "kind": "squad",
+          "name": "Foto de equipo de Túnez"
+        },
+        {
+          "code": "TUN-14",
+          "number": 14,
+          "teamCode": "TUN",
+          "kind": "player",
+          "name": "Hannibal Mejbri"
+        },
+        {
+          "code": "TUN-15",
+          "number": 15,
+          "teamCode": "TUN",
+          "kind": "player",
+          "name": "Elias Achouri"
+        },
+        {
+          "code": "TUN-16",
+          "number": 16,
+          "teamCode": "TUN",
+          "kind": "player",
+          "name": "Elias Saad"
+        },
+        {
+          "code": "TUN-17",
+          "number": 17,
+          "teamCode": "TUN",
+          "kind": "player",
+          "name": "Hazem Mastouri"
+        },
+        {
+          "code": "TUN-18",
+          "number": 18,
+          "teamCode": "TUN",
+          "kind": "player",
+          "name": "Ismaël Gharbi"
+        },
+        {
+          "code": "TUN-19",
+          "number": 19,
+          "teamCode": "TUN",
+          "kind": "player",
+          "name": "Sayfallah Ltaief"
+        },
+        {
+          "code": "TUN-20",
+          "number": 20,
+          "teamCode": "TUN",
+          "kind": "player",
+          "name": "Naïm Sliti"
+        }
+      ]
+    },
+    {
+      "teamCode": "SWE",
+      "teamName": "Suecia",
+      "stickers": [
+        {
+          "code": "SWE-01",
+          "number": 1,
+          "teamCode": "SWE",
+          "kind": "emblem",
+          "name": "Emblema de Suecia"
+        },
+        {
+          "code": "SWE-02",
+          "number": 2,
+          "teamCode": "SWE",
+          "kind": "player",
+          "name": "Viktor Johansson"
+        },
+        {
+          "code": "SWE-03",
+          "number": 3,
+          "teamCode": "SWE",
+          "kind": "player",
+          "name": "Isak Hien"
+        },
+        {
+          "code": "SWE-04",
+          "number": 4,
+          "teamCode": "SWE",
+          "kind": "player",
+          "name": "Gabriel Gudmundsson"
+        },
+        {
+          "code": "SWE-05",
+          "number": 5,
+          "teamCode": "SWE",
+          "kind": "player",
+          "name": "Emil Holm"
+        },
+        {
+          "code": "SWE-06",
+          "number": 6,
+          "teamCode": "SWE",
+          "kind": "player",
+          "name": "Victor Nilsson Lindelöf"
+        },
+        {
+          "code": "SWE-07",
+          "number": 7,
+          "teamCode": "SWE",
+          "kind": "player",
+          "name": "Gustaf Lagerbielke"
+        },
+        {
+          "code": "SWE-08",
+          "number": 8,
+          "teamCode": "SWE",
+          "kind": "player",
+          "name": "Lucas Bergvall"
+        },
+        {
+          "code": "SWE-09",
+          "number": 9,
+          "teamCode": "SWE",
+          "kind": "player",
+          "name": "Hugo Larsson"
+        },
+        {
+          "code": "SWE-10",
+          "number": 10,
+          "teamCode": "SWE",
+          "kind": "player",
+          "name": "Jesper Karlström"
+        },
+        {
+          "code": "SWE-11",
+          "number": 11,
+          "teamCode": "SWE",
+          "kind": "player",
+          "name": "Yasin Ayari"
+        },
+        {
+          "code": "SWE-12",
+          "number": 12,
+          "teamCode": "SWE",
+          "kind": "player",
+          "name": "Mattias Svanberg"
+        },
+        {
+          "code": "SWE-13",
+          "number": 13,
+          "teamCode": "SWE",
+          "kind": "squad",
+          "name": "Foto de equipo de Suecia"
+        },
+        {
+          "code": "SWE-14",
+          "number": 14,
+          "teamCode": "SWE",
+          "kind": "player",
+          "name": "Daniel Svensson"
+        },
+        {
+          "code": "SWE-15",
+          "number": 15,
+          "teamCode": "SWE",
+          "kind": "player",
+          "name": "Ken Sema"
+        },
+        {
+          "code": "SWE-16",
+          "number": 16,
+          "teamCode": "SWE",
+          "kind": "player",
+          "name": "Roony Bardghji"
+        },
+        {
+          "code": "SWE-17",
+          "number": 17,
+          "teamCode": "SWE",
+          "kind": "player",
+          "name": "Dejan Kulusevski"
+        },
+        {
+          "code": "SWE-18",
+          "number": 18,
+          "teamCode": "SWE",
+          "kind": "player",
+          "name": "Anthony Elanga"
+        },
+        {
+          "code": "SWE-19",
+          "number": 19,
+          "teamCode": "SWE",
+          "kind": "player",
+          "name": "Alexander Isak"
+        },
+        {
+          "code": "SWE-20",
+          "number": 20,
+          "teamCode": "SWE",
+          "kind": "player",
+          "name": "Viktor Gyökeres"
+        }
+      ]
+    },
+    {
+      "teamCode": "JPN",
+      "teamName": "Japón",
+      "stickers": [
+        {
+          "code": "JPN-01",
+          "number": 1,
+          "teamCode": "JPN",
+          "kind": "emblem",
+          "name": "Emblema de Japón"
+        },
+        {
+          "code": "JPN-02",
+          "number": 2,
+          "teamCode": "JPN",
+          "kind": "player",
+          "name": "Zion Suzuki"
+        },
+        {
+          "code": "JPN-03",
+          "number": 3,
+          "teamCode": "JPN",
+          "kind": "player",
+          "name": "Henry Heroki Mochizuki"
+        },
+        {
+          "code": "JPN-04",
+          "number": 4,
+          "teamCode": "JPN",
+          "kind": "player",
+          "name": "Ayumu Seko"
+        },
+        {
+          "code": "JPN-05",
+          "number": 5,
+          "teamCode": "JPN",
+          "kind": "player",
+          "name": "Junnosuke Suzuki"
+        },
+        {
+          "code": "JPN-06",
+          "number": 6,
+          "teamCode": "JPN",
+          "kind": "player",
+          "name": "Shogo Taniguchi"
+        },
+        {
+          "code": "JPN-07",
+          "number": 7,
+          "teamCode": "JPN",
+          "kind": "player",
+          "name": "Tsuyoshi Watanabe"
+        },
+        {
+          "code": "JPN-08",
+          "number": 8,
+          "teamCode": "JPN",
+          "kind": "player",
+          "name": "Kaishu Sano"
+        },
+        {
+          "code": "JPN-09",
+          "number": 9,
+          "teamCode": "JPN",
+          "kind": "player",
+          "name": "Yuki Soma"
+        },
+        {
+          "code": "JPN-10",
+          "number": 10,
+          "teamCode": "JPN",
+          "kind": "player",
+          "name": "Ao Tanaka"
+        },
+        {
+          "code": "JPN-11",
+          "number": 11,
+          "teamCode": "JPN",
+          "kind": "player",
+          "name": "Daichi Kamada"
+        },
+        {
+          "code": "JPN-12",
+          "number": 12,
+          "teamCode": "JPN",
+          "kind": "player",
+          "name": "Takefusa Kubo"
+        },
+        {
+          "code": "JPN-13",
+          "number": 13,
+          "teamCode": "JPN",
+          "kind": "squad",
+          "name": "Foto de equipo de Japón"
+        },
+        {
+          "code": "JPN-14",
+          "number": 14,
+          "teamCode": "JPN",
+          "kind": "player",
+          "name": "Ritsu Doan"
+        },
+        {
+          "code": "JPN-15",
+          "number": 15,
+          "teamCode": "JPN",
+          "kind": "player",
+          "name": "Keito Nakamura"
+        },
+        {
+          "code": "JPN-16",
+          "number": 16,
+          "teamCode": "JPN",
+          "kind": "player",
+          "name": "Takumi Minamino"
+        },
+        {
+          "code": "JPN-17",
+          "number": 17,
+          "teamCode": "JPN",
+          "kind": "player",
+          "name": "Shuto Machino"
+        },
+        {
+          "code": "JPN-18",
+          "number": 18,
+          "teamCode": "JPN",
+          "kind": "player",
+          "name": "Junya Ito"
+        },
+        {
+          "code": "JPN-19",
+          "number": 19,
+          "teamCode": "JPN",
+          "kind": "player",
+          "name": "Koki Ogawa"
+        },
+        {
+          "code": "JPN-20",
+          "number": 20,
+          "teamCode": "JPN",
+          "kind": "player",
+          "name": "Ayase Ueda"
+        }
+      ]
+    }
+  ]
+}
