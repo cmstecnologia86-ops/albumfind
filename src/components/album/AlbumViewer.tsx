@@ -1,6 +1,6 @@
 "use client";
 
-import type { CSSProperties, MouseEvent } from "react";
+import type { MouseEvent } from "react";
 
 import Link from "next/link";
 import {
@@ -12,30 +12,30 @@ import {
   Plus,
   RotateCcw,
 } from "lucide-react";
-import { useSearchParams } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
 
+import TeamSpread from "@/components/album/TeamSpread";
+import groupsSource from "@/data/groups.json";
 import {
   type Sticker,
   useAlbumStore,
 } from "@/store/useAlbumStore";
 
-const groupColors: Record<string, string> = {
-  A: "#19b7a2",
-  B: "#f45d48",
-  C: "#74b941",
-  D: "#445ee6",
-  E: "#f3913f",
-  F: "#e45f50",
-  G: "#6b63d8",
-  H: "#cf5558",
-  I: "#7551d5",
-  J: "#54a769",
-  K: "#efbf2f",
-  L: "#5ea6cf",
+type GroupData = {
+  groups: Array<{
+    id: string;
+    teams: Array<{
+      code: string;
+      name: string;
+    }>;
+  }>;
 };
 
 type TurnDirection = "next" | "previous";
+
+const groupData = groupsSource as GroupData;
+const DEFAULT_TEAM_CODE = "MEX";
 
 function StickerSlot({
   sticker,
@@ -123,26 +123,34 @@ function StickerSlot({
 }
 
 export default function AlbumViewer() {
+  const router = useRouter();
   const searchParams = useSearchParams();
-  const requestedTeam = searchParams.get("team")?.toUpperCase();
+
+  const requestedTeamCode =
+    searchParams.get("team")?.trim().toUpperCase() ??
+    DEFAULT_TEAM_CODE;
 
   const teams = useAlbumStore((state) => state.teams);
   const hasHydrated = useAlbumStore((state) => state.hasHydrated);
   const resetCollection = useAlbumStore((state) => state.resetCollection);
+  const toggleSticker = useAlbumStore((state) => state.toggleSticker);
 
-  const initialIndex = useMemo(() => {
-    if (!requestedTeam) {
-      return 0;
-    }
-
+  const requestedIndex = useMemo(() => {
     const foundIndex = teams.findIndex(
-      (team) => team.code === requestedTeam,
+      (team) => team.code === requestedTeamCode,
     );
 
-    return foundIndex >= 0 ? foundIndex : 0;
-  }, [requestedTeam, teams]);
+    if (foundIndex >= 0) {
+      return foundIndex;
+    }
 
-  const [currentIndex, setCurrentIndex] = useState(initialIndex);
+    const defaultIndex = teams.findIndex(
+      (team) => team.code === DEFAULT_TEAM_CODE,
+    );
+
+    return defaultIndex >= 0 ? defaultIndex : 0;
+  }, [requestedTeamCode, teams]);
+
   const [turnDirection, setTurnDirection] =
     useState<TurnDirection>("next");
 
@@ -150,8 +158,22 @@ export default function AlbumViewer() {
     void useAlbumStore.persist.rehydrate();
   }, []);
 
+  const safeIndex = Math.max(
+    0,
+    Math.min(requestedIndex, Math.max(teams.length - 1, 0)),
+  );
 
-  if (!hasHydrated) {
+  const currentTeam = teams[safeIndex];
+
+  const currentGroup = useMemo(
+    () =>
+      groupData.groups.find(
+        (group) => group.id === currentTeam?.group,
+      ),
+    [currentTeam?.group],
+  );
+
+  if (!hasHydrated || !currentTeam || !currentGroup) {
     return (
       <main className="album-page-shell">
         <div className="album-loading">
@@ -162,11 +184,9 @@ export default function AlbumViewer() {
     );
   }
 
-  const safeIndex = Math.min(currentIndex, teams.length - 1);
-  const currentTeam = teams[safeIndex];
-  const leftStickers = currentTeam.stickers.slice(0, 10);
-  const rightStickers = currentTeam.stickers.slice(10, 20);
-  const accent = groupColors[currentTeam.group] ?? "#7657ff";
+  const ownedNumbers = currentTeam.stickers
+    .filter((sticker) => sticker.status === "owned")
+    .map((sticker) => sticker.number);
 
   const duplicateTotal = currentTeam.stickers.reduce(
     (total, sticker) => total + sticker.duplicates,
@@ -179,8 +199,14 @@ export default function AlbumViewer() {
       Math.min(index, teams.length - 1),
     );
 
+    const nextTeam = teams[nextIndex];
+
     setTurnDirection(direction);
-    setCurrentIndex(nextIndex);
+
+    router.replace(
+      `/album?team=${encodeURIComponent(nextTeam.code)}`,
+      { scroll: false },
+    );
   }
 
   function goPrevious() {
@@ -202,15 +228,11 @@ export default function AlbumViewer() {
 
     if (confirmed) {
       resetCollection();
-      setCurrentIndex(initialIndex);
     }
   }
 
   return (
-    <main
-      className="album-page-shell"
-      style={{ "--album-accent": accent } as CSSProperties}
-    >
+    <main className="album-page-shell album-page-editorial">
       <header className="album-toolbar">
         <Link className="album-back-link" href="/">
           <ArrowLeft size={18} />
@@ -235,7 +257,7 @@ export default function AlbumViewer() {
         </div>
       </header>
 
-      <section className="album-stage">
+      <section className="album-stage album-editorial-workspace">
         <div className="album-stage-heading">
           <div>
             <p>Grupo {currentTeam.group}</p>
@@ -258,80 +280,21 @@ export default function AlbumViewer() {
         </div>
 
         <div
-          className={`album-book album-turn-${turnDirection}`}
+          className={`album-editorial-book album-turn-${turnDirection}`}
           key={`${currentTeam.code}-${turnDirection}`}
         >
-          <section className="album-sheet album-sheet-left">
-            <div className="album-team-header">
-              <span className="album-team-code">{currentTeam.code}</span>
-
-              <div>
-                <small>WE ARE</small>
-                <strong>{currentTeam.name.toUpperCase()}</strong>
-              </div>
-            </div>
-
-            <div className="album-sticker-grid">
-              {leftStickers.map((sticker) => (
-                <StickerSlot
-                  key={sticker.code}
-                  sticker={sticker}
-                  teamCode={currentTeam.code}
-                />
-              ))}
-            </div>
-
-            <div className="album-page-number">
-              Página {safeIndex * 2 + 1}
-            </div>
-          </section>
-
-          <div className="album-spine" aria-hidden="true" />
-
-          <section className="album-sheet album-sheet-right">
-            <div className="album-team-header album-team-header-right">
-              <div>
-                <small>GRUPO {currentTeam.group}</small>
-                <strong>20 LÁMINAS</strong>
-              </div>
-
-              <span className="album-team-code">{currentTeam.code}</span>
-            </div>
-
-            <div className="album-sticker-grid">
-              {rightStickers.map((sticker) => (
-                <StickerSlot
-                  key={sticker.code}
-                  sticker={sticker}
-                  teamCode={currentTeam.code}
-                />
-              ))}
-            </div>
-
-            <div className="album-page-number album-page-number-right">
-              Página {safeIndex * 2 + 2}
-            </div>
-          </section>
-
-          <button
-            aria-label="Selección anterior"
-            className="album-corner-control album-corner-left"
-            disabled={safeIndex === 0}
-            onClick={goPrevious}
-            type="button"
-          >
-            <ChevronLeft size={29} />
-          </button>
-
-          <button
-            aria-label="Selección siguiente"
-            className="album-corner-control album-corner-right"
-            disabled={safeIndex === teams.length - 1}
-            onClick={goNext}
-            type="button"
-          >
-            <ChevronRight size={29} />
-          </button>
+          <TeamSpread
+            group={currentTeam.group}
+            groupTeams={currentGroup.teams}
+            onToggleSticker={(stickerCode) =>
+              toggleSticker(currentTeam.code, stickerCode)
+            }
+            ownedCount={currentTeam.ownedCount}
+            ownedNumbers={ownedNumbers}
+            teamCode={currentTeam.code}
+            teamName={currentTeam.name}
+            totalCount={currentTeam.stickers.length}
+          />
         </div>
 
         <nav className="album-navigation" aria-label="Navegación del álbum">
@@ -348,6 +311,7 @@ export default function AlbumViewer() {
             aria-label="Seleccionar equipo"
             onChange={(event) => {
               const nextIndex = Number(event.target.value);
+
               const direction: TurnDirection =
                 nextIndex >= safeIndex ? "next" : "previous";
 
@@ -372,6 +336,30 @@ export default function AlbumViewer() {
           </button>
         </nav>
 
+        <section className="album-collection-editor">
+          <div className="album-collection-editor-heading">
+            <div>
+              <span>Gestión de colección</span>
+              <h2>Láminas de {currentTeam.name}</h2>
+            </div>
+
+            <p>
+              Marca las láminas obtenidas y administra las repetidas.
+              Los cambios se reflejan inmediatamente en el álbum.
+            </p>
+          </div>
+
+          <div className="album-sticker-grid album-collection-editor-grid">
+            {currentTeam.stickers.map((sticker) => (
+              <StickerSlot
+                key={sticker.code}
+                sticker={sticker}
+                teamCode={currentTeam.code}
+              />
+            ))}
+          </div>
+        </section>
+
         <p className="album-save-message">
           Los cambios se guardan automáticamente en este navegador.
         </p>
@@ -379,4 +367,5 @@ export default function AlbumViewer() {
     </main>
   );
 }
+
 

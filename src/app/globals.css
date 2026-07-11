@@ -5575,3 +5575,160 @@ button {
     font-size: 8px;
   }
 }
+
+/* =========================================================
+   ALBUM — EDITORIAL PRODUCTION INTEGRATION
+   ========================================================= */
+
+.album-page-editorial {
+  min-height: 100vh;
+}
+
+.album-editorial-workspace {
+  display: grid;
+  gap: 22px;
+}
+
+.album-editorial-book {
+  width: 100%;
+  min-width: 0;
+}
+
+.album-editorial-book .editorial-spread {
+  margin-inline: auto;
+}
+
+.album-collection-editor {
+  width: min(1180px, calc(100% - 32px));
+  margin-inline: auto;
+  padding: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 18px;
+  background: rgba(7, 31, 28, 0.72);
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.16);
+}
+
+.album-collection-editor-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 28px;
+  margin-bottom: 18px;
+}
+
+.album-collection-editor-heading span {
+  color: #6ed6c6;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.album-collection-editor-heading h2 {
+  margin-top: 4px;
+  color: #ffffff;
+  font-size: clamp(20px, 2.2vw, 30px);
+  letter-spacing: -0.035em;
+}
+
+.album-collection-editor-heading p {
+  max-width: 430px;
+  color: rgba(255, 255, 255, 0.66);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.album-collection-editor-grid {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+@media (max-width: 1040px) {
+  .album-collection-editor-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 780px) {
+  .album-collection-editor {
+    width: min(100% - 20px, 1180px);
+    padding: 16px;
+  }
+
+  .album-collection-editor-heading {
+    display: grid;
+    align-items: start;
+    gap: 9px;
+  }
+
+  .album-collection-editor-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 460px) {
+  .album-collection-editor-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* =========================================================
+   EDITORIAL STICKERS — INTERACTIVE COLLECTION
+   ========================================================= */
+
+button.editorial-sticker {
+  margin: 0;
+  padding: 0;
+  border-width: 1px;
+  font: inherit;
+  text-align: inherit;
+  appearance: none;
+}
+
+button.editorial-sticker:not(.editorial-sticker-interactive) {
+  cursor: default;
+}
+
+.editorial-sticker-interactive {
+  cursor: pointer;
+  transition:
+    transform 140ms ease,
+    box-shadow 140ms ease,
+    filter 140ms ease;
+}
+
+.editorial-sticker-interactive:hover {
+  z-index: 3;
+  transform: translateY(-2px) scale(1.025);
+  box-shadow: 0 8px 18px rgba(12, 33, 30, 0.2);
+  filter: saturate(1.05);
+}
+
+.editorial-sticker-interactive:active {
+  transform: translateY(0) scale(0.985);
+}
+
+.editorial-sticker-interactive:focus-visible {
+  z-index: 4;
+  outline: 3px solid
+    color-mix(
+      in srgb,
+      var(--team-accent) 74%,
+      white
+    );
+  outline-offset: 3px;
+}
+
+.editorial-sticker-interactive.missing:hover {
+  border-color:
+    color-mix(
+      in srgb,
+      var(--team-primary) 54%,
+      transparent
+    );
+  background:
+    color-mix(
+      in srgb,
+      var(--team-primary) 8%,
+      white
+    );
+}

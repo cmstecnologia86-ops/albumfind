@@ -18,6 +18,7 @@ type TeamSpreadProps = {
   ownedCount: number;
   totalCount: number;
   ownedNumbers?: number[];
+  onToggleSticker?: (stickerCode: string) => void;
 };
 
 type PreviewStickerKind = "crest" | "player" | "squad";
@@ -30,60 +31,51 @@ type PreviewSticker = {
   kind: PreviewStickerKind;
 };
 
-const stickerDefinitions: Record<
-  number,
-  { name: string; kind?: PreviewStickerKind }
+const stickerKinds: Partial<
+  Record<number, PreviewStickerKind>
 > = {
-  1: { name: "Emblema de México", kind: "crest" },
-  2: { name: "Luis Malagón" },
-  3: { name: "Johan Vásquez" },
-  4: { name: "César Montes" },
-  5: { name: "Jesús Gallardo" },
-  6: { name: "Israel Reyes" },
-  7: { name: "Edson Álvarez" },
-  8: { name: "Marcel Ruiz" },
-  9: { name: "Hirving Lozano" },
-  10: { name: "Raúl Jiménez" },
-  11: { name: "Alexis Vega" },
-  12: { name: "Roberto Alvarado" },
-  13: { name: "Lámina 13", kind: "squad" },
-  14: { name: "Julián Quiñones" },
-  15: { name: "Orbelín Pineda" },
-  16: { name: "Jesús Angulo" },
-  17: { name: "Guillermo Ochoa" },
-  18: { name: "Kevin Álvarez" },
-  19: { name: "Erick Sánchez" },
-  20: { name: "Jorge Sánchez" },
+  1: "crest",
+  13: "squad",
 };
 
 function buildPreviewStickers(
   teamCode: string,
+  teamName: string,
   ownedNumbers: number[],
 ): PreviewSticker[] {
   return Array.from({ length: 20 }, (_, index) => {
     const number = index + 1;
-    const definition = stickerDefinitions[number];
+    const paddedNumber = String(number).padStart(2, "0");
+    const kind = stickerKinds[number] ?? "player";
+
+    const name =
+      number === 1
+        ? `Emblema de ${teamName}`
+        : number === 13
+          ? `Plantel de ${teamName}`
+          : `Jugador ${paddedNumber}`;
 
     return {
+      code: `${teamCode}-${paddedNumber}`,
+      kind,
+      name,
       number,
-      code: `${teamCode}-${String(number).padStart(2, "0")}`,
-      name: definition?.name ?? `Jugador ${number}`,
       owned: ownedNumbers.includes(number),
-      kind: definition?.kind ?? "player",
     };
   });
 }
-
 function StickerPreviewCard({
   sticker,
   teamCode,
   teamName,
   flag,
+  onToggleSticker,
 }: {
   sticker: PreviewSticker;
   teamCode: string;
   teamName: string;
   flag: string;
+  onToggleSticker?: (stickerCode: string) => void;
 }) {
   const className = [
     "editorial-sticker",
@@ -93,11 +85,25 @@ function StickerPreviewCard({
         ? "editorial-sticker-crest"
         : "editorial-sticker-player",
     sticker.owned ? "owned" : "missing",
-  ].join(" ");
+    onToggleSticker ? "editorial-sticker-interactive" : "",
+  ]
+    .filter(Boolean)
+    .join(" ");
 
   if (sticker.kind === "crest") {
     return (
-      <article className={className}>
+      <button
+        aria-label={`${sticker.code}: ${
+          sticker.owned
+            ? "marcar como faltante"
+            : "marcar como obtenida"
+        }`}
+        aria-pressed={sticker.owned}
+        className={className}
+        onClick={() => onToggleSticker?.(sticker.code)}
+        tabIndex={onToggleSticker ? 0 : -1}
+        type="button"
+      >
         <div className="editorial-sticker-top editorial-crest-top">
           <div className="editorial-crest-inner">
             <Image
@@ -120,13 +126,24 @@ function StickerPreviewCard({
             ✓
           </span>
         )}
-      </article>
+      </button>
     );
   }
 
   if (sticker.kind === "squad") {
     return (
-      <article className={className}>
+      <button
+        aria-label={`${sticker.code}: ${
+          sticker.owned
+            ? "marcar como faltante"
+            : "marcar como obtenida"
+        }`}
+        aria-pressed={sticker.owned}
+        className={className}
+        onClick={() => onToggleSticker?.(sticker.code)}
+        tabIndex={onToggleSticker ? 0 : -1}
+        type="button"
+      >
         <div className="editorial-sticker-top">
           <span>{teamCode}</span>
           <strong>13</strong>
@@ -142,12 +159,23 @@ function StickerPreviewCard({
             ✓
           </span>
         )}
-      </article>
+      </button>
     );
   }
 
   return (
-    <article className={className}>
+    <button
+        aria-label={`${sticker.code}: ${
+          sticker.owned
+            ? "marcar como faltante"
+            : "marcar como obtenida"
+        }`}
+        aria-pressed={sticker.owned}
+        className={className}
+        onClick={() => onToggleSticker?.(sticker.code)}
+        tabIndex={onToggleSticker ? 0 : -1}
+        type="button"
+      >
       <div className="editorial-sticker-top">
         <span>{teamCode}</span>
         <strong>{String(sticker.number).padStart(2, "0")}</strong>
@@ -163,7 +191,7 @@ function StickerPreviewCard({
           ✓
         </span>
       )}
-    </article>
+    </button>
   );
 }
 
@@ -175,9 +203,10 @@ export default function TeamSpread({
   ownedCount,
   totalCount,
   ownedNumbers = [],
+  onToggleSticker,
 }: TeamSpreadProps) {
   const theme = getTeamTheme(teamCode, teamName);
-  const stickers = buildPreviewStickers(teamCode, ownedNumbers);
+  const stickers = buildPreviewStickers(teamCode, teamName, ownedNumbers);
   const missingCount = totalCount - ownedCount;
 
   const completionPercentage =
@@ -200,6 +229,7 @@ export default function TeamSpread({
       <StickerPreviewCard
         key={sticker.code}
         flag={theme.flag}
+        onToggleSticker={onToggleSticker}
         sticker={sticker}
         teamCode={teamCode}
         teamName={teamName}
@@ -345,6 +375,9 @@ export default function TeamSpread({
     </section>
   );
 }
+
+
+
 
 
 
