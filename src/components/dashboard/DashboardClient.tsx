@@ -6,6 +6,7 @@ import {
   CheckCircle2,
   CircleDashed,
   Copy,
+  ListFilter,
   Layers3,
 } from "lucide-react";
 import { useEffect, useMemo } from "react";
@@ -146,10 +147,17 @@ export default function DashboardClient() {
           </div>
         </div>
 
-        <Link className="primary-action" href="/album">
-          <BookOpen size={18} strokeWidth={2.2} />
-          Abrir álbum
-        </Link>
+        <div className="topbar-actions">
+          <Link className="secondary-action" href="/inventory">
+            <ListFilter size={18} strokeWidth={2.2} />
+            Faltantes y repetidas
+          </Link>
+
+          <Link className="primary-action" href="/album">
+            <BookOpen size={18} strokeWidth={2.2} />
+            Abrir álbum
+          </Link>
+        </div>
       </header>
 
       <section className="hero">
@@ -385,3 +393,4 @@ export default function DashboardClient() {
     </main>
   );
 }
+
