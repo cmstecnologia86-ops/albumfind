@@ -4,6 +4,8 @@ import {
   getTeamTheme,
   getTeamThemeCssVariables,
 } from "@/data/team-themes";
+import { getPlayerCatalogTeam } from "@/data/player-catalog";
+import { getStickerImagePath } from "@/data/sticker-image-manifest";
 
 type GroupTeam = {
   code: string;
@@ -29,13 +31,7 @@ type PreviewSticker = {
   name: string;
   owned: boolean;
   kind: PreviewStickerKind;
-};
-
-const stickerKinds: Partial<
-  Record<number, PreviewStickerKind>
-> = {
-  1: "crest",
-  13: "squad",
+  image?: string;
 };
 
 function buildPreviewStickers(
@@ -43,22 +39,41 @@ function buildPreviewStickers(
   teamName: string,
   ownedNumbers: number[],
 ): PreviewSticker[] {
+  const catalogTeam = getPlayerCatalogTeam(teamCode);
+  const catalogStickersByNumber = new Map(
+    catalogTeam?.stickers.map((sticker) => [
+      sticker.number,
+      sticker,
+    ]) ?? [],
+  );
+
   return Array.from({ length: 20 }, (_, index) => {
     const number = index + 1;
     const paddedNumber = String(number).padStart(2, "0");
-    const kind = stickerKinds[number] ?? "player";
+    const catalogSticker =
+      catalogStickersByNumber.get(number);
 
-    const name =
+    const kind: PreviewStickerKind =
+      catalogSticker?.kind === "emblem"
+        ? "crest"
+        : catalogSticker?.kind === "squad"
+          ? "squad"
+          : "player";
+
+    const fallbackName =
       number === 1
         ? `Emblema de ${teamName}`
         : number === 13
-          ? `Plantel de ${teamName}`
+          ? `Foto de equipo de ${teamName}`
           : `Jugador ${paddedNumber}`;
 
     return {
-      code: `${teamCode}-${paddedNumber}`,
+      code:
+        catalogSticker?.code ??
+        `${teamCode}-${paddedNumber}`,
+      image: getStickerImagePath(teamCode, number),
       kind,
-      name,
+      name: catalogSticker?.name ?? fallbackName,
       number,
       owned: ownedNumbers.includes(number),
     };
@@ -77,6 +92,26 @@ function StickerPreviewCard({
   flag: string;
   onToggleSticker?: (stickerCode: string) => void;
 }) {
+  const showRealImage =
+    sticker.owned &&
+    Boolean(sticker.image);
+
+  const realImage =
+    showRealImage && sticker.image ? (
+      <Image
+        alt={sticker.name}
+        className="editorial-real-sticker-image"
+        fill
+        sizes={
+          sticker.kind === "squad"
+            ? "256px"
+            : "192px"
+        }
+        src={sticker.image}
+        unoptimized
+      />
+    ) : null;
+
   const className = [
     "editorial-sticker",
     sticker.kind === "squad"
@@ -104,16 +139,31 @@ function StickerPreviewCard({
         tabIndex={onToggleSticker ? 0 : -1}
         type="button"
       >
-        <div className="editorial-sticker-top editorial-crest-top">
-          <div className="editorial-crest-inner">
-            <Image
-              alt={`Bandera de ${teamName}`}
-              height={34}
-              src={flag}
-              style={{ height: 34, width: 50 }}
-              width={50}
-            />
-          </div>
+        <div
+          className={[
+            "editorial-sticker-top",
+            "editorial-crest-top",
+            showRealImage
+              ? "editorial-sticker-top-with-image"
+              : "",
+          ]
+            .filter(Boolean)
+            .join(" ")}
+        >
+          {realImage ?? (
+            <div className="editorial-crest-inner">
+              <Image
+                alt={`Bandera de ${teamName}`}
+                height={34}
+                src={flag}
+                style={{
+                  height: 34,
+                  width: 50,
+                }}
+                width={50}
+              />
+            </div>
+          )}
         </div>
 
         <div className="editorial-sticker-body editorial-crest-body">
@@ -144,9 +194,22 @@ function StickerPreviewCard({
         tabIndex={onToggleSticker ? 0 : -1}
         type="button"
       >
-        <div className="editorial-sticker-top">
-          <span>{teamCode}</span>
-          <strong>13</strong>
+        <div
+          className={[
+            "editorial-sticker-top",
+            showRealImage
+              ? "editorial-sticker-top-with-image"
+              : "",
+          ]
+            .filter(Boolean)
+            .join(" ")}
+        >
+          {realImage ?? (
+            <>
+              <span>{teamCode}</span>
+              <strong>13</strong>
+            </>
+          )}
         </div>
 
         <div className="editorial-sticker-body">
@@ -176,9 +239,24 @@ function StickerPreviewCard({
         tabIndex={onToggleSticker ? 0 : -1}
         type="button"
       >
-      <div className="editorial-sticker-top">
-        <span>{teamCode}</span>
-        <strong>{String(sticker.number).padStart(2, "0")}</strong>
+      <div
+        className={[
+          "editorial-sticker-top",
+          showRealImage
+            ? "editorial-sticker-top-with-image"
+            : "",
+        ]
+          .filter(Boolean)
+          .join(" ")}
+      >
+        {realImage ?? (
+          <>
+            <span>{teamCode}</span>
+            <strong>
+              {String(sticker.number).padStart(2, "0")}
+            </strong>
+          </>
+        )}
       </div>
 
       <div className="editorial-sticker-body">
@@ -276,30 +354,31 @@ export default function TeamSpread({
           </div>
         </header>
 
-        <div className="editorial-left-top-strip">
-          {renderSticker(1)}
-          {renderSticker(2)}
+        <div className="editorial-sticker-zone editorial-sticker-zone-left">
+          <div className="editorial-row editorial-row-four">
+            {[1, 2, 3, 4].map(renderSticker)}
+          </div>
+
+          <div className="editorial-row editorial-row-three">
+            {[5, 6, 7].map(renderSticker)}
+          </div>
+
+          <div className="editorial-row editorial-row-three">
+            {[8, 9, 10].map(renderSticker)}
+          </div>
         </div>
 
-        <div className="editorial-row editorial-row-four">
-          {[3, 4, 5, 6].map(renderSticker)}
-        </div>
-
-        <div className="editorial-row editorial-row-four">
-          {[7, 8, 9, 10].map(renderSticker)}
-        </div>
-
-        <div className="editorial-note-panel">
+        <footer className="editorial-note-panel">
           <div className="editorial-roadto">
             <strong>ROAD TO</strong>
             <span>WORLD CUP 2026</span>
           </div>
 
           <p>
-            Identidad editorial preliminar de México y distribución
-            corregida de sus láminas dentro de la colección ALBUMFIND.
+            Identidad editorial de {teamName} y distribución
+              corregida de sus láminas dentro de la colección ALBUMFIND.
           </p>
-        </div>
+        </footer>
 
         <span className="editorial-page-number">Página 1</span>
       </div>
@@ -324,18 +403,20 @@ export default function TeamSpread({
           </div>
         </div>
 
-        <div className="editorial-row editorial-row-top-mixed">
-          {renderSticker(11)}
-          {renderSticker(12)}
-          {renderSticker(13)}
-        </div>
+        <div className="editorial-sticker-zone editorial-sticker-zone-right">
+          <div className="editorial-row editorial-row-top-mixed">
+            {renderSticker(11)}
+            {renderSticker(12)}
+            {renderSticker(13)}
+          </div>
 
-        <div className="editorial-row editorial-row-four">
-          {[14, 15, 16, 17].map(renderSticker)}
-        </div>
+          <div className="editorial-row editorial-row-four">
+            {[14, 15, 16, 17].map(renderSticker)}
+          </div>
 
-        <div className="editorial-row editorial-row-three editorial-row-last">
-          {[18, 19, 20].map(renderSticker)}
+          <div className="editorial-row editorial-row-three editorial-row-last">
+            {[18, 19, 20].map(renderSticker)}
+          </div>
         </div>
 
         <aside className="editorial-group-panel editorial-group-panel-wide">
@@ -375,6 +456,10 @@ export default function TeamSpread({
     </section>
   );
 }
+
+
+
+
 
 
 

@@ -50,3 +50,8 @@ work/
 # Local inspection outputs
 player-pdf-inspection.csv
 players-file-names-diagnostic.csv
+
+# Python/cache and local backup files
+scripts/**/__pycache__/
+*.pyc
+*.bak

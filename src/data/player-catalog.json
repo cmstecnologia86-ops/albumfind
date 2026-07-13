@@ -4970,146 +4970,146 @@
       ]
     },
     {
-      "teamCode": "IRQ",
+      "teamCode": "IRO",
       "teamName": "Irak",
       "stickers": [
         {
-          "code": "IRQ-01",
+          "code": "IRO-01",
           "number": 1,
-          "teamCode": "IRQ",
+          "teamCode": "IRO",
           "kind": "emblem",
           "name": "Emblema de Irak"
         },
         {
-          "code": "IRQ-02",
+          "code": "IRO-02",
           "number": 2,
-          "teamCode": "IRQ",
+          "teamCode": "IRO",
           "kind": "player",
           "name": "Jalal Hassan"
         },
         {
-          "code": "IRQ-03",
+          "code": "IRO-03",
           "number": 3,
-          "teamCode": "IRQ",
+          "teamCode": "IRO",
           "kind": "player",
           "name": "Rebin Sulaka"
         },
         {
-          "code": "IRQ-04",
+          "code": "IRO-04",
           "number": 4,
-          "teamCode": "IRQ",
+          "teamCode": "IRO",
           "kind": "player",
           "name": "Hussein Ali"
         },
         {
-          "code": "IRQ-05",
+          "code": "IRO-05",
           "number": 5,
-          "teamCode": "IRQ",
+          "teamCode": "IRO",
           "kind": "player",
           "name": "Akam Hashem"
         },
         {
-          "code": "IRQ-06",
+          "code": "IRO-06",
           "number": 6,
-          "teamCode": "IRQ",
+          "teamCode": "IRO",
           "kind": "player",
           "name": "Merchas Doski"
         },
         {
-          "code": "IRQ-07",
+          "code": "IRO-07",
           "number": 7,
-          "teamCode": "IRQ",
+          "teamCode": "IRO",
           "kind": "player",
           "name": "Zaid Tahseen"
         },
         {
-          "code": "IRQ-08",
+          "code": "IRO-08",
           "number": 8,
-          "teamCode": "IRQ",
+          "teamCode": "IRO",
           "kind": "player",
           "name": "Manaf Younis"
         },
         {
-          "code": "IRQ-09",
+          "code": "IRO-09",
           "number": 9,
-          "teamCode": "IRQ",
+          "teamCode": "IRO",
           "kind": "player",
           "name": "Zidane Iqbal"
         },
         {
-          "code": "IRQ-10",
+          "code": "IRO-10",
           "number": 10,
-          "teamCode": "IRQ",
+          "teamCode": "IRO",
           "kind": "player",
           "name": "Amir Al-Ammari"
         },
         {
-          "code": "IRQ-11",
+          "code": "IRO-11",
           "number": 11,
-          "teamCode": "IRQ",
+          "teamCode": "IRO",
           "kind": "player",
           "name": "Ibrahim Bayesh"
         },
         {
-          "code": "IRQ-12",
+          "code": "IRO-12",
           "number": 12,
-          "teamCode": "IRQ",
+          "teamCode": "IRO",
           "kind": "player",
           "name": "Ali Jasim"
         },
         {
-          "code": "IRQ-13",
+          "code": "IRO-13",
           "number": 13,
-          "teamCode": "IRQ",
+          "teamCode": "IRO",
           "kind": "squad",
           "name": "Foto de equipo de Irak"
         },
         {
-          "code": "IRQ-14",
+          "code": "IRO-14",
           "number": 14,
-          "teamCode": "IRQ",
+          "teamCode": "IRO",
           "kind": "player",
           "name": "Youssef Amyn"
         },
         {
-          "code": "IRQ-15",
+          "code": "IRO-15",
           "number": 15,
-          "teamCode": "IRQ",
+          "teamCode": "IRO",
           "kind": "player",
           "name": "Aimar Sher"
         },
         {
-          "code": "IRQ-16",
+          "code": "IRO-16",
           "number": 16,
-          "teamCode": "IRQ",
+          "teamCode": "IRO",
           "kind": "player",
           "name": "Marko Farji"
         },
         {
-          "code": "IRQ-17",
+          "code": "IRO-17",
           "number": 17,
-          "teamCode": "IRQ",
+          "teamCode": "IRO",
           "kind": "player",
           "name": "Osama Rashid"
         },
         {
-          "code": "IRQ-18",
+          "code": "IRO-18",
           "number": 18,
-          "teamCode": "IRQ",
+          "teamCode": "IRO",
           "kind": "player",
           "name": "Ali Al-Hamadi"
         },
         {
-          "code": "IRQ-19",
+          "code": "IRO-19",
           "number": 19,
-          "teamCode": "IRQ",
+          "teamCode": "IRO",
           "kind": "player",
           "name": "Aymen Hussein"
         },
         {
-          "code": "IRQ-20",
+          "code": "IRO-20",
           "number": 20,
-          "teamCode": "IRQ",
+          "teamCode": "IRO",
           "kind": "player",
           "name": "Mohanad Ali"
         }
@@ -5910,7 +5910,7 @@
           "number": 9,
           "teamCode": "ESP",
           "kind": "player",
-          "name": "Pau Cubarsí"
+          "name": "Martín Zubimendi"
         },
         {
           "code": "ESP-10",
