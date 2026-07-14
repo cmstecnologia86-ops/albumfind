@@ -21,6 +21,13 @@ export type Team = {
   stickers: Sticker[];
 };
 
+export type CollectionBackup = {
+  format: "albumfind-backup";
+  version: 1;
+  exportedAt: string;
+  teams: Team[];
+};
+
 type CollectionSource = {
   teams: Team[];
 };
@@ -28,10 +35,12 @@ type CollectionSource = {
 type AlbumStore = {
   teams: Team[];
   hasHydrated: boolean;
+  lastSavedAt: string | null;
   setHasHydrated: (value: boolean) => void;
   toggleSticker: (teamCode: string, stickerCode: string) => void;
   incrementDuplicate: (teamCode: string, stickerCode: string) => void;
   decrementDuplicate: (teamCode: string, stickerCode: string) => void;
+  importCollection: (backup: CollectionBackup) => void;
   resetCollection: () => void;
 };
 
@@ -53,11 +62,29 @@ function recalculateTeam(team: Team): Team {
   };
 }
 
+function normalizeTeams(teams: Team[]): Team[] {
+  return teams.map((team) =>
+    recalculateTeam({
+      ...team,
+      stickers: team.stickers.map((sticker) => ({
+        ...sticker,
+        status: sticker.status === "owned" ? "owned" : "missing",
+        duplicates: Math.max(0, Math.trunc(sticker.duplicates || 0)),
+      })),
+    }),
+  );
+}
+
+function nowIso() {
+  return new Date().toISOString();
+}
+
 export const useAlbumStore = create<AlbumStore>()(
   persist(
     (set) => ({
       teams: cloneInitialTeams(),
       hasHydrated: false,
+      lastSavedAt: null,
 
       setHasHydrated: (value) => {
         set({ hasHydrated: value });
@@ -91,6 +118,7 @@ export const useAlbumStore = create<AlbumStore>()(
               stickers,
             });
           }),
+          lastSavedAt: nowIso(),
         }));
       },
 
@@ -118,6 +146,7 @@ export const useAlbumStore = create<AlbumStore>()(
               stickers,
             });
           }),
+          lastSavedAt: nowIso(),
         }));
       },
 
@@ -142,12 +171,21 @@ export const useAlbumStore = create<AlbumStore>()(
               }),
             };
           }),
+          lastSavedAt: nowIso(),
         }));
+      },
+
+      importCollection: (backup) => {
+        set({
+          teams: normalizeTeams(backup.teams),
+          lastSavedAt: nowIso(),
+        });
       },
 
       resetCollection: () => {
         set({
           teams: cloneInitialTeams(),
+          lastSavedAt: nowIso(),
         });
       },
     }),
@@ -156,6 +194,7 @@ export const useAlbumStore = create<AlbumStore>()(
       skipHydration: true,
       partialize: (state) => ({
         teams: state.teams,
+        lastSavedAt: state.lastSavedAt,
       }),
       onRehydrateStorage: () => (state) => {
         state?.setHasHydrated(true);
@@ -163,4 +202,3 @@ export const useAlbumStore = create<AlbumStore>()(
     },
   ),
 );
-
