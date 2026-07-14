@@ -1,18 +1,16 @@
 "use client";
 
 import { LockKeyhole } from "lucide-react";
-import { FormEvent, useMemo, useState } from "react";
-import { useSearchParams } from "next/navigation";
+import { FormEvent, useState } from "react";
 
 import styles from "./access.module.css";
 
-export default function AccessPage() {
-  const searchParams = useSearchParams();
-  const destination = useMemo(() => {
-    const value = searchParams.get("next");
-    return value && value.startsWith("/") ? value : "/";
-  }, [searchParams]);
+function getDestination() {
+  const value = new URLSearchParams(window.location.search).get("next");
+  return value && value.startsWith("/") ? value : "/";
+}
 
+export default function AccessPage() {
   const [pin, setPin] = useState("");
   const [message, setMessage] = useState("");
   const [submitting, setSubmitting] = useState(false);
@@ -45,7 +43,7 @@ export default function AccessPage() {
         return;
       }
 
-      window.location.assign(destination);
+      window.location.assign(getDestination());
     } catch {
       setMessage("No fue posible conectar con el servidor.");
     } finally {
