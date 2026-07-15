@@ -15,6 +15,8 @@ import {
 import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
 
+import MobileTeamAlbum from "@/components/album/MobileTeamAlbum";
+import mobileStyles from "@/components/album/MobileTeamAlbum.module.css";
 import TeamSpread from "@/components/album/TeamSpread";
 import groupsSource from "@/data/groups.json";
 import {
@@ -134,6 +136,8 @@ export default function AlbumViewer() {
   const hasHydrated = useAlbumStore((state) => state.hasHydrated);
   const resetCollection = useAlbumStore((state) => state.resetCollection);
   const toggleSticker = useAlbumStore((state) => state.toggleSticker);
+  const incrementDuplicate = useAlbumStore((state) => state.incrementDuplicate);
+  const decrementDuplicate = useAlbumStore((state) => state.decrementDuplicate);
 
   const requestedIndex = useMemo(() => {
     const foundIndex = teams.findIndex(
@@ -258,44 +262,65 @@ export default function AlbumViewer() {
       </header>
 
       <section className="album-stage album-editorial-workspace">
-        <div className="album-stage-heading">
-          <div>
-            <p>Grupo {currentTeam.group}</p>
-            <h1>{currentTeam.name}</h1>
+        <div className={mobileStyles.desktopOnly}>
+          <div className="album-stage-heading">
+            <div>
+              <p>Grupo {currentTeam.group}</p>
+              <h1>{currentTeam.name}</h1>
+            </div>
+
+            <div className="album-team-summary">
+              <span>
+                <strong>{currentTeam.ownedCount}</strong> tengo
+              </span>
+
+              <span>
+                <strong>{currentTeam.missingCount}</strong> faltan
+              </span>
+
+              <span>
+                <strong>{duplicateTotal}</strong> repetidas
+              </span>
+            </div>
           </div>
 
-          <div className="album-team-summary">
-            <span>
-              <strong>{currentTeam.ownedCount}</strong> tengo
-            </span>
-
-            <span>
-              <strong>{currentTeam.missingCount}</strong> faltan
-            </span>
-
-            <span>
-              <strong>{duplicateTotal}</strong> repetidas
-            </span>
+          <div
+            className={`album-editorial-book album-turn-${turnDirection}`}
+            key={`${currentTeam.code}-${turnDirection}`}
+          >
+            <TeamSpread
+              group={currentTeam.group}
+              groupTeams={currentGroup.teams}
+              onToggleSticker={(stickerCode) =>
+                toggleSticker(currentTeam.code, stickerCode)
+              }
+              ownedCount={currentTeam.ownedCount}
+              ownedNumbers={ownedNumbers}
+              teamCode={currentTeam.code}
+              teamName={currentTeam.name}
+              totalCount={currentTeam.stickers.length}
+            />
           </div>
         </div>
 
-        <div
-          className={`album-editorial-book album-turn-${turnDirection}`}
-          key={`${currentTeam.code}-${turnDirection}`}
-        >
-          <TeamSpread
-            group={currentTeam.group}
-            groupTeams={currentGroup.teams}
-            onToggleSticker={(stickerCode) =>
-              toggleSticker(currentTeam.code, stickerCode)
-            }
-            ownedCount={currentTeam.ownedCount}
-            ownedNumbers={ownedNumbers}
-            teamCode={currentTeam.code}
-            teamName={currentTeam.name}
-            totalCount={currentTeam.stickers.length}
-          />
-        </div>
+        <MobileTeamAlbum
+          duplicateTotal={duplicateTotal}
+          group={currentTeam.group}
+          missingCount={currentTeam.missingCount}
+          onDecrementDuplicate={(stickerCode) =>
+            decrementDuplicate(currentTeam.code, stickerCode)
+          }
+          onIncrementDuplicate={(stickerCode) =>
+            incrementDuplicate(currentTeam.code, stickerCode)
+          }
+          onToggleSticker={(stickerCode) =>
+            toggleSticker(currentTeam.code, stickerCode)
+          }
+          ownedCount={currentTeam.ownedCount}
+          stickers={currentTeam.stickers}
+          teamCode={currentTeam.code}
+          teamName={currentTeam.name}
+        />
 
         <nav className="album-navigation" aria-label="Navegación del álbum">
           <button
@@ -336,7 +361,7 @@ export default function AlbumViewer() {
           </button>
         </nav>
 
-        <section className="album-collection-editor">
+        <section className={`album-collection-editor ${mobileStyles.desktopOnly}`}>
           <div className="album-collection-editor-heading">
             <div>
               <span>Gestión de colección</span>
@@ -367,5 +392,3 @@ export default function AlbumViewer() {
     </main>
   );
 }
-
-
