@@ -2,7 +2,10 @@
 
 import Image from "next/image";
 import { Minus, Plus } from "lucide-react";
+import { useRouter } from "next/navigation";
+import { useEffect } from "react";
 
+import groupsSource from "@/data/groups.json";
 import { getPlayerCatalogTeam } from "@/data/player-catalog";
 import { getStickerImagePath } from "@/data/sticker-image-manifest";
 import type { Sticker } from "@/store/useAlbumStore";
@@ -22,6 +25,23 @@ type MobileTeamAlbumProps = {
   onDecrementDuplicate: (stickerCode: string) => void;
 };
 
+type GroupSource = {
+  groups: Array<{
+    id: string;
+    teams: Array<{
+      code: string;
+      name: string;
+    }>;
+  }>;
+};
+
+const mobileTeams = (groupsSource as GroupSource).groups.flatMap((group) =>
+  group.teams.map((team) => ({
+    ...team,
+    group: group.id,
+  })),
+);
+
 export default function MobileTeamAlbum({
   teamCode,
   teamName,
@@ -34,6 +54,7 @@ export default function MobileTeamAlbum({
   onIncrementDuplicate,
   onDecrementDuplicate,
 }: MobileTeamAlbumProps) {
+  const router = useRouter();
   const catalogTeam = getPlayerCatalogTeam(teamCode);
   const catalogByNumber = new Map(
     catalogTeam?.stickers.map((sticker) => [sticker.number, sticker]) ?? [],
@@ -42,9 +63,54 @@ export default function MobileTeamAlbum({
     ? Math.round((ownedCount / stickers.length) * 100)
     : 0;
 
+  useEffect(() => {
+    const previousHtmlOverflowX = document.documentElement.style.overflowX;
+    const previousBodyOverflowX = document.body.style.overflowX;
+    const previousBodyTouchAction = document.body.style.touchAction;
+    const previousBodyOverscrollX = document.body.style.overscrollBehaviorX;
+
+    document.documentElement.style.overflowX = "hidden";
+    document.body.style.overflowX = "hidden";
+    document.body.style.touchAction = "pan-y";
+    document.body.style.overscrollBehaviorX = "none";
+
+    return () => {
+      document.documentElement.style.overflowX = previousHtmlOverflowX;
+      document.body.style.overflowX = previousBodyOverflowX;
+      document.body.style.touchAction = previousBodyTouchAction;
+      document.body.style.overscrollBehaviorX = previousBodyOverscrollX;
+    };
+  }, []);
+
+  function handleTeamChange(nextTeamCode: string) {
+    if (nextTeamCode === teamCode) {
+      return;
+    }
+
+    router.replace(`/album?team=${encodeURIComponent(nextTeamCode)}`, {
+      scroll: false,
+    });
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
   return (
     <section className={styles.shell} aria-label={`Álbum móvil de ${teamName}`}>
       <header className={styles.hero}>
+        <label className={styles.teamSelector}>
+          <span>Cambiar selección</span>
+          <select
+            aria-label="Seleccionar país"
+            onChange={(event) => handleTeamChange(event.target.value)}
+            value={teamCode}
+          >
+            {mobileTeams.map((team) => (
+              <option key={team.code} value={team.code}>
+                Grupo {team.group} · {team.name}
+              </option>
+            ))}
+          </select>
+        </label>
+
         <div className={styles.heroTop}>
           <div className={styles.identity}>
             <span className={styles.eyebrow}>Álbum móvil · Grupo {group}</span>
