@@ -14,18 +14,62 @@
   .shell {
     display: block;
     width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    overflow-x: clip;
     padding: 0 0 24px;
+    touch-action: pan-y;
+    overscroll-behavior-x: none;
   }
 
   .hero {
     position: sticky;
     top: 0;
     z-index: 20;
+    width: calc(100% + 28px);
+    max-width: calc(100% + 28px);
     margin: 0 -14px 16px;
-    padding: 16px 14px 14px;
+    padding: 12px 14px 14px;
+    overflow: hidden;
     border-bottom: 1px solid rgba(255, 255, 255, 0.12);
-    background: rgba(9, 13, 29, 0.94);
+    background: rgba(9, 13, 29, 0.96);
     backdrop-filter: blur(16px);
+  }
+
+  .teamSelector {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+    padding: 7px 8px 7px 11px;
+    border: 1px solid rgba(255, 255, 255, 0.13);
+    border-radius: 13px;
+    background: rgba(255, 255, 255, 0.065);
+  }
+
+  .teamSelector > span {
+    color: #aeb5cb;
+    font-size: 9px;
+    font-weight: 850;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  .teamSelector select {
+    min-width: 0;
+    width: 100%;
+    height: 34px;
+    padding: 0 30px 0 10px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 10px;
+    background: #171c31;
+    color: #fff;
+    font: inherit;
+    font-size: 12px;
+    font-weight: 800;
+    text-overflow: ellipsis;
   }
 
   .heroTop {
@@ -33,6 +77,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 12px;
+    min-width: 0;
   }
 
   .identity {
@@ -77,12 +122,13 @@
 
   .summary {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 8px;
     margin-top: 14px;
   }
 
   .summaryItem {
+    min-width: 0;
     padding: 9px 8px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
@@ -91,11 +137,14 @@
 
   .summaryItem span {
     display: block;
+    overflow: hidden;
     color: #aeb5cb;
     font-size: 9px;
     font-weight: 800;
     letter-spacing: 0.08em;
+    text-overflow: ellipsis;
     text-transform: uppercase;
+    white-space: nowrap;
   }
 
   .summaryItem strong {
@@ -116,6 +165,7 @@
 
   .progressBar {
     height: 100%;
+    max-width: 100%;
     border-radius: inherit;
     background: linear-gradient(90deg, #bdfc31, #ffb13b, #8c5cff);
     transition: width 220ms ease;
@@ -124,28 +174,40 @@
   .grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
     gap: 12px;
+    overflow: hidden;
   }
 
   .card {
     position: relative;
+    width: 100%;
+    max-width: 100%;
     min-width: 0;
     overflow: hidden;
     border: 1px solid rgba(255, 255, 255, 0.12);
     border-radius: 18px;
     background: #f6f3ea;
     box-shadow: 0 10px 24px rgba(0, 0, 0, 0.22);
+    touch-action: pan-y;
   }
 
   .toggle {
     display: block;
     width: 100%;
+    max-width: 100%;
+    min-width: 0;
     padding: 0;
     border: 0;
     background: transparent;
     color: inherit;
     cursor: pointer;
     text-align: left;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    user-select: none;
   }
 
   .art {
@@ -159,6 +221,9 @@
   .image {
     object-fit: contain;
     background: #f7f3e9;
+    pointer-events: none;
+    -webkit-user-drag: none;
+    user-select: none;
   }
 
   .placeholder {
@@ -185,6 +250,7 @@
   .meta {
     min-height: 71px;
     padding: 10px 10px 11px;
+    overflow: hidden;
     background: #f7f3e9;
   }
 
@@ -238,20 +304,25 @@
     align-items: center;
     justify-content: space-between;
     gap: 6px;
+    min-width: 0;
     padding: 8px 9px 9px;
     border-top: 1px solid rgba(20, 31, 27, 0.09);
     background: #eee9dd;
   }
 
   .duplicateRow > span {
+    overflow: hidden;
     color: #5c655f;
     font-size: 9px;
     font-weight: 800;
+    text-overflow: ellipsis;
     text-transform: uppercase;
+    white-space: nowrap;
   }
 
   .duplicateControls {
     display: flex;
+    flex: 0 0 auto;
     align-items: center;
     gap: 7px;
   }
@@ -266,6 +337,7 @@
     border-radius: 9px;
     background: #fff;
     color: #12201b;
+    touch-action: manipulation;
   }
 
   .duplicateControls button:disabled {
